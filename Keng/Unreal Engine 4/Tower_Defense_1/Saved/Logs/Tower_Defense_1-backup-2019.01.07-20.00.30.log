@@ -1,0 +1,594 @@
+﻿Log file open, 01/07/19 19:54:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Tower_Defense_1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.276917
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.069s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.07-12.54.46:135][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.07-12.54.46:135][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.07-12.54.46:146][  0]LogHAL: Display: Platform has ~ 16 GB [17093570560 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.07-12.54.46:146][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.07-12.54.46:146][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.07-12.54.46:146][  0]LogInit: Computer: DESKTOP-FE30NHD
+[2019.01.07-12.54.46:146][  0]LogInit: User: paulk
+[2019.01.07-12.54.46:146][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.07-12.54.46:146][  0]LogInit: High frequency timer resolution =2.742191 MHz
+[2019.01.07-12.54.46:146][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.07-12.54.46:146][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.07-12.54.46:146][  0]LogMemory: Process Physical Memory: 102.70 MB used, 102.70 MB peak
+[2019.01.07-12.54.46:146][  0]LogMemory: Process Virtual Memory: 91.36 MB used, 91.36 MB peak
+[2019.01.07-12.54.46:146][  0]LogMemory: Physical Memory: 5775.04 MB used,  10526.66 MB free, 16301.70 MB total
+[2019.01.07-12.54.46:146][  0]LogMemory: Virtual Memory: 4646.25 MB used,  10526.66 MB free, 134217728.00 MB total
+[2019.01.07-12.54.46:162][  0]LogInit: Using OS detected language (en-US).
+[2019.01.07-12.54.46:162][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.07-12.54.46:162][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.07-12.54.46:496][  0]LogStreaming: Display: Took  0.334s to InitEngineTextLocalization.
+[2019.01.07-12.54.46:496][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.07-12.54.46:525][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.07-12.54.46:525][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.07-12.54.46:722][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.07-12.54.46:722][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.07-12.54.46:787][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.01.07-12.54.46:787][  0]LogD3D11RHI:       4021/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.07-12.54.46:798][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.01.07-12.54.46:798][  0]LogD3D11RHI:       128/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.07-12.54.46:800][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.07-12.54.46:800][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.07-12.54.46:800][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.07-12.54.46:818][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.07-12.54.46:818][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.01.07-12.54.46:818][  0]LogWindows: EnumDisplayDevices:
+[2019.01.07-12.54.46:818][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.01.07-12.54.46:819][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.07-12.54.46:819][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.07-12.54.46:819][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.07-12.54.46:819][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.01.07-12.54.46:819][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.07-12.54.46:819][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.07-12.54.46:819][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.01.07-12.54.46:858][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.07-12.54.46:875][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.07-12.54.46:876][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../Project Tower Defense 1/GitHub2/Keng/Unreal Engine 4/Tower_Defense_1/Intermediate/Shaders/WorkingDirectory/6632/).
+[2019.01.07-12.54.46:876][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/paulk/AppData/Local/Temp/UnrealShaderWorkingDir/EFBF28AC4CFB234C0D9F67B2702DD16D/'.
+[2019.01.07-12.54.47:115][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.07-12.54.47:126][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.07-12.54.47:137][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.07-12.54.47:148][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.07-12.54.47:159][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.07-12.54.47:170][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.07-12.54.47:182][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.07-12.54.47:193][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.07-12.54.47:198][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-12.54.47:281][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.07-12.54.47:339][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.07-12.54.47:339][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.07-12.54.47:361][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.07-12.54.47:361][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.07-12.54.47:372][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.07-12.54.47:383][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.07-12.54.47:394][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.07-12.54.47:404][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.07-12.54.47:412][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.07-12.54.47:412][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.07-12.54.47:451][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.07-12.54.47:451][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.07-12.54.47:451][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.07-12.54.48:078][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.07-12.54.48:127][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/paulk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.07-12.54.48:127][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/paulk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.07-12.54.48:127][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Project Tower Defense 1/GitHub2/Keng/Unreal Engine 4/Tower_Defense_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.07-12.54.48:128][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.07-12.54.48:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Project Tower Defense 1/GitHub2/Keng/Unreal Engine 4/Tower_Defense_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.07-12.54.48:128][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.07-12.54.48:140][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.07-12.54.48:152][  0]LogDerivedDataCache: Using Local data cache path C:/Users/paulk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.07-12.54.48:152][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.07-12.54.48:152][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.07-12.54.48:167][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.07-12.54.48:169][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.07-12.54.48:169][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.07-12.54.48:237][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2019.01.07-12.54.48:549][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.07-12.54.48:674][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.07-12.54.48:676][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.07-12.54.48:676][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.07-12.54.48:676][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.07-12.54.48:676][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.07-12.54.48:689][  0]LogNetVersion: Tower_Defense_1 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2219292902)
+[2019.01.07-12.54.49:149][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.077952 seconds
+[2019.01.07-12.54.49:155][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.07-12.54.49:155][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.07-12.54.49:155][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.07-12.54.49:898][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.07-12.54.49:910][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.07-12.54.50:040][  0]SourceControl: Source control is disabled
+[2019.01.07-12.54.50:040][  0]SourceControl: Source control is disabled
+[2019.01.07-12.54.50:041][  0]SourceControl: Source control is disabled
+[2019.01.07-12.54.50:042][  0]SourceControl: Source control is disabled
+[2019.01.07-12.54.50:223][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.07-12.54.50:270][  0]LogOcInput: OculusInput pre-init called
+[2019.01.07-12.54.50:324][  0]LogEngine: Initializing Engine...
+[2019.01.07-12.54.50:325][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.07-12.54.50:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.07-12.54.50:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.07-12.54.50:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.07-12.54.50:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.07-12.54.50:522][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.07-12.54.50:535][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.07-12.54.50:545][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.07-12.54.50:660][  0]LogInit: FAudioDevice initialized.
+[2019.01.07-12.54.50:660][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.07-12.54.50:754][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/paulk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.07-12.54.50:762][  0]LogInit: Texture streaming: Enabled
+[2019.01.07-12.54.50:773][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.07-12.54.50:782][  0]LogInit: Transaction tracking system initialized
+[2019.01.07-12.54.50:795][  0]BlueprintLog: New page: Editor Load
+[2019.01.07-12.54.50:849][  0]LocalizationService: Localization service is disabled
+[2019.01.07-12.54.51:075][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.07-12.54.51:075][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.07-12.54.51:075][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.07-12.54.51:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.07-12.54.51:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.07-12.54.51:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.07-12.54.51:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.07-12.54.51:163][  0]LogFileCache: Scanning file cache for directory 'D:/Project Tower Defense 1/GitHub2/Keng/Unreal Engine 4/Tower_Defense_1/Content/' took 0.01s
+[2019.01.07-12.54.51:163][  0]SourceControl: Source control is disabled
+[2019.01.07-12.54.51:163][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.07-12.54.51:163][  0]LightingResults: New page: Lighting Build
+[2019.01.07-12.54.51:165][  0]MapCheck: New page: Map Check
+[2019.01.07-12.54.51:165][  0]LightingResults: New page: Lighting Build
+[2019.01.07-12.54.51:361][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.07-12.54.51:370][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.07-12.54.51:392][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.07-12.54.51:431][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.445ms to complete.
+[2019.01.07-12.54.51:431][  0]LogFileHelpers: Loading map 'Template_Default' took 0.267
+[2019.01.07-12.54.51:544][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-12.54.51:551][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-12.54.51:559][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-12.54.51:566][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-12.54.51:570][  0]LogCollectionManager: Loaded 0 collections in 0.000775 seconds
+[2019.01.07-12.54.51:610][  0]LogFileCache: Scanning file cache for directory 'D:/Project Tower Defense 1/GitHub2/Keng/Unreal Engine 4/Tower_Defense_1/Saved/Collections/' took 0.01s
+[2019.01.07-12.54.51:610][  0]LogFileCache: Scanning file cache for directory 'D:/Project Tower Defense 1/GitHub2/Keng/Unreal Engine 4/Tower_Defense_1/Content/Developers/paulk/Collections/' took 0.01s
+[2019.01.07-12.54.51:610][  0]LogFileCache: Scanning file cache for directory 'D:/Project Tower Defense 1/GitHub2/Keng/Unreal Engine 4/Tower_Defense_1/Content/Collections/' took 0.01s
+[2019.01.07-12.54.51:610][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.07-12.54.51:618][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2572 classes and 603 folders.
+[2019.01.07-12.54.51:622][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.07-12.54.51:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.07-12.54.51:656][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.01.07-12.54.51:669][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.07-12.54.51:672][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.07-12.54.51:679][  0]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.07-12.54.51:756][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2019.01.07-12.54.51:895][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.07-12.54.51:895][  0]LogLoad: (Engine Initialization) Total time: 7.09 seconds
+[2019.01.07-12.54.51:895][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.07-12.54.51:914][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.07-12.54.51:934][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.07-12.54.52:117][  1]LogAssetRegistry: Asset discovery search completed in 3.9025 seconds
+[2019.01.07-12.54.52:119][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.07-12.54.52:119][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2019.01.07-12.54.56:109][123]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.07-12.54.57:595][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-12.55.01:638][212]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.07-12.55.01:647][212]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.07-12.55.10:388][281]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Project Tower Defense 1/GitHub2/Keng/Models/Beam Blaster/BeamBlaster Shoot.fbx)
+[2019.01.07-12.55.10:460][281]LogFbx: Loading FBX Scene from ../../../../../Project Tower Defense 1/GitHub2/Keng/Models/Beam Blaster/BeamBlaster Shoot.fbx
+[2019.01.07-12.55.10:468][281]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.07-12.55.13:450][281]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.07-12.55.13:467][281]LogFbx: =================================================
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node START [beamblaster_stand] 
+[2019.01.07-12.55.13:467][281]LogFbx: 	Total Deformer Count -702147040.
+[2019.01.07-12.55.13:467][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:467][281]LogFbx: 		[Node Attribute Child 1] beamblaster_stand (Type Mesh).
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node END [beamblaster_stand]
+[2019.01.07-12.55.13:467][281]LogFbx: =================================================
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.13:467][281]LogFbx: 	Total Deformer Count -696078752.
+[2019.01.07-12.55.13:467][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:467][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.13:467][281]LogFbx: =================================================
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.13:467][281]LogFbx: 	Total Deformer Count -702147440.
+[2019.01.07-12.55.13:467][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:467][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.13:467][281]LogFbx: =================================================
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node START [beamblaster_stand] 
+[2019.01.07-12.55.13:467][281]LogFbx: 	Total Deformer Count -702147040.
+[2019.01.07-12.55.13:467][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:467][281]LogFbx: 		[Node Attribute Child 1] beamblaster_stand (Type Mesh).
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node END [beamblaster_stand]
+[2019.01.07-12.55.13:467][281]LogFbx: =================================================
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.13:467][281]LogFbx: 	Total Deformer Count -696079040.
+[2019.01.07-12.55.13:467][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:467][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.13:467][281]LogFbx: =================================================
+[2019.01.07-12.55.13:467][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.13:468][281]LogFbx: 	Total Deformer Count -702147760.
+[2019.01.07-12.55.13:468][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:468][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.13:468][281]LogFbx: =================================================
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node START [beamblaster_stand] 
+[2019.01.07-12.55.13:468][281]LogFbx: 	Total Deformer Count -702147040.
+[2019.01.07-12.55.13:468][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:468][281]LogFbx: 		[Node Attribute Child 1] beamblaster_stand (Type Mesh).
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node END [beamblaster_stand]
+[2019.01.07-12.55.13:468][281]LogFbx: =================================================
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.13:468][281]LogFbx: 	Total Deformer Count -696089504.
+[2019.01.07-12.55.13:468][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:468][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.13:468][281]LogFbx: =================================================
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.13:468][281]LogFbx: 	Total Deformer Count -702137360.
+[2019.01.07-12.55.13:468][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:468][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.13:468][281]LogFbx: =================================================
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.13:468][281]LogFbx: 	Total Deformer Count -696089504.
+[2019.01.07-12.55.13:468][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:468][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.13:468][281]LogFbx: =================================================
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.13:468][281]LogFbx: 	Total Deformer Count -702137360.
+[2019.01.07-12.55.13:468][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:468][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.13:468][281]LogFbx: =================================================
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.13:468][281]LogFbx: 	Total Deformer Count -702137360.
+[2019.01.07-12.55.13:468][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.13:468][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.13:468][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.13:557][281]LogMaterial: Warning: Material /Game/Animations/beamblaster_stand1.beamblaster_stand1 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.01.07-12.55.13:560][281]LogMaterial: Display: Missing cached shader map for material beamblaster_stand1, compiling. 
+[2019.01.07-12.55.13:619][281]LogLinker: Can't find file '/Game/Animations/Beam_Blaster_stand'
+[2019.01.07-12.55.13:619][281]LogLinker: Can't find file '/Game/Animations/Beam_Blaster_stand'
+[2019.01.07-12.55.13:699][281]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.07-12.55.13:699][281]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.07-12.55.13:699][281]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.07-12.55.13:699][281]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.07-12.55.13:702][281]LogTexture: Display: Building textures: Beam_Blaster_stand (AutoDXT, 512X512)
+[2019.01.07-12.55.13:807][281]LogMaterial: Display: Missing cached shader map for material beamblaster_stand1, compiling. 
+[2019.01.07-12.55.13:834][281]LogFbx: Triangulating skeletal mesh beamblaster_stand
+[2019.01.07-12.55.13:836][281]LogFbx: Triangulating skeletal mesh beamblaster_connector
+[2019.01.07-12.55.13:847][281]LogMaterial: Warning: Material /Game/Animations/beamblaster_canon1.beamblaster_canon1 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.01.07-12.55.13:850][281]LogMaterial: Display: Missing cached shader map for material beamblaster_canon1, compiling. 
+[2019.01.07-12.55.13:879][281]LogLinker: Can't find file '/Game/Animations/Beam_Blaster_canon'
+[2019.01.07-12.55.13:879][281]LogLinker: Can't find file '/Game/Animations/Beam_Blaster_canon'
+[2019.01.07-12.55.13:886][281]LogTexture: Display: Building textures: Beam_Blaster_canon (AutoDXT, 512X512)
+[2019.01.07-12.55.13:971][281]LogMaterial: Display: Missing cached shader map for material beamblaster_canon1, compiling. 
+[2019.01.07-12.55.14:000][281]LogFbx: Triangulating skeletal mesh beamblaster_canon
+[2019.01.07-12.55.14:030][281]LogFbx: Warning: Bones digested - 4  Depth of hierarchy - 4
+[2019.01.07-12.55.14:055][281]LogSkeletalMesh: Section 0: 257 vertices, 2 active bones
+[2019.01.07-12.55.14:055][281]LogSkeletalMesh: Section 1: 545 vertices, 1 active bones
+[2019.01.07-12.55.14:055][281]LogSkeletalMesh: Section 0: Material=0, 338 triangles
+[2019.01.07-12.55.14:055][281]LogSkeletalMesh: Section 1: Material=1, 888 triangles
+[2019.01.07-12.55.14:057][281]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Shoot...
+[2019.01.07-12.55.14:058][281]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/BeamBlaster_Shoot.BeamBlaster_Shoot
+[2019.01.07-12.55.14:059][281]LogLinker: Can't find file '/Game/Animations/BeamBlaster_Shoot_Skeleton'
+[2019.01.07-12.55.14:060][281]LogLinker: Can't find file '/Game/Animations/BeamBlaster_Shoot_Skeleton'
+[2019.01.07-12.55.14:060][281]LogLinker: Can't find file '/Game/Animations/BeamBlaster_Shoot_PhysicsAsset'
+[2019.01.07-12.55.14:060][281]LogLinker: Can't find file '/Game/Animations/BeamBlaster_Shoot_PhysicsAsset'
+[2019.01.07-12.55.14:066][281]LogFbx: =================================================
+[2019.01.07-12.55.14:066][281]LogFbx: Dumping Node START [beamblaster_stand] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104658272.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_stand (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_stand]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104609888.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104658432.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_stand] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104658272.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_stand (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_stand]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104610560.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104658672.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_stand] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104658272.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_stand (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_stand]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104611136.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104658912.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104611136.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.07-12.55.14:067][281]LogFbx: =================================================
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.14:067][281]LogFbx: 	Total Deformer Count -2104658912.
+[2019.01.07-12.55.14:067][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:067][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.14:067][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.14:068][281]LogFbx: =================================================
+[2019.01.07-12.55.14:068][281]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.07-12.55.14:068][281]LogFbx: 	Total Deformer Count -2104658912.
+[2019.01.07-12.55.14:068][281]LogFbx: 	Attribute () Type (4).
+[2019.01.07-12.55.14:068][281]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.07-12.55.14:068][281]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.07-12.55.14:068][281]LogFbx: SortedLinks :(0) Beam_Blaster_Tower_Geo
+[2019.01.07-12.55.14:068][281]LogFbx: SortedLinks :(1) beamblaster_stand
+[2019.01.07-12.55.14:068][281]LogFbx: SortedLinks :(2) beamblaster_connector
+[2019.01.07-12.55.14:068][281]LogFbx: SortedLinks :(3) beamblaster_canon
+[2019.01.07-12.55.14:068][281]LogFbx: Parsing AnimStack Take 001
+[2019.01.07-12.55.14:068][281]LogLinker: Can't find file '/Game/Animations/BeamBlaster_Shoot_Anim'
+[2019.01.07-12.55.14:068][281]LogLinker: Can't find file '/Game/Animations/BeamBlaster_Shoot_Anim'
+[2019.01.07-12.55.14:126][281]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/BeamBlaster_Shoot_Anim.BeamBlaster_Shoot_Anim
+[2019.01.07-12.55.14:126][281]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.BeamBlaster_Shoot_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.07-12.55.14:142][281]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Shoot...
+[2019.01.07-12.55.14:143][281]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/BeamBlaster_Shoot.BeamBlaster_Shoot
+[2019.01.07-12.55.14:147][281]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.01.07-12.55.14:147][281]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.01.07-12.55.14:165][281]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Shoot...
+[2019.01.07-12.55.14:166][281]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/BeamBlaster_Shoot.BeamBlaster_Shoot
+[2019.01.07-12.55.17:260][348]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.01.07-12.55.17:492][352]LogSlate: Window 'Message Log' being destroyed
+[2019.01.07-12.55.17:544][352]LogSlate: Window 'Message Log' being destroyed
+[2019.01.07-12.55.17:673][354]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.01.07-12.55.18:059][354]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.18:474][355]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.01.07-12.55.18:544][355]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.01.07-12.55.18:560][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.18:998][355]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.01.07-12.55.19:061][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.19:560][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.20:061][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.20:561][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.20:565][355]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.01.07-12.55.20:576][355]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.07-12.55.20:979][355]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.07-12.55.21:060][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.21:392][355]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.07-12.55.21:561][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.22:061][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.22:312][355]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.07-12.55.22:561][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.07-12.55.22:567][355]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:146 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2019.01.07-12.55.22:567][355]LogD3D11RHI: [Aftermath] GDynamicRHI=00000231B0FCC180, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2019.01.07-12.55.22:567][355]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.01.07-12.55.25:135][355]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.07-12.55.25:135][355]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.07-12.55.25:135][355]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.01.07-12.55.25:135][355]LogWindows: Error: === Critical error: ===
+[2019.01.07-12.55.25:135][355]LogWindows: Error: 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: Rendering thread exception:
+[2019.01.07-12.55.25:135][355]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2019.01.07-12.55.25:135][355]LogWindows: Error: 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffacd38a388 KERNELBASE.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffac1226850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa94f762fc UE4Editor-Core.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa94f051db UE4Editor-Core.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa8060adea UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa8060e6e4 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa805e5951 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa805fabf8 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffac352b106 UE4Editor-RHI.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa803a1b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa803a7d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa94d91f92 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa94d92456 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffac36375f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffac3638574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa951d6b7c UE4Editor-Core.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffa951d17c7 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffacecb3034 KERNEL32.DLL!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: [Callstack] 0x00007ffad0ff3691 ntdll.dll!UnknownFunction []
+[2019.01.07-12.55.25:135][355]LogWindows: Error: 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: 
+[2019.01.07-12.55.25:135][355]LogWindows: Error: 
+[2019.01.07-12.55.25:148][355]LogExit: Executing StaticShutdownAfterError
+[2019.01.07-12.55.25:150][355]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.01.07-12.55.25:151][355]Log file closed, 01/07/19 19:55:25
