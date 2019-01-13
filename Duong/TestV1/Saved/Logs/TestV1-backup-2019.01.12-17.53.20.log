@@ -1,0 +1,1261 @@
+﻿Log file open, 01/13/19 00:31:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TestV1
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.202689
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.075s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4541578
+LogInit: Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Nov  6 2018 02:04:24
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/EpicGame/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.12-17.31.57:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.12-17.31.57:787][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.12-17.31.57:788][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.12-17.31.57:788][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.12-17.31.57:790][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:790][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.12-17.31.57:790][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.12-17.31.57:791][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.12-17.31.57:792][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.12-17.31.57:792][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.12-17.31.57:792][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.12-17.31.57:805][  0]LogHAL: Display: Platform has ~ 12 GB [12736622592 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.12-17.31.57:805][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.12-17.31.57:805][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.12-17.31.57:805][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.12-17.31.57:806][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.12-17.31.57:807][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.12-17.31.57:807][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.12-17.31.57:807][  0]LogInit: Computer: DESKTOP-6I1E7SU
+[2019.01.12-17.31.57:807][  0]LogInit: User: duong
+[2019.01.12-17.31.57:807][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.12-17.31.57:807][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.01.12-17.31.57:807][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.01.12-17.31.57:807][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.12-17.31.57:807][  0]LogMemory: Process Physical Memory: 102.44 MB used, 102.44 MB peak
+[2019.01.12-17.31.57:807][  0]LogMemory: Process Virtual Memory: 92.50 MB used, 92.50 MB peak
+[2019.01.12-17.31.57:807][  0]LogMemory: Physical Memory: 5244.02 MB used,  6902.57 MB free, 12146.59 MB total
+[2019.01.12-17.31.57:807][  0]LogMemory: Virtual Memory: 4638.08 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.01.12-17.31.57:829][  0]LogInit: Using OS detected language (en-GB).
+[2019.01.12-17.31.57:829][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.12-17.31.57:830][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.01.12-17.31.58:264][  0]LogStreaming: Display: Took  0.435s to InitEngineTextLocalization.
+[2019.01.12-17.31.58:264][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.12-17.31.58:302][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.12-17.31.58:302][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.12-17.31.58:561][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.12-17.31.58:561][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.12-17.31.58:634][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.01.12-17.31.58:634][  0]LogD3D11RHI:       4055/0/6073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.12-17.31.58:642][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.01.12-17.31.58:642][  0]LogD3D11RHI:       128/0/6073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.12-17.31.58:645][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.12-17.31.58:645][  0]LogD3D11RHI:       0/0/6073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.12-17.31.58:645][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.12-17.31.58:690][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.12-17.31.58:690][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.01.12-17.31.58:690][  0]LogWindows: EnumDisplayDevices:
+[2019.01.12-17.31.58:690][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.01.12-17.31.58:690][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.01.12-17.31.58:690][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.01.12-17.31.58:691][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.12-17.31.58:691][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.01.12-17.31.58:691][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.12-17.31.58:691][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.12-17.31.58:691][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.01.12-17.31.58:743][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.12-17.31.58:783][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.12-17.31.59:127][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.12-17.31.59:144][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.12-17.31.59:159][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.12-17.31.59:177][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.12-17.31.59:193][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.12-17.31.59:209][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.12-17.31.59:226][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.12-17.31.59:241][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.12-17.31.59:249][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:343][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.12-17.31.59:345][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.12-17.31.59:409][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.12-17.31.59:409][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.12-17.31.59:436][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.12-17.31.59:436][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.12-17.31.59:450][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.12-17.31.59:463][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.12-17.31.59:477][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.12-17.31.59:491][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.12-17.31.59:539][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.12-17.31.59:539][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.12-17.31.59:539][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.12-17.31.59:623][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Tower-Defense-1/Duong/TestV1/Intermediate/Shaders/WorkingDirectory/13132/).
+[2019.01.12-17.31.59:623][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/duong/AppData/Local/Temp/UnrealShaderWorkingDir/E4A6E296469399DED6D917B71E8ADA41/'.
+[2019.01.12-17.31.59:627][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.12-17.31.59:627][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.12-17.31.59:627][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.12-17.32.00:248][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.12-17.32.00:306][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/duong/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.12-17.32.00:306][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/duong/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.12-17.32.00:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Tower-Defense-1/Duong/TestV1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.12-17.32.00:306][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.12-17.32.00:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Tower-Defense-1/Duong/TestV1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.12-17.32.00:306][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.12-17.32.00:322][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.12-17.32.00:322][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.12-17.32.00:322][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.12-17.32.00:334][  0]LogDerivedDataCache: Using Local data cache path C:/Users/duong/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.12-17.32.00:334][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.12-17.32.00:334][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.12-17.32.00:362][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.12-17.32.00:364][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.12-17.32.00:364][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.12-17.32.00:461][  0]LogAssetRegistry: FAssetRegistry took 0.0344 seconds to start up
+[2019.01.12-17.32.00:812][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.12-17.32.00:991][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.12-17.32.00:996][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.12-17.32.00:996][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.12-17.32.00:996][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.12-17.32.00:996][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.12-17.32.01:017][  0]LogNetVersion: TestV1 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3173725367)
+[2019.01.12-17.32.01:606][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.082345 seconds
+[2019.01.12-17.32.01:614][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.12-17.32.01:614][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.12-17.32.01:614][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.12-17.32.02:631][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.12-17.32.02:655][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.12-17.32.03:413][  0]SourceControl: Source control is disabled
+[2019.01.12-17.32.03:413][  0]SourceControl: Source control is disabled
+[2019.01.12-17.32.03:414][  0]SourceControl: Source control is disabled
+[2019.01.12-17.32.03:415][  0]SourceControl: Source control is disabled
+[2019.01.12-17.32.03:580][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.12-17.32.03:654][  0]LogOcInput: OculusInput pre-init called
+[2019.01.12-17.32.03:807][  0]LogEngine: Initializing Engine...
+[2019.01.12-17.32.03:808][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.12-17.32.03:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.12-17.32.03:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.12-17.32.03:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.12-17.32.03:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.12-17.32.04:084][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.12-17.32.04:103][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.12-17.32.04:122][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.12-17.32.04:336][  0]LogInit: FAudioDevice initialized.
+[2019.01.12-17.32.04:336][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.12-17.32.04:439][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/duong/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.12-17.32.04:452][  0]LogInit: Texture streaming: Enabled
+[2019.01.12-17.32.04:477][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.12-17.32.04:495][  0]LogInit: Transaction tracking system initialized
+[2019.01.12-17.32.04:532][  0]BlueprintLog: New page: Editor Load
+[2019.01.12-17.32.04:691][  0]LocalizationService: Localization service is disabled
+[2019.01.12-17.32.05:236][  0]LogFileCache: Scanning file cache for directory 'D:/Tower-Defense-1/Duong/TestV1/Content/' took 0.01s
+[2019.01.12-17.32.05:236][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.12-17.32.05:236][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.12-17.32.05:236][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.12-17.32.05:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.12-17.32.05:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.12-17.32.05:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.12-17.32.05:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.12-17.32.05:391][  0]SourceControl: Source control is disabled
+[2019.01.12-17.32.05:391][  0]Cmd: MAP LOAD FILE="D:/Tower-Defense-1/Duong/TestV1/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.12-17.32.05:392][  0]LightingResults: New page: Lighting Build
+[2019.01.12-17.32.05:396][  0]MapCheck: New page: Map Check
+[2019.01.12-17.32.05:396][  0]LightingResults: New page: Lighting Build
+[2019.01.12-17.32.05:884][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.12-17.32.05:897][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.12-17.32.05:925][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.12-17.32.05:926][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2019.01.12-17.32.05:926][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.535
+[2019.01.12-17.32.06:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.12-17.32.06:029][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.12-17.32.06:038][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.12-17.32.06:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.12-17.32.06:070][  0]LogCollectionManager: Loaded 0 collections in 0.003315 seconds
+[2019.01.12-17.32.06:159][  0]LogFileCache: Scanning file cache for directory 'D:/Tower-Defense-1/Duong/TestV1/Saved/Collections/' took 0.01s
+[2019.01.12-17.32.06:159][  0]LogFileCache: Scanning file cache for directory 'D:/Tower-Defense-1/Duong/TestV1/Content/Developers/duong/Collections/' took 0.01s
+[2019.01.12-17.32.06:159][  0]LogFileCache: Scanning file cache for directory 'D:/Tower-Defense-1/Duong/TestV1/Content/Collections/' took 0.01s
+[2019.01.12-17.32.06:159][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.12-17.32.06:170][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2652 classes and 622 folders.
+[2019.01.12-17.32.06:179][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.12-17.32.06:182][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:182][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:183][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:183][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:184][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:184][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:185][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:185][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:187][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:187][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:188][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:188][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:189][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:189][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:190][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:190][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:191][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:191][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:193][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:193][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:194][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:195][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.12-17.32.06:235][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.12-17.32.06:243][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.12-17.32.06:246][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.12-17.32.06:255][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.12-17.32.06:358][  0]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:1).
+[2019.01.12-17.32.06:520][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.12-17.32.06:520][  0]LogLoad: (Engine Initialization) Total time: 10.20 seconds
+[2019.01.12-17.32.06:520][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.12-17.32.06:597][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.12-17.32.06:612][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.12-17.32.06:908][  2]LogAssetRegistry: Asset discovery search completed in 6.4689 seconds
+[2019.01.12-17.32.06:911][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.12-17.32.06:911][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2019.01.12-17.32.28:417][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.12-17.34.17:632][160]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.12-17.34.17:654][160]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Tower-Defense-1/Keng/Models/Beam Blaster/BeamBlaster Shoot.fbx)
+[2019.01.12-17.34.17:673][160]LogFbx: Loading FBX Scene from D:/Tower-Defense-1/Keng/Models/Beam Blaster/BeamBlaster Shoot.fbx
+[2019.01.12-17.34.17:684][160]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.12-17.34.23:040][160]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.12-17.34.23:096][160]LogFbx: =================================================
+[2019.01.12-17.34.23:096][160]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.12-17.34.23:096][160]LogFbx: 	Total Deformer Count 904966960.
+[2019.01.12-17.34.23:096][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:096][160]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.12-17.34.23:096][160]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.12-17.34.23:096][160]LogFbx: =================================================
+[2019.01.12-17.34.23:096][160]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.12-17.34.23:096][160]LogFbx: 	Total Deformer Count 254221792.
+[2019.01.12-17.34.23:096][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:096][160]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.12-17.34.23:096][160]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.12-17.34.23:096][160]LogFbx: =================================================
+[2019.01.12-17.34.23:096][160]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.12-17.34.23:096][160]LogFbx: 	Total Deformer Count 904966720.
+[2019.01.12-17.34.23:096][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:096][160]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.12-17.34.23:096][160]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.12-17.34.23:096][160]LogFbx: =================================================
+[2019.01.12-17.34.23:096][160]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.12-17.34.23:096][160]LogFbx: 	Total Deformer Count 254221600.
+[2019.01.12-17.34.23:097][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:097][160]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.12-17.34.23:097][160]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.12-17.34.23:097][160]LogFbx: =================================================
+[2019.01.12-17.34.23:097][160]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.12-17.34.23:097][160]LogFbx: 	Total Deformer Count 904967200.
+[2019.01.12-17.34.23:097][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:097][160]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.12-17.34.23:097][160]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.12-17.34.23:097][160]LogFbx: =================================================
+[2019.01.12-17.34.23:097][160]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.12-17.34.23:097][160]LogFbx: 	Total Deformer Count 254224384.
+[2019.01.12-17.34.23:097][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:097][160]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.12-17.34.23:097][160]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.12-17.34.23:240][160]LogMaterial: Warning: Material /Game/BeamBlaster/beamblaster_canon1.beamblaster_canon1 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.01.12-17.34.23:243][160]LogMaterial: Display: Missing cached shader map for material beamblaster_canon1, compiling. 
+[2019.01.12-17.34.23:314][160]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.12-17.34.23:314][160]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.12-17.34.23:314][160]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.12-17.34.23:316][160]LogLinker: Can't find file '/Game/BeamBlaster/Beam_Blaster_canon'
+[2019.01.12-17.34.23:316][160]LogLinker: Can't find file '/Game/BeamBlaster/Beam_Blaster_canon'
+[2019.01.12-17.34.23:325][160]LogTexture: Display: Building textures: Beam_Blaster_canon (AutoDXT, 512X512)
+[2019.01.12-17.34.23:485][160]LogMaterial: Display: Missing cached shader map for material beamblaster_canon1, compiling. 
+[2019.01.12-17.34.23:516][160]LogFbx: Triangulating skeletal mesh beamblaster_canon
+[2019.01.12-17.34.23:558][160]LogMaterial: Warning: Material /Game/BeamBlaster/beamblaster_stand1.beamblaster_stand1 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.01.12-17.34.23:561][160]LogMaterial: Display: Missing cached shader map for material beamblaster_stand1, compiling. 
+[2019.01.12-17.34.23:595][160]LogLinker: Can't find file '/Game/BeamBlaster/Beam_Blaster_stand'
+[2019.01.12-17.34.23:595][160]LogLinker: Can't find file '/Game/BeamBlaster/Beam_Blaster_stand'
+[2019.01.12-17.34.23:602][160]LogTexture: Display: Building textures: Beam_Blaster_stand (AutoDXT, 512X512)
+[2019.01.12-17.34.23:791][160]LogMaterial: Display: Missing cached shader map for material beamblaster_stand1, compiling. 
+[2019.01.12-17.34.23:823][160]LogFbx: Triangulating skeletal mesh beamblaster_connector
+[2019.01.12-17.34.23:839][160]LogFbx: Warning: Bones digested - 3  Depth of hierarchy - 2
+[2019.01.12-17.34.23:869][160]LogSkeletalMesh: Section 0: 545 vertices, 1 active bones
+[2019.01.12-17.34.23:869][160]LogSkeletalMesh: Section 1: 198 vertices, 1 active bones
+[2019.01.12-17.34.23:869][160]LogSkeletalMesh: Section 0: Material=0, 888 triangles
+[2019.01.12-17.34.23:869][160]LogSkeletalMesh: Section 1: Material=1, 256 triangles
+[2019.01.12-17.34.23:869][160]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Shoot...
+[2019.01.12-17.34.23:870][160]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/BeamBlaster/BeamBlaster_Shoot.BeamBlaster_Shoot
+[2019.01.12-17.34.23:871][160]LogLinker: Can't find file '/Game/BeamBlaster/BeamBlaster_Shoot_Skeleton'
+[2019.01.12-17.34.23:871][160]LogLinker: Can't find file '/Game/BeamBlaster/BeamBlaster_Shoot_Skeleton'
+[2019.01.12-17.34.23:873][160]LogLinker: Can't find file '/Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset'
+[2019.01.12-17.34.23:873][160]LogLinker: Can't find file '/Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset'
+[2019.01.12-17.34.23:880][160]LogFbx: =================================================
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.12-17.34.23:880][160]LogFbx: 	Total Deformer Count 1135704192.
+[2019.01.12-17.34.23:880][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:880][160]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.12-17.34.23:880][160]LogFbx: =================================================
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.12-17.34.23:880][160]LogFbx: 	Total Deformer Count 1135752672.
+[2019.01.12-17.34.23:880][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:880][160]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.12-17.34.23:880][160]LogFbx: =================================================
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.12-17.34.23:880][160]LogFbx: 	Total Deformer Count 1135704032.
+[2019.01.12-17.34.23:880][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:880][160]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.12-17.34.23:880][160]LogFbx: =================================================
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.12-17.34.23:880][160]LogFbx: 	Total Deformer Count 1135752288.
+[2019.01.12-17.34.23:880][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:880][160]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.12-17.34.23:880][160]LogFbx: =================================================
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node START [beamblaster_canon] 
+[2019.01.12-17.34.23:880][160]LogFbx: 	Total Deformer Count 1135703872.
+[2019.01.12-17.34.23:880][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:880][160]LogFbx: 		[Node Attribute Child 1] beamblaster_canon (Type Mesh).
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node END [beamblaster_canon]
+[2019.01.12-17.34.23:880][160]LogFbx: =================================================
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node START [beamblaster_connector] 
+[2019.01.12-17.34.23:880][160]LogFbx: 	Total Deformer Count 1135752000.
+[2019.01.12-17.34.23:880][160]LogFbx: 	Attribute () Type (4).
+[2019.01.12-17.34.23:880][160]LogFbx: 		[Node Attribute Child 1] beamblaster_connector (Type Mesh).
+[2019.01.12-17.34.23:880][160]LogFbx: Dumping Node END [beamblaster_connector]
+[2019.01.12-17.34.23:880][160]LogFbx: SortedLinks :(0) Beam_Blaster_Tower_Geo
+[2019.01.12-17.34.23:880][160]LogFbx: SortedLinks :(1) beamblaster_canon
+[2019.01.12-17.34.23:880][160]LogFbx: SortedLinks :(2) beamblaster_connector
+[2019.01.12-17.34.23:881][160]LogFbx: Parsing AnimStack Take 001
+[2019.01.12-17.34.23:881][160]LogLinker: Can't find file '/Game/BeamBlaster/BeamBlaster_Shoot_Anim'
+[2019.01.12-17.34.23:881][160]LogLinker: Can't find file '/Game/BeamBlaster/BeamBlaster_Shoot_Anim'
+[2019.01.12-17.34.23:891][160]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/BeamBlaster/BeamBlaster_Shoot_Anim.BeamBlaster_Shoot_Anim
+[2019.01.12-17.34.23:892][160]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.BeamBlaster_Shoot_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.12-17.34.23:895][160]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Shoot...
+[2019.01.12-17.34.23:896][160]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/BeamBlaster/BeamBlaster_Shoot.BeamBlaster_Shoot
+[2019.01.12-17.34.23:900][160]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.01.12-17.34.23:900][160]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.01.12-17.34.23:907][160]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Shoot...
+[2019.01.12-17.34.23:908][160]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/BeamBlaster/BeamBlaster_Shoot.BeamBlaster_Shoot
+[2019.01.12-17.34.27:515][464]LogSlate: Window 'Message Log' being destroyed
+[2019.01.12-17.34.27:520][464]LogSlate: Window 'Message Log' being destroyed
+[2019.01.12-17.34.30:238][735]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.01.12-17.34.33:169][780]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.01.12-17.34.33:169][780]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.01.12-17.34.33:169][780]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.01.12-17.34.33:183][780]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Tower-Defense-1/Keng/Models/Beam Blaster/BeamBlaster_Beam_Idle.fbx)
+[2019.01.12-17.34.33:203][780]LogFbx: Loading FBX Scene from D:/Tower-Defense-1/Keng/Models/Beam Blaster/BeamBlaster_Beam_Idle.fbx
+[2019.01.12-17.34.33:210][780]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.12-17.34.34:626][780]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.01.12-17.34.34:724][780]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.01.12-17.34.35:059][780]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.12-17.34.35:098][780]LogMaterial: Display: Missing cached shader map for material beamblaster_beam1, compiling. 
+[2019.01.12-17.34.35:113][780]LogFbx: Warning: Triangulating static mesh beamblaster_beam
+[2019.01.12-17.34.35:125][780]LogStaticMesh: Building static mesh BeamBlaster_Beam_Idle...
+[2019.01.12-17.34.35:132][780]LogStaticMesh: Built static mesh [0.01s] /Game/BeamBlaster/BeamBlaster_Beam_Idle.BeamBlaster_Beam_Idle
+[2019.01.12-17.34.35:146][780]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.01.12-17.34.38:169][ 45]LogSlate: Window 'Message Log' being destroyed
+[2019.01.12-17.34.38:176][ 45]LogSlate: Window 'Message Log' being destroyed
+[2019.01.12-17.34.38:743][105]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.01.12-17.34.42:322][281]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.01.12-17.34.42:322][281]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.01.12-17.34.42:322][281]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.01.12-17.34.42:337][281]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Tower-Defense-1/Keng/Models/Beam Blaster/BeamBlaster_Idle.fbx)
+[2019.01.12-17.34.42:351][281]LogFbx: Loading FBX Scene from D:/Tower-Defense-1/Keng/Models/Beam Blaster/BeamBlaster_Idle.fbx
+[2019.01.12-17.34.42:362][281]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.12-17.34.43:784][281]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.12-17.34.43:803][281]LogFbx: Warning: Triangulating static mesh beamblaster_canon
+[2019.01.12-17.34.43:859][281]LogStaticMesh: Building static mesh BeamBlaster_Idle_beamblaster_canon...
+[2019.01.12-17.34.43:873][281]LogStaticMesh: Built static mesh [0.01s] /Game/BeamBlaster/BeamBlaster_Idle_beamblaster_canon.BeamBlaster_Idle_beamblaster_canon
+[2019.01.12-17.34.43:888][281]LogFbx: Warning: Triangulating static mesh beamblaster_connector
+[2019.01.12-17.34.43:905][281]LogStaticMesh: Building static mesh BeamBlaster_Idle_beamblaster_connector...
+[2019.01.12-17.34.43:912][281]LogStaticMesh: Built static mesh [0.01s] /Game/BeamBlaster/BeamBlaster_Idle_beamblaster_connector.BeamBlaster_Idle_beamblaster_connector
+[2019.01.12-17.34.43:918][281]LogFbx: Warning: Triangulating static mesh beamblaster_stand
+[2019.01.12-17.34.43:923][281]LogStaticMesh: Building static mesh BeamBlaster_Idle_beamblaster_stand...
+[2019.01.12-17.34.43:925][281]LogStaticMesh: Built static mesh [0.00s] /Game/BeamBlaster/BeamBlaster_Idle_beamblaster_stand.BeamBlaster_Idle_beamblaster_stand
+[2019.01.12-17.34.43:937][281]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.01.12-17.34.46:305][464]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.01.12-17.34.46:521][484]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.12-17.34.47:492][583]LogSlate: Window 'Message Log' being destroyed
+[2019.01.12-17.34.47:501][583]LogSlate: Window 'Message Log' being destroyed
+[2019.01.12-17.34.50:522][898]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.12-17.34.54:421][294]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.12-17.34.56:032][400]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.12-17.35.06:553][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (42.610 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.01.12-17.35.20:921][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Animations/BeamBlaster_Shoot_Anim" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Animations/BeamBlaster_Shoot_Anim.uasset" SILENT=true
+[2019.01.12-17.35.20:946][707]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_AnimC66F90674EFA6D63FC8075B0225A2670.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Animations/BeamBlaster_Shoot_Anim.uasset'
+[2019.01.12-17.36.06:128][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Materials/beamblaster_canon1" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_canon1.uasset" SILENT=true
+[2019.01.12-17.36.06:151][966]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/beamblaster_canon1C7F777FD4FF4D475BA848AB308FB71CE.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_canon1.uasset'
+[2019.01.12-17.36.06:199][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Materials/beamblaster_stand1" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_stand1.uasset" SILENT=true
+[2019.01.12-17.36.06:221][966]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/beamblaster_stand1CAF62FD743FAFA6910F9B0AD9E7971F4.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_stand1.uasset'
+[2019.01.12-17.36.06:269][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Materials/beamblaster_beam1" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_beam1.uasset" SILENT=true
+[2019.01.12-17.36.06:288][966]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/beamblaster_beam110313C4F4E93F318A41F33B85D7D8558.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_beam1.uasset'
+[2019.01.12-17.36.25:138][416]LogMetaData: Removing '/Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_canon.BeamBlaster_Idle_beamblaster_canon' ref from Metadata '/Game/BeamBlaster/BeamBlaster_Idle_beamblaster_canon.PackageMetaData'
+[2019.01.12-17.36.25:143][416]LogMetaData: Removing '/Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_connector.BeamBlaster_Idle_beamblaster_connector' ref from Metadata '/Game/BeamBlaster/BeamBlaster_Idle_beamblaster_connector.PackageMetaData'
+[2019.01.12-17.36.25:148][416]LogMetaData: Removing '/Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_stand.BeamBlaster_Idle_beamblaster_stand' ref from Metadata '/Game/BeamBlaster/BeamBlaster_Idle_beamblaster_stand.PackageMetaData'
+[2019.01.12-17.36.25:153][416]LogMetaData: Removing '/Game/BeamBlaster/Models/BeamBlaster_Beam_Idle.BeamBlaster_Beam_Idle' ref from Metadata '/Game/BeamBlaster/BeamBlaster_Beam_Idle.PackageMetaData'
+[2019.01.12-17.36.25:250][416]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Idle_beamblaster_can12BC5452457C92A746EA9E928A4EA26D.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_canon.uasset'
+[2019.01.12-17.36.25:311][416]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Idle_beamblaster_conA9F2F98647F89377BFAB07A76B8202B5.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_connector.uasset'
+[2019.01.12-17.36.25:371][416]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Idle_beamblaster_sta4C45F8C443C11E6E74FA48950CE4047A.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_stand.uasset'
+[2019.01.12-17.36.25:412][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Models/BeamBlaster_Beam_Idle" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Models/BeamBlaster_Beam_Idle.uasset" SILENT=true
+[2019.01.12-17.36.25:431][416]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Beam_Idle01F3108942D49F635895D3933FA62928.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Models/BeamBlaster_Beam_Idle.uasset'
+[2019.01.12-17.37.01:128][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Textures/Beam_Blaster_stand" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Textures/Beam_Blaster_stand.uasset" SILENT=true
+[2019.01.12-17.37.01:170][788]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/Beam_Blaster_stand53E9762148FEF53C30DB7483B2230C16.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Textures/Beam_Blaster_stand.uasset'
+[2019.01.12-17.37.01:184][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Textures/Beam_Blaster_canon" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Textures/Beam_Blaster_canon.uasset" SILENT=true
+[2019.01.12-17.37.01:221][788]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/Beam_Blaster_canonD39AE7144454DCEC7BFA419E698611BB.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Textures/Beam_Blaster_canon.uasset'
+[2019.01.12-17.37.01:474][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Materials/beamblaster_stand1" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_stand1.uasset" SILENT=true
+[2019.01.12-17.37.01:492][788]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/beamblaster_stand1313E315947D4A4BC876DA096FC331C68.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_stand1.uasset'
+[2019.01.12-17.37.01:498][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Materials/beamblaster_canon1" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_canon1.uasset" SILENT=true
+[2019.01.12-17.37.01:515][788]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/beamblaster_canon1B69DEE3E4B638E291556D08912307FA8.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Materials/beamblaster_canon1.uasset'
+[2019.01.12-17.38.00:462][278]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.12-17.38.22:696][395]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.12-17.38.36:196][571]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.12-17.40.22:489][304]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.12-17.40.24:172][304]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.01.12-17.40.41:132][ 40]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.12-17.41.01:191][152]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TestEnemy.TestEnemy
+[2019.01.12-17.41.01:713][152]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 117 classes and 0 folders.
+[2019.01.12-17.41.02:718][152]LogRenderer: Reallocating scene render targets to support 1208x744 Format 10 NumSamples 1 (Frame:1).
+[2019.01.12-17.41.14:557][858]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.12-17.41.16:565][965]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.12-17.41.34:921][678]LogSlate: Window 'Add Content to the Project' being destroyed
+[2019.01.12-17.42.06:875][918]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.036
+[2019.01.12-17.42.06:932][918]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/BeamBlaster_Shoot] ([1] browsable assets)...
+[2019.01.12-17.42.06:980][918]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/BeamBlaster/BeamBlaster_Shoot.BeamBlaster_Shoot]
+[2019.01.12-17.42.06:980][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/BeamBlaster_Shoot]
+[2019.01.12-17.42.06:980][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_Shoot" FILE="D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/BeamBlaster_Shoot_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.12-17.42.07:005][918]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_Auto114DA2459492A08BD1BB60AA46D317D2C.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/BeamBlaster_Shoot_Auto1.uasset'
+[2019.01.12-17.42.07:006][918]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BaseEnemy] ([1] browsable assets)...
+[2019.01.12-17.42.07:006][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BaseEnemy]
+[2019.01.12-17.42.07:006][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy" FILE="D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/Blueprints/BaseEnemy_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.12-17.42.07:028][918]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BaseEnemy_Auto1301D747240E5FE205C51AFB66667E622.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/Blueprints/BaseEnemy_Auto1.uasset'
+[2019.01.12-17.42.07:028][918]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BaseProjectile] ([1] browsable assets)...
+[2019.01.12-17.42.07:028][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BaseProjectile]
+[2019.01.12-17.42.07:028][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseProjectile" FILE="D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/Blueprints/BaseProjectile_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.12-17.42.07:044][918]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BaseProjectile_Auto151B2E5F64AF11DE82214AB96DFF779D8.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/Blueprints/BaseProjectile_Auto1.uasset'
+[2019.01.12-17.42.07:045][918]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BeamBlaster/BeamBlaster_Shoot_Skeleton] ([1] browsable assets)...
+[2019.01.12-17.42.07:045][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/BeamBlaster_Shoot_Skeleton]
+[2019.01.12-17.42.07:056][918]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_Skeleton_Auto1BD41ABC94530D8EBC24A468C1039CEBC.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/BeamBlaster_Shoot_Skeleton_Auto1.uasset'
+[2019.01.12-17.42.07:057][918]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset] ([1] browsable assets)...
+[2019.01.12-17.42.07:095][918]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset.BeamBlaster_Shoot_PhysicsAsset]
+[2019.01.12-17.42.07:095][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset]
+[2019.01.12-17.42.07:124][918]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_PhysicsAsset_A5ED226EA48C5CA0235B1409AD80296A1.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset_Auto1.uasset'
+[2019.01.12-17.42.07:125][918]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BaseTower] ([1] browsable assets)...
+[2019.01.12-17.42.07:125][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BaseTower]
+[2019.01.12-17.42.07:125][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseTower" FILE="D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/Blueprints/BaseTower_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.12-17.42.07:143][918]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BaseTower_Auto14C360CB546F0E2A6ABFD298CAE3EDC0C.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/Blueprints/BaseTower_Auto1.uasset'
+[2019.01.12-17.42.07:144][918]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestEnemy] ([1] browsable assets)...
+[2019.01.12-17.42.07:144][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy]
+[2019.01.12-17.42.07:144][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy" FILE="D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TestEnemy_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.12-17.42.07:168][918]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/TestEnemy_Auto1086EEDD844C408D2FA5F56A4182CD2DC.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TestEnemy_Auto1.uasset'
+[2019.01.12-17.42.07:169][918]LogFileHelpers: Auto-saving content packages took 0.293
+[2019.01.12-17.44.30:820][212]LogTexture: Display: Building textures: T_Enemy_Wolf_04_M2 (AutoDXT, 2048X2048)
+[2019.01.12-17.44.30:820][212]LogTexture: Display: Building textures: T_Enemy_Wolf_N (BC5, 2048X2048)
+[2019.01.12-17.44.30:820][212]LogTexture: Display: Building textures: T_Enemy_Wolf_04_M (AutoDXT, 2048X2048)
+[2019.01.12-17.44.30:820][212]LogTexture: Display: Building textures: T_Enemy_Wolf_01_D (AutoDXT, 2048X2048)
+[2019.01.12-17.44.36:889][212]LogSkeletalMesh: Building Skeletal Mesh SK_Enemy_Wolf_Armored...
+[2019.01.12-17.44.36:892][212]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/SK_Enemy_Wolf_Armored.SK_Enemy_Wolf_Armored
+[2019.01.12-17.44.36:896][212]LogMaterial: Display: Missing cached shader map for material CharM_Enemy_Wolf, compiling. 
+[2019.01.12-17.44.36:969][212]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.12-17.44.36:969][212]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.12-17.44.36:969][212]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.12-17.44.45:629][703]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.12-17.44.47:034][784]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.12-17.44.51:266][ 13]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.12-17.44.52:283][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.12-17.45.00:720][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.12-17.45.11:441][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.12-17.45.15:074][389]BlueprintLog: New page: Compile TestEnemy
+[2019.01.12-17.45.32:379][555]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.12-17.45.45:762][555]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.12-17.45.49:347][555]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.01.12-17.46.10:265][969]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/TestEnemyAnim.TestEnemyAnim
+[2019.01.12-17.46.10:296][969]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.01.12-17.46.10:539][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.12-17.46.10:546][969]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.01.12-17.46.11:120][969]LogSlate: Took 0.009641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.12-17.46.11:168][969]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.01.12-17.46.11:233][969]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.12-17.46.28:625][144]LogSlate: Window 'TestEnemyAnim*' being destroyed
+[2019.01.12-17.46.28:631][144]LogSlate: Window 'TestEnemyAnim*' being destroyed
+[2019.01.12-17.46.31:668][231]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.12-17.46.33:469][268]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TestEnemy.TestEnemy
+[2019.01.12-17.46.35:952][376]LogSlate: Window 'TestEnemy*' being destroyed
+[2019.01.12-17.46.36:030][376]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TestEnemy.TestEnemy
+[2019.01.12-17.46.52:984][  1]LogTexture: Display: Building textures: T_Enemy_FrostGiant_M (AutoDXT, 2048X2048)
+[2019.01.12-17.46.52:984][  1]LogTexture: Display: Building textures: T_Enemy_FrostGiant_D (AutoDXT, 2048X2048)
+[2019.01.12-17.46.52:984][  1]LogTexture: Display: Building textures: T_Enemy_FrostGiant_N (BC5, 2048X2048)
+[2019.01.12-17.46.52:984][  1]LogMaterial: Display: Missing cached shader map for material CharM_Frost_Giant, compiling. 
+[2019.01.12-17.46.53:023][  1]LogSkeletalMesh: Building Skeletal Mesh SK_Enemy_FrostGiant_Magic...
+[2019.01.12-17.46.53:029][  1]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Magic.SK_Enemy_FrostGiant_Magic
+[2019.01.12-17.46.53:036][  1]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.12-17.46.53:036][  1]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.12-17.46.53:036][  1]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.12-17.46.59:641][424]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.12-17.47.07:940][859]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.12-17.47.10:991][ 43]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.12-17.47.12:634][115]LogTexture: Display: Building textures: T_Gruntling_M (AutoDXT, 1024X1024)
+[2019.01.12-17.47.12:634][115]LogTexture: Display: Building textures: T_Gruntling_Glacer_N (BC5, 1024X1024)
+[2019.01.12-17.47.12:634][115]LogTexture: Display: Building textures: T_Gruntling_Emissive (AutoDXT, 1024X1024)
+[2019.01.12-17.47.12:634][115]LogTexture: Display: Building textures: T_Gruntling_Glacer_D (AutoDXT, 1024X1024)
+[2019.01.12-17.47.14:101][115]LogMaterial: Display: Missing cached shader map for material CharM_Gruntling_Glacer, compiling. 
+[2019.01.12-17.47.14:143][115]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.12-17.47.14:143][115]LogSkeletalMesh: Building Skeletal Mesh SK_Gruntling_Glacer...
+[2019.01.12-17.47.14:147][115]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer.SK_Gruntling_Glacer
+[2019.01.12-17.47.16:060][191]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.12-17.47.24:427][630]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.12-17.47.25:682][705]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.12-17.47.27:369][788]LogTexture: Display: Building textures: T_Troll_Poison_M (AutoDXT, 1024X1024)
+[2019.01.12-17.47.27:369][788]LogTexture: Display: Building textures: T_Troll_N (BC5, 1024X1024)
+[2019.01.12-17.47.27:369][788]LogTexture: Display: Building textures: T_Troll_Poison_D (AutoDXT, 1024X1024)
+[2019.01.12-17.47.29:368][788]LogSkeletalMesh: Building Skeletal Mesh SK_Troll_Poison...
+[2019.01.12-17.47.29:371][788]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/SK_Troll_Poison.SK_Troll_Poison
+[2019.01.12-17.47.29:376][788]LogMaterial: Display: Missing cached shader map for material CharM_Troll_Poison, compiling. 
+[2019.01.12-17.47.32:136][909]LogShaderCompilers: Display: Shaders left to compile 89
+[2019.01.12-17.47.33:102][941]LogShaderCompilers: Display: Shaders left to compile 79
+[2019.01.12-17.47.36:615][ 57]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.01.12-17.47.40:376][180]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.01.12-17.47.41:168][180]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.01.12-17.47.41:605][180]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.01.12-17.47.44:028][180]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.12-17.47.45:092][233]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.12-17.47.46:754][302]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.12-17.47.54:959][363]LogTexture: Display: Building textures: T_Enemy_GreaterSpider_Fire_M (AutoDXT, 2048X2048)
+[2019.01.12-17.47.54:959][363]LogTexture: Display: Building textures: T_Enemy_GreaterSpider_Fire_D (AutoDXT, 2048X2048)
+[2019.01.12-17.47.54:959][363]LogTexture: Display: Building textures: T_Enemy_GreaterSpider_Fire_N (BC5, 2048X2048)
+[2019.01.12-17.47.54:959][363]LogSkeletalMesh: Building Skeletal Mesh SK_Greater_Spider...
+[2019.01.12-17.47.54:962][363]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/SK_Greater_Spider.SK_Greater_Spider
+[2019.01.12-17.47.54:967][363]LogMaterial: Display: Missing cached shader map for material CharM_Greater_Spider, compiling. 
+[2019.01.12-17.47.55:019][363]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.12-17.47.55:019][363]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.12-17.47.55:019][363]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.12-17.47.58:498][524]BlueprintLog: New page: Compile TestEnemy
+[2019.01.12-17.48.04:904][ 40]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.12-17.48.06:503][209]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.12-17.48.06:833][231]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.12-17.48.08:045][231]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.12-17.48.20:243][231]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.12-17.48.21:998][231]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.01.12-17.48.34:910][165]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/TestEnemyAnim.TestEnemyAnim
+[2019.01.12-17.48.34:933][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.12-17.48.35:624][165]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.12-17.49.19:021][934]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Idle.ExoGame_Greater_Spider_Idle
+[2019.01.12-17.49.19:021][934]LogAnimationCompression: Recompressing (AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Idle.ExoGame_Greater_Spider_Idle) using current/default (AnimCompress_RemoveLinearKeys_27) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.12-17.49.29:033][547]BlueprintLog: New page: Compile TestEnemyAnim
+[2019.01.12-17.49.29:045][547]LogBlueprint: Warning: [Compiler TestEnemyAnim] Idle to Walk  will never be taken, please connect something to  Can Enter Transition
+[2019.01.12-17.49.29:273][547]LogBlueprint: Warning: [Compiler TestEnemyAnim] [1052.95] Compile of TestEnemyAnim successful, but with 1 Warning(s) [in 238 ms] (/Game/TestEnemyAnim.TestEnemyAnim)
+[2019.01.12-17.49.45:378][491]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2019.01.12-17.49.46:014][528]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.12-17.49.50:478][787]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Walk_Fwd.ExoGame_Greater_Spider_Walk_Fwd
+[2019.01.12-17.49.50:478][787]LogAnimationCompression: Recompressing (AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Walk_Fwd.ExoGame_Greater_Spider_Walk_Fwd) using current/default (AnimCompress_RemoveLinearKeys_41) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.12-17.49.56:315][140]BlueprintLog: New page: Compile TestEnemyAnim
+[2019.01.12-17.49.56:325][140]LogBlueprint: Warning: [Compiler TestEnemyAnim] Idle to Walk  will never be taken, please connect something to  Can Enter Transition
+[2019.01.12-17.49.56:541][140]LogBlueprint: Warning: [Compiler TestEnemyAnim] [1080.22] Compile of TestEnemyAnim successful, but with 1 Warning(s) [in 225 ms] (/Game/TestEnemyAnim.TestEnemyAnim)
+[2019.01.12-17.50.53:999][485]BlueprintLog: New page: Compile TestEnemyAnim
+[2019.01.12-17.52.22:531][903]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.040
+[2019.01.12-17.52.22:533][903]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestEnemy] ([1] browsable assets)...
+[2019.01.12-17.52.22:554][903]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TestEnemy.TestEnemy]
+[2019.01.12-17.52.22:554][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy]
+[2019.01.12-17.52.22:554][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy" FILE="D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TestEnemy_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.01.12-17.52.22:589][903]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/TestEnemy_Auto25C00C4ED4CBA82215026309FF603E873.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TestEnemy_Auto2.uasset'
+[2019.01.12-17.52.22:590][903]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestEnemyAnim] ([1] browsable assets)...
+[2019.01.12-17.52.22:611][903]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/TestEnemyAnim.TestEnemyAnim]
+[2019.01.12-17.52.22:611][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemyAnim]
+[2019.01.12-17.52.22:611][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemyAnim" FILE="D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TestEnemyAnim_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.01.12-17.52.22:660][903]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/TestEnemyAnim_Auto25BDFE8224455084D50527BB9EB90EB0C.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TestEnemyAnim_Auto2.uasset'
+[2019.01.12-17.52.22:661][903]LogFileHelpers: Auto-saving content packages took 0.128
+[2019.01.12-17.53.12:183][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_Shoot" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot.uasset" SILENT=true
+[2019.01.12-17.53.12:198][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot4344D2054652B445397339A0C6AD6401.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot.uasset'
+[2019.01.12-17.53.12:214][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/Blueprints/BaseEnemy.uasset" SILENT=true
+[2019.01.12-17.53.12:235][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BaseEnemyC49D19B6433EA3397703FD8E2BDF9915.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/Blueprints/BaseEnemy.uasset'
+[2019.01.12-17.53.12:251][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseProjectile" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/Blueprints/BaseProjectile.uasset" SILENT=true
+[2019.01.12-17.53.12:268][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BaseProjectileD5114F1B4D8DD9DCB044249424F0C35F.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/Blueprints/BaseProjectile.uasset'
+[2019.01.12-17.53.12:283][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_Shoot_Skeleton" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot_Skeleton.uasset" SILENT=true
+[2019.01.12-17.53.12:846][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_Skeleton4BE2637247CCE2132F423E8D5D9A49CD.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot_Skeleton.uasset'
+[2019.01.12-17.53.12:862][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset.uasset" SILENT=true
+[2019.01.12-17.53.12:880][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_PhysicsAssetA63589164B583ED8FE09EEAF15192282.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset.uasset'
+[2019.01.12-17.53.12:892][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseTower" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/Blueprints/BaseTower.uasset" SILENT=true
+[2019.01.12-17.53.12:909][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/BaseTowerB497ABBE4F5149377A7BD8893901CFBF.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/Blueprints/BaseTower.uasset'
+[2019.01.12-17.53.12:920][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/TestEnemy.uasset" SILENT=true
+[2019.01.12-17.53.12:942][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/TestEnemy47221E24482844639BA37B9A13A57EAA.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/TestEnemy.uasset'
+[2019.01.12-17.53.12:973][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemyAnim" FILE="D:/Tower-Defense-1/Duong/TestV1/Content/TestEnemyAnim.uasset" SILENT=true
+[2019.01.12-17.53.13:022][946]LogSavePackage: Moving 'D:/Tower-Defense-1/Duong/TestV1/Saved/TestEnemyAnim92020AC542E1D8F4F19F849600E35A8D.tmp' to 'D:/Tower-Defense-1/Duong/TestV1/Content/TestEnemyAnim.uasset'
+[2019.01.12-17.53.17:888][258]LogSlate: Window 'TestEnemy' being destroyed
+[2019.01.12-17.53.17:956][258]LogSlate: Window 'TestV1 - Unreal Editor' being destroyed
+[2019.01.12-17.53.17:957][258]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.12-17.53.18:189][259]Cmd: QUIT_EDITOR
+[2019.01.12-17.53.18:246][259]LogExit: Preparing to exit.
+[2019.01.12-17.53.18:431][259]LogExit: Editor shut down
+[2019.01.12-17.53.18:431][259]LogExit: Transaction tracking system shut down
+[2019.01.12-17.53.18:690][259]LogExit: Object subsystem successfully closed.
+[2019.01.12-17.53.18:715][259]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.12-17.53.18:721][259]LogD3D11RHI: Shutdown
+[2019.01.12-17.53.18:721][259]LogD3D11RHI: CleanupD3DDevice
+[2019.01.12-17.53.18:727][259]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (636)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module PinnedCommandList (634)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module SkeletonEditor (632)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (630)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module PortalProxies (628)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module BlueprintGraph (626)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module MeshBuilder (624)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (622)
+[2019.01.12-17.53.18:765][259]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module BspMode (594)
+[2019.01.12-17.53.18:766][259]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.01.12-17.53.18:767][259]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.01.12-17.53.18:768][259]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.12-17.53.19:661][259]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.12-17.53.19:716][259]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.12-17.53.19:722][259]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.12-17.53.19:722][259]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.01.12-17.53.19:724][259]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.01.12-17.53.19:725][259]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.01.12-17.53.19:725][259]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.01.12-17.53.19:725][259]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.01.12-17.53.19:725][259]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2019.01.12-17.53.19:725][259]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
+[2019.01.12-17.53.19:728][259]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.12-17.53.19:865][259]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.12-17.53.19:866][259]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.01.12-17.53.19:872][259]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.01.12-17.53.19:873][259]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.12-17.53.19:874][259]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.12-17.53.19:975][259]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.12-17.53.20:076][259]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.12-17.53.20:078][259]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.12-17.53.20:078][259]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.12-17.53.20:078][259]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.12-17.53.20:078][259]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.12-17.53.20:078][259]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.12-17.53.20:078][259]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.01.12-17.53.20:078][259]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.01.12-17.53.20:080][259]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.01.12-17.53.20:086][259]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.01.12-17.53.20:086][259]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.01.12-17.53.20:087][259]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.01.12-17.53.20:089][259]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.01.12-17.53.20:089][259]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.01.12-17.53.20:089][259]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.01.12-17.53.20:089][259]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.01.12-17.53.20:090][259]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.01.12-17.53.20:175][259]LogDerivedDataCache: Shutdown
+[2019.01.12-17.53.20:175][259]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.01.12-17.53.20:176][259]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.01.12-17.53.20:177][259]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.01.12-17.53.20:177][259]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.01.12-17.53.20:177][259]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.01.12-17.53.20:177][259]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.01.12-17.53.20:177][259]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.01.12-17.53.20:178][259]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.01.12-17.53.20:178][259]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.01.12-17.53.20:179][259]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.01.12-17.53.20:179][259]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.01.12-17.53.20:186][259]LogHMD: Freeing OpenVRDLLHandle.
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.01.12-17.53.20:186][259]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.01.12-17.53.20:188][259]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.01.12-17.53.20:188][259]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.01.12-17.53.20:214][259]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.01.12-17.53.20:214][259]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.12-17.53.20:214][259]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B91901E55-4B4C-6ECD-3EF6-ECBABDF862BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.0-4541578%2B%2B%2BUE4%2BRelease-4.21&UserID=85be66764fd97a9d9b997fb6242cf29b%7C5ac40507a4f44601ae7098a138f62b6d%7C7dedb0e4-c9e2-42ff-a3d0-c84720b5623b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.12-17.53.20:245][259]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.01.12-17.53.20:247][259]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.01.12-17.53.20:247][259]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.01.12-17.53.20:248][259]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.12-17.53.20:248][259]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.12-17.53.20:248][259]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.12-17.53.20:248][259]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.12-17.53.20:248][259]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.12-17.53.20:248][259]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.12-17.53.20:248][259]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.12-17.53.20:249][259]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.12-17.53.20:256][259]LogExit: Exiting.
+[2019.01.12-17.53.20:291][259]Log file closed, 01/13/19 00:53:20
