@@ -1,0 +1,1257 @@
+﻿Log file open, 01/18/19 09:19:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TestV1
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.388011
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.145s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4613538
+LogInit: Engine Version: 4.21.1-4613538+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6800K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Nov 30 2018 04:13:25
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -EpicPortal -epicusername=duongtran845 -epicuserid=00e65abf2615463790405698af5a196d -epiclocale=en-GB
+LogInit: Base Directory: D:/Epic Game/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.18-02.19.07:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.18-02.19.07:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.18-02.19.07:741][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.18-02.19.07:741][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.18-02.19.07:748][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.18-02.19.07:748][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.18-02.19.07:749][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.18-02.19.07:749][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.18-02.19.07:749][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.18-02.19.07:764][  0]LogHAL: Display: Platform has ~ 16 GB [17076666368 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.18-02.19.07:764][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.18-02.19.07:764][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.18-02.19.07:764][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Scalability.ini]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.18-02.19.07:765][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.18-02.19.07:765][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Config/Windows/Engine.ini]
+[2019.01.18-02.19.07:765][  0]LogInit: Computer: DESKTOP-OHKO6JD
+[2019.01.18-02.19.07:765][  0]LogInit: User: duong
+[2019.01.18-02.19.07:765][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.18-02.19.07:765][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.01.18-02.19.07:766][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.18-02.19.07:766][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.18-02.19.07:766][  0]LogMemory: Process Physical Memory: 105.57 MB used, 105.58 MB peak
+[2019.01.18-02.19.07:766][  0]LogMemory: Process Virtual Memory: 92.80 MB used, 92.80 MB peak
+[2019.01.18-02.19.07:766][  0]LogMemory: Physical Memory: 7512.07 MB used,  8773.50 MB free, 16285.58 MB total
+[2019.01.18-02.19.07:766][  0]LogMemory: Virtual Memory: 4668.89 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.01.18-02.19.07:782][  0]LogInit: Using OS detected language (en-GB).
+[2019.01.18-02.19.07:782][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.18-02.19.07:782][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.01.18-02.19.08:173][  0]LogStreaming: Display: Took  0.392s to InitEngineTextLocalization.
+[2019.01.18-02.19.08:174][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.18-02.19.08:212][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.18-02.19.08:212][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.18-02.19.08:417][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.18-02.19.08:417][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.18-02.19.08:507][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.01.18-02.19.08:507][  0]LogD3D11RHI:       6052/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.18-02.19.08:510][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.18-02.19.08:510][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.18-02.19.08:510][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.18-02.19.08:522][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.18-02.19.08:522][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.18-02.19.08:522][  0]LogWindows: EnumDisplayDevices:
+[2019.01.18-02.19.08:522][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.01.18-02.19.08:523][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.01.18-02.19.08:523][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.01.18-02.19.08:524][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.01.18-02.19.08:524][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.18-02.19.08:524][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.01.18-02.19.08:524][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.01.18-02.19.08:524][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.01.18-02.19.08:524][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.01.18-02.19.08:584][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.18-02.19.08:619][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.18-02.19.09:079][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.18-02.19.09:091][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.18-02.19.09:102][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.18-02.19.09:114][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.18-02.19.09:126][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.18-02.19.09:137][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.18-02.19.09:149][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.18-02.19.09:160][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.18-02.19.09:168][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:236][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:236][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:236][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:236][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:236][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-02.19.09:237][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.18-02.19.09:293][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.18-02.19.09:293][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.18-02.19.09:315][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.18-02.19.09:315][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.18-02.19.09:330][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.18-02.19.09:343][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.18-02.19.09:354][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.18-02.19.09:366][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.18-02.19.09:419][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.18-02.19.09:419][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.18-02.19.09:420][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.18-02.19.09:470][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (H:/Project Game/Tower-Defense-1/Duong/TestV1/Intermediate/Shaders/WorkingDirectory/2816/).
+[2019.01.18-02.19.09:470][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/duong/AppData/Local/Temp/UnrealShaderWorkingDir/35268ABE41B2B955BDB975BA95254678/'.
+[2019.01.18-02.19.09:472][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.18-02.19.09:472][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.18-02.19.09:472][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.18-02.19.10:019][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.18-02.19.10:082][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/duong/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.18-02.19.10:082][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/duong/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.18-02.19.10:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Project Game/Tower-Defense-1/Duong/TestV1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.18-02.19.10:082][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.18-02.19.10:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/Project Game/Tower-Defense-1/Duong/TestV1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.18-02.19.10:082][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.18-02.19.10:097][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.18-02.19.10:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.18-02.19.10:097][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.18-02.19.10:109][  0]LogDerivedDataCache: Using Local data cache path C:/Users/duong/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.18-02.19.10:109][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.18-02.19.10:109][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.18-02.19.10:132][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.18-02.19.10:133][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.18-02.19.10:134][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.18-02.19.10:222][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2019.01.18-02.19.10:542][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.18-02.19.10:696][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.18-02.19.10:699][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.18-02.19.10:699][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.18-02.19.10:699][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.18-02.19.10:699][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.18-02.19.10:716][  0]LogNetVersion: TestV1 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3173725367)
+[2019.01.18-02.19.11:216][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.094904 seconds
+[2019.01.18-02.19.11:221][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.18-02.19.11:221][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.18-02.19.11:221][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.18-02.19.12:043][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.18-02.19.12:056][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.18-02.19.12:703][  0]SourceControl: Source control is disabled
+[2019.01.18-02.19.12:703][  0]SourceControl: Source control is disabled
+[2019.01.18-02.19.12:705][  0]SourceControl: Source control is disabled
+[2019.01.18-02.19.12:705][  0]SourceControl: Source control is disabled
+[2019.01.18-02.19.12:854][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.18-02.19.13:207][  0]LogOcInput: OculusInput pre-init called
+[2019.01.18-02.19.13:341][  0]LogEngine: Initializing Engine...
+[2019.01.18-02.19.13:342][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.18-02.19.13:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.18-02.19.13:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.18-02.19.13:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.18-02.19.13:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.18-02.19.13:578][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.18-02.19.13:588][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.18-02.19.13:685][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.18-02.19.13:712][  0]LogInit: FAudioDevice initialized.
+[2019.01.18-02.19.13:713][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.18-02.19.13:800][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/duong/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.18-02.19.13:819][  0]LogInit: Texture streaming: Enabled
+[2019.01.18-02.19.13:833][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.18-02.19.13:847][  0]LogInit: Transaction tracking system initialized
+[2019.01.18-02.19.13:863][  0]BlueprintLog: New page: Editor Load
+[2019.01.18-02.19.13:917][  0]LocalizationService: Localization service is disabled
+[2019.01.18-02.19.14:044][  0]LogConfig: Warning: Failed to saved backup for config[H:/Project Game/Tower-Defense-1/Duong/TestV1/Intermediate/Config/CoalescedSourceConfigs/Engine.ini]
+[2019.01.18-02.19.14:340][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.18-02.19.14:340][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.18-02.19.14:340][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.18-02.19.14:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.18-02.19.14:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.18-02.19.14:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.18-02.19.14:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.18-02.19.14:442][  0]LogFileCache: Scanning file cache for directory 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/' took 0.02s
+[2019.01.18-02.19.14:442][  0]SourceControl: Source control is disabled
+[2019.01.18-02.19.14:442][  0]Cmd: MAP LOAD FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.18-02.19.14:443][  0]LightingResults: New page: Lighting Build
+[2019.01.18-02.19.14:444][  0]MapCheck: New page: Map Check
+[2019.01.18-02.19.14:444][  0]LightingResults: New page: Lighting Build
+[2019.01.18-02.19.17:692][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.18-02.19.17:708][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.18-02.19.17:737][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.18-02.19.17:737][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2019.01.18-02.19.17:737][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.295
+[2019.01.18-02.19.17:905][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.19.17:912][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.19.17:918][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.19.17:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.19.17:934][  0]LogCollectionManager: Loaded 0 collections in 0.001116 seconds
+[2019.01.18-02.19.17:950][  0]LogFileCache: Scanning file cache for directory 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Collections/' took 0.01s
+[2019.01.18-02.19.17:950][  0]LogFileCache: Scanning file cache for directory 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/Developers/duong/Collections/' took 0.00s
+[2019.01.18-02.19.17:950][  0]LogFileCache: Scanning file cache for directory 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/Collections/' took 0.00s
+[2019.01.18-02.19.17:950][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.18-02.19.17:960][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2651 classes and 620 folders.
+[2019.01.18-02.19.17:966][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.18-02.19.17:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:048][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:081][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:110][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:115][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:121][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:133][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:143][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:157][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:162][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:166][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:198][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:203][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:209][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:223][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:275][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:286][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.18:316][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.18-02.19.19:100][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.18-02.19.19:133][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.18-02.19.19:153][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.18-02.19.19:155][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.18-02.19.19:183][  0]LogSlate: Took 0.023335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.18-02.19.19:426][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2019.01.18-02.19.19:488][  0]LogSlate: Took 0.011722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.18-02.19.19:564][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.18-02.19.19:564][  0]LogLoad: (Engine Initialization) Total time: 13.75 seconds
+[2019.01.18-02.19.19:564][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.18-02.19.19:621][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.18-02.19.19:910][  3]LogAssetRegistry: Asset discovery search completed in 9.7095 seconds
+[2019.01.18-02.19.19:912][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.18-02.19.19:912][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2019.01.18-02.20.03:486][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.20.03:665][727]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.18-02.20.03:681][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.20.03:681][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.18-02.20.03:681][727]PIE: New page: PIE session: TopDownExampleMap (Jan 18, 2019, 4:20:03 PM)
+[2019.01.18-02.20.03:693][727]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.18-02.20.03:718][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025001s)
+[2019.01.18-02.20.03:719][727]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.18-02.20.03:720][727]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2019.01.18-02.20.03:720][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026870s)
+[2019.01.18-02.20.03:820][727]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.18-02.20.03:841][727]LogInit: FAudioDevice initialized.
+[2019.01.18-02.20.03:884][727]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.18-02.20.03:900][727]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.18-09.20.03
+[2019.01.18-02.20.03:942][727]LogWorld: Bringing up level for play took: 0.043321
+[2019.01.18-02.20.03:958][727]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.01.18-02.20.03:961][727]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.217
+[2019.01.18-02.20.03:961][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.20.24:734][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.20.24:734][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.20.24:767][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.18-02.20.24:767][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.20.24:792][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.20.24:832][195]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.01.18-02.26.09:866][473]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.18-02.26.09:899][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP_C' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP:AnimGraph.AnimGraphNode_StateMachine_0.Default.AnimStateEntryNode_0' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP:AnimGraph.AnimGraphNode_StateMachine_0.Default.AnimStateNode_0.Idle.AnimGraphNode_StateResult_0' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP:AnimGraph.AnimGraphNode_StateMachine_0.Default.AnimStateNode_1.Shoot.AnimGraphNode_StateResult_0' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP:AnimGraph.AnimGraphNode_StateMachine_0.Default.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP:AnimGraph.AnimGraphNode_StateMachine_0.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.SKEL_BeamBlaster_Anim_BP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.SKEL_BeamBlaster_Anim_BP_C:FireRate' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.SKEL_BeamBlaster_Anim_BP_C:IsShoot' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.SKEL_BeamBlaster_Anim_BP_C' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP_C:FireRate' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP_C:IsShoot' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:900][473]LogMetaData: Removing '/Game/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.BeamBlaster_Anim_BP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BeamBlaster/Animations/BeamBlaster_Anim_BP.PackageMetaData'
+[2019.01.18-02.26.09:951][473]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_Anim4797578346585EE184F723B73AD27B35.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Animations/BeamBlaster_Shoot_Anim.uasset'
+[2019.01.18-02.26.10:006][473]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Anim_BP48B268C2466EA4E2A25D33B9B5FD17A5.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.uasset'
+[2019.01.18-02.26.10:227][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_BP" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP.uasset" SILENT=true
+[2019.01.18-02.26.10:349][473]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BPBE6A0C0F42931E3599093D8CD8830422.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP.uasset'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:ReceiveTick' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_4_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_5_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:OutTarget' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:CheckForTarget' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:DeltaTime' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:IsShoot' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:Canon' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:Stand' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:ProjectilePoint' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:TriggerVolume' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C:UserConstructionScript' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.SKEL_BeamBlaster_BP_C' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:OutTarget' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:CheckForTarget' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:DeltaTime' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:IsShoot' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:Canon' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:Stand' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:ProjectilePoint' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:TriggerVolume' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:ReceiveTick' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:083][152]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP_C:UserConstructionScript' ref from Metadata '/Game/BeamBlaster/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.26.16:108][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Level1/BeamBlaster_BP" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP.uasset" SILENT=true
+[2019.01.18-02.26.16:166][152]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BPD295543D496C6A108B781C975E2CEA39.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP.uasset'
+[2019.01.18-02.26.16:170][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_BP" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP.uasset" SILENT=true
+[2019.01.18-02.26.16:179][152]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BPEF5877F9497F721BA4E80EB9C96AA85B.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP.uasset'
+[2019.01.18-02.26.18:125][376]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_Shoot.BeamBlaster_Shoot' ref from Metadata '/Game/BeamBlaster/BeamBlaster_Shoot.PackageMetaData'
+[2019.01.18-02.26.18:151][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Level1/BeamBlaster_Shoot" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot.uasset" SILENT=true
+[2019.01.18-02.26.18:167][376]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_ShootB220FD2F462FE28110A72492A5745EC9.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot.uasset'
+[2019.01.18-02.26.18:333][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset.uasset" SILENT=true
+[2019.01.18-02.26.18:359][376]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_PhysicsAsset12D83EBB421433EA05488DB25A260389.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_Shoot_PhysicsAsset.uasset'
+[2019.01.18-02.26.18:374][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Level1/BeamBlaster_BP" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP.uasset" SILENT=true
+[2019.01.18-02.26.18:436][376]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BP03245B82428387E9550A73B5EB236EDF.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP.uasset'
+[2019.01.18-02.26.20:360][595]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_PhysicsAssetC1E70C804C9BEE511F20B4B1BC56C0AC.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot_PhysicsAsset.uasset'
+[2019.01.18-02.26.20:504][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Level1/BeamBlaster_Shoot" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot.uasset" SILENT=true
+[2019.01.18-02.26.20:522][595]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_ShootCB592EB046E6315D81AA49855CFF70EB.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot.uasset'
+[2019.01.18-02.26.22:360][806]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_Skeleton06FFB33C4E34F6829C5B1F87B52A2C52.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot_Skeleton.uasset'
+[2019.01.18-02.26.22:532][806]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Shoot_Anim9072F3C34D6E9E3063A6F58944B47A85.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Animations/BeamBlaster_Shoot_Anim.uasset'
+[2019.01.18-02.26.22:595][806]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Anim_BP8E0B5F6F4770B5BE5C24BCADE701B22B.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.uasset'
+[2019.01.18-02.26.22:602][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Level1/BeamBlaster_Shoot" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot.uasset" SILENT=true
+[2019.01.18-02.26.22:614][806]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_ShootCF06F00C430B0C3FEF0CE2BA79EBE600.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_Shoot.uasset'
+[2019.01.18-02.26.31:289][835]LogStaticMesh: Building static mesh BeamBlaster_Idle_beamblaster_canon...
+[2019.01.18-02.26.31:302][835]LogStaticMesh: Built static mesh [0.01s] /Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_canon.BeamBlaster_Idle_beamblaster_canon
+[2019.01.18-02.26.31:362][835]LogStaticMesh: Building static mesh BeamBlaster_Idle_beamblaster_connector...
+[2019.01.18-02.26.31:368][835]LogStaticMesh: Built static mesh [0.01s] /Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_connector.BeamBlaster_Idle_beamblaster_connector
+[2019.01.18-02.26.31:386][835]LogMetaData: Removing '/Game/BeamBlaster/Level1/Models/BeamBlaster_Beam_Idle.BeamBlaster_Beam_Idle' ref from Metadata '/Game/BeamBlaster/Models/BeamBlaster_Beam_Idle.PackageMetaData'
+[2019.01.18-02.26.31:395][835]LogMetaData: Removing '/Game/BeamBlaster/Level1/Models/BeamBlaster_Idle_beamblaster_stand.BeamBlaster_Idle_beamblaster_stand' ref from Metadata '/Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_stand.PackageMetaData'
+[2019.01.18-02.26.31:402][835]LogMetaData: Removing '/Game/BeamBlaster/Level1/Models/BeamBlaster_Idle_beamblaster_canon.BeamBlaster_Idle_beamblaster_canon' ref from Metadata '/Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_canon.PackageMetaData'
+[2019.01.18-02.26.31:408][835]LogMetaData: Removing '/Game/BeamBlaster/Level1/Models/BeamBlaster_Idle_beamblaster_connector.BeamBlaster_Idle_beamblaster_connector' ref from Metadata '/Game/BeamBlaster/Models/BeamBlaster_Idle_beamblaster_connector.PackageMetaData'
+[2019.01.18-02.26.31:449][835]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Beam_Idle6DB3AAFD4A2F2306CEA823A105A3AEEB.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Models/BeamBlaster_Beam_Idle.uasset'
+[2019.01.18-02.26.31:482][835]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Idle_beamblaster_staF5AA74214AA5BB2DEC336AB5464ADC74.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Models/BeamBlaster_Idle_beamblaster_stand.uasset'
+[2019.01.18-02.26.31:516][835]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Idle_beamblaster_can8144CA874FA62162A0D9579FCE89C4AD.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Models/BeamBlaster_Idle_beamblaster_canon.uasset'
+[2019.01.18-02.26.31:545][835]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Idle_beamblaster_conE25E452F4902CD0537CD60A5D1487861.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Models/BeamBlaster_Idle_beamblaster_connector.uasset'
+[2019.01.18-02.26.31:894][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlasterProjectile_BP" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlasterProjectile_BP.uasset" SILENT=true
+[2019.01.18-02.26.31:932][835]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlasterProjectile_BP7EEEC3074878B7D556AF5E95FE808D77.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlasterProjectile_BP.uasset'
+[2019.01.18-02.26.31:947][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Level1/BeamBlaster_BP" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP.uasset" SILENT=true
+[2019.01.18-02.26.32:006][835]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BPBB1F8D624154177AE201F5BA989EF9B6.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP.uasset'
+[2019.01.18-02.26.40:172][807]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.40:173][807]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left.uasset.
+[2019.01.18-02.26.40:173][807]LoadErrors: Error: /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_canon1
+[2019.01.18-02.26.40:173][807]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.40:173][807]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left.uasset.
+[2019.01.18-02.26.40:174][807]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.40:174][807]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_canon1.beamblaster_canon1 Referenced by BeamBlaster_Lv2_Idle_beamblaster_canon_left
+[2019.01.18-02.26.40:174][807]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.26.40:174][807]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.40:174][807]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.26.40:178][807]LogStaticMesh: Building static mesh BeamBlaster_Lv2_Idle_beamblaster_canon_left...
+[2019.01.18-02.26.40:197][807]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left.BeamBlaster_Lv2_Idle_beamblaster_canon_left
+[2019.01.18-02.26.40:208][807]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left.BeamBlaster_Lv2_Idle_beamblaster_canon_left
+[2019.01.18-02.26.41:167][807]LogRenderer: Reallocating scene render targets to support 1432x964 Format 10 NumSamples 1 (Frame:1).
+[2019.01.18-02.26.41:168][807]LogSlate: Took 0.014745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.18-02.26.59:168][847]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.59:168][847]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right.uasset.
+[2019.01.18-02.26.59:169][847]LoadErrors: Error: /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_canon1
+[2019.01.18-02.26.59:169][847]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.59:169][847]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right.uasset.
+[2019.01.18-02.26.59:169][847]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.59:170][847]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_canon1.beamblaster_canon1 Referenced by BeamBlaster_Lv2_Idle_beamblaster_canon_right
+[2019.01.18-02.26.59:170][847]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.26.59:170][847]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.26.59:170][847]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.26.59:174][847]LogStaticMesh: Building static mesh BeamBlaster_Lv2_Idle_beamblaster_canon_right...
+[2019.01.18-02.26.59:192][847]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right.BeamBlaster_Lv2_Idle_beamblaster_canon_right
+[2019.01.18-02.26.59:202][847]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right.BeamBlaster_Lv2_Idle_beamblaster_canon_right
+[2019.01.18-02.27.04:715][440]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.04:716][440]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector.uasset.
+[2019.01.18-02.27.04:716][440]LoadErrors: Error: /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_stand1
+[2019.01.18-02.27.04:716][440]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.04:716][440]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector.uasset.
+[2019.01.18-02.27.04:717][440]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.04:717][440]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_stand1.beamblaster_stand1 Referenced by BeamBlaster_Lv2_Idle_beamblaster_connector
+[2019.01.18-02.27.04:717][440]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.27.04:717][440]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.04:717][440]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.27.04:720][440]LogStaticMesh: Building static mesh BeamBlaster_Lv2_Idle_beamblaster_connector...
+[2019.01.18-02.27.04:736][440]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector.BeamBlaster_Lv2_Idle_beamblaster_connector
+[2019.01.18-02.27.04:747][440]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector.BeamBlaster_Lv2_Idle_beamblaster_connector
+[2019.01.18-02.27.13:004][256]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.13:004][256]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand.uasset.
+[2019.01.18-02.27.13:004][256]LoadErrors: Error: /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_stand1
+[2019.01.18-02.27.13:004][256]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.13:004][256]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand.uasset.
+[2019.01.18-02.27.13:005][256]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.13:005][256]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_stand1.beamblaster_stand1 Referenced by BeamBlaster_Lv2_Idle_beamblaster_stand
+[2019.01.18-02.27.13:005][256]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.27.13:005][256]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.27.13:005][256]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.27.13:006][256]LogStaticMesh: Building static mesh BeamBlaster_Lv2_Idle_beamblaster_stand...
+[2019.01.18-02.27.13:023][256]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand.BeamBlaster_Lv2_Idle_beamblaster_stand
+[2019.01.18-02.27.13:037][256]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand.BeamBlaster_Lv2_Idle_beamblaster_stand
+[2019.01.18-02.27.29:235][778]LogSlate: Window 'BeamBlaster_Lv2_Idle_beamblaster_stand*' being destroyed
+[2019.01.18-02.27.29:239][778]LogSlate: Window 'BeamBlaster_Lv2_Idle_beamblaster_stand*' being destroyed
+[2019.01.18-02.27.42:070][261]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.42:070][261]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left.uasset.
+[2019.01.18-02.27.42:070][261]LoadErrors: Error: /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_canon1
+[2019.01.18-02.27.42:070][261]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.42:070][261]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left.uasset.
+[2019.01.18-02.27.42:071][261]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.42:071][261]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_canon1.beamblaster_canon1 Referenced by BeamBlaster_Lv3_Idle_beamblaster_canon_left
+[2019.01.18-02.27.42:071][261]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.27.42:071][261]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.42:072][261]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.27.42:075][261]LogStaticMesh: Building static mesh BeamBlaster_Lv3_Idle_beamblaster_canon_left...
+[2019.01.18-02.27.42:093][261]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left.BeamBlaster_Lv3_Idle_beamblaster_canon_left
+[2019.01.18-02.27.42:103][261]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left.BeamBlaster_Lv3_Idle_beamblaster_canon_left
+[2019.01.18-02.27.52:115][377]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.52:116][377]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right.uasset.
+[2019.01.18-02.27.52:116][377]LoadErrors: Error: /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_canon1
+[2019.01.18-02.27.52:116][377]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.52:116][377]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right.uasset.
+[2019.01.18-02.27.52:117][377]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.52:117][377]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_canon1.beamblaster_canon1 Referenced by BeamBlaster_Lv3_Idle_beamblaster_canon_right
+[2019.01.18-02.27.52:117][377]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.27.52:117][377]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.52:117][377]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.27.52:120][377]LogStaticMesh: Building static mesh BeamBlaster_Lv3_Idle_beamblaster_canon_right...
+[2019.01.18-02.27.52:139][377]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right.BeamBlaster_Lv3_Idle_beamblaster_canon_right
+[2019.01.18-02.27.52:150][377]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right.BeamBlaster_Lv3_Idle_beamblaster_canon_right
+[2019.01.18-02.27.56:365][822]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_canon_right*' being destroyed
+[2019.01.18-02.27.56:369][822]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_canon_right*' being destroyed
+[2019.01.18-02.27.57:255][904]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.57:255][904]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top.uasset.
+[2019.01.18-02.27.57:255][904]LoadErrors: Error: /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_canon1
+[2019.01.18-02.27.57:255][904]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.57:255][904]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top.uasset.
+[2019.01.18-02.27.57:256][904]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.57:256][904]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_canon1.beamblaster_canon1 Referenced by BeamBlaster_Lv3_Idle_beamblaster_canon_top
+[2019.01.18-02.27.57:256][904]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.27.57:256][904]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.27.57:257][904]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.27.57:260][904]LogStaticMesh: Building static mesh BeamBlaster_Lv3_Idle_beamblaster_canon_top...
+[2019.01.18-02.27.57:279][904]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top.BeamBlaster_Lv3_Idle_beamblaster_canon_top
+[2019.01.18-02.27.57:290][904]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top.BeamBlaster_Lv3_Idle_beamblaster_canon_top
+[2019.01.18-02.28.03:477][587]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_canon_top*' being destroyed
+[2019.01.18-02.28.03:481][587]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_canon_top*' being destroyed
+[2019.01.18-02.28.04:517][699]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.04:517][699]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector.uasset.
+[2019.01.18-02.28.04:517][699]LoadErrors: Error: /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_stand1
+[2019.01.18-02.28.04:517][699]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.04:517][699]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector.uasset.
+[2019.01.18-02.28.04:518][699]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.04:518][699]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_stand1.beamblaster_stand1 Referenced by BeamBlaster_Lv3_Idle_beamblaster_connector
+[2019.01.18-02.28.04:518][699]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.28.04:518][699]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.04:518][699]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.28.04:521][699]LogStaticMesh: Building static mesh BeamBlaster_Lv3_Idle_beamblaster_connector...
+[2019.01.18-02.28.04:540][699]LogStaticMesh: Built static mesh [0.02s] /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector.BeamBlaster_Lv3_Idle_beamblaster_connector
+[2019.01.18-02.28.04:550][699]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector.BeamBlaster_Lv3_Idle_beamblaster_connector
+[2019.01.18-02.28.07:988][ 56]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_connector*' being destroyed
+[2019.01.18-02.28.07:991][ 56]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_connector*' being destroyed
+[2019.01.18-02.28.08:729][132]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.08:729][132]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand.uasset.
+[2019.01.18-02.28.08:729][132]LoadErrors: Error: /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_stand1
+[2019.01.18-02.28.08:729][132]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.08:729][132]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand.uasset.
+[2019.01.18-02.28.08:730][132]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.08:730][132]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_stand1.beamblaster_stand1 Referenced by BeamBlaster_Lv3_Idle_beamblaster_stand
+[2019.01.18-02.28.08:730][132]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.28.08:731][132]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.28.08:731][132]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.28.08:732][132]LogStaticMesh: Building static mesh BeamBlaster_Lv3_Idle_beamblaster_stand...
+[2019.01.18-02.28.08:741][132]LogStaticMesh: Built static mesh [0.01s] /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand.BeamBlaster_Lv3_Idle_beamblaster_stand
+[2019.01.18-02.28.08:750][132]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand.BeamBlaster_Lv3_Idle_beamblaster_stand
+[2019.01.18-02.28.12:226][494]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_stand*' being destroyed
+[2019.01.18-02.28.12:229][494]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_stand*' being destroyed
+[2019.01.18-02.28.39:503][750]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right.BeamBlaster_Lv3_Idle_beamblaster_canon_right
+[2019.01.18-02.28.48:002][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.28.48:152][748]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_canon_right*' being destroyed
+[2019.01.18-02.28.48:155][748]LogSlate: Window 'BeamBlaster_Lv3_Idle_beamblaster_canon_right*' being destroyed
+[2019.01.18-02.29.41:365][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/TopDownExampleMap_Auto114CBAB2A461CBCCE106C60B083BFA4EA.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2019.01.18-02.29.41:368][935]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.181
+[2019.01.18-02.29.41:368][935]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.181
+[2019.01.18-02.29.41:370][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left] ([1] browsable assets)...
+[2019.01.18-02.29.41:392][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left.BeamBlaster_Lv2_Idle_beamblaster_canon_left]
+[2019.01.18-02.29.41:392][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left]
+[2019.01.18-02.29.41:416][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblasterD426D8F342FA3AB1A5DFF18934EFEF41.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left_Auto1.uasset'
+[2019.01.18-02.29.41:417][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right] ([1] browsable assets)...
+[2019.01.18-02.29.41:434][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right.BeamBlaster_Lv2_Idle_beamblaster_canon_right]
+[2019.01.18-02.29.41:434][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right]
+[2019.01.18-02.29.41:471][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblasterE0901E1C4495D2F6A1F1AEB69AC1D15D.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right_Auto1.uasset'
+[2019.01.18-02.29.41:471][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector] ([1] browsable assets)...
+[2019.01.18-02.29.41:490][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector.BeamBlaster_Lv2_Idle_beamblaster_connector]
+[2019.01.18-02.29.41:490][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector]
+[2019.01.18-02.29.41:513][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblasterD6766275404813015452AC8CA36A4870.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector_Auto1.uasset'
+[2019.01.18-02.29.41:514][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand] ([1] browsable assets)...
+[2019.01.18-02.29.41:534][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand.BeamBlaster_Lv2_Idle_beamblaster_stand]
+[2019.01.18-02.29.41:534][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand]
+[2019.01.18-02.29.41:558][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblaster23309CD64CE968DDD8A0AD9B63E2C6F3.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand_Auto1.uasset'
+[2019.01.18-02.29.41:559][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left] ([1] browsable assets)...
+[2019.01.18-02.29.41:577][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left.BeamBlaster_Lv3_Idle_beamblaster_canon_left]
+[2019.01.18-02.29.41:577][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left]
+[2019.01.18-02.29.41:600][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblasterA57EC574432AACBC4FC300BCA67146DE.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left_Auto1.uasset'
+[2019.01.18-02.29.41:601][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right] ([1] browsable assets)...
+[2019.01.18-02.29.41:618][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right.BeamBlaster_Lv3_Idle_beamblaster_canon_right]
+[2019.01.18-02.29.41:618][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right]
+[2019.01.18-02.29.41:643][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblaster58A328474A73BB3000C19EB7F8246C14.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right_Auto1.uasset'
+[2019.01.18-02.29.41:644][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top] ([1] browsable assets)...
+[2019.01.18-02.29.41:660][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top.BeamBlaster_Lv3_Idle_beamblaster_canon_top]
+[2019.01.18-02.29.41:660][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top]
+[2019.01.18-02.29.41:685][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblasterA2B90DE94E4D48CE88E29BAB6FE23412.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top_Auto1.uasset'
+[2019.01.18-02.29.41:686][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector] ([1] browsable assets)...
+[2019.01.18-02.29.41:706][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector.BeamBlaster_Lv3_Idle_beamblaster_connector]
+[2019.01.18-02.29.41:706][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector]
+[2019.01.18-02.29.41:731][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblaster68960D8F4879060C0CB11582A83B9E96.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector_Auto1.uasset'
+[2019.01.18-02.29.41:732][935]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand] ([1] browsable assets)...
+[2019.01.18-02.29.41:749][935]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand.BeamBlaster_Lv3_Idle_beamblaster_stand]
+[2019.01.18-02.29.41:749][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand]
+[2019.01.18-02.29.41:772][935]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblaster4F6C4FED4F39D5F0E30446BA39491FCC.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand_Auto1.uasset'
+[2019.01.18-02.29.41:773][935]LogFileHelpers: Auto-saving content packages took 0.403
+[2019.01.18-02.29.48:706][639]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP
+[2019.01.18-02.29.49:314][639]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.01.18-02.29.50:190][639]LogSlate: Took 0.022154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.18-02.29.51:748][781]LogSlate: Window 'BeamBlaster_BP' being destroyed
+[2019.01.18-02.29.51:751][781]LogSlate: Window 'BeamBlaster_BP' being destroyed
+[2019.01.18-02.29.56:364][322]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.29.56:364][322]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.uasset.
+[2019.01.18-02.29.56:365][322]LoadErrors: Error: /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_canon1
+[2019.01.18-02.29.56:365][322]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.29.56:365][322]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.uasset.
+[2019.01.18-02.29.56:365][322]LoadErrors: Error: /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot : Can't find file for asset. /Game/BeamBlaster/Material/beamblaster_stand1
+[2019.01.18-02.29.56:367][322]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.29.56:367][322]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.uasset.
+[2019.01.18-02.29.56:367][322]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.29.56:367][322]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.uasset.
+[2019.01.18-02.29.56:368][322]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_canon1'
+[2019.01.18-02.29.56:368][322]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_canon1.beamblaster_canon1 Referenced by BeamBlaster_Lv2_Shoot
+[2019.01.18-02.29.56:368][322]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_canon1' while loading NULL.
+[2019.01.18-02.29.56:369][322]LogLinker: Warning: Can't find file '/Game/BeamBlaster/Material/beamblaster_stand1'
+[2019.01.18-02.29.56:369][322]LoadErrors: Failed to load /Game/BeamBlaster/Material/beamblaster_stand1.beamblaster_stand1 Referenced by BeamBlaster_Lv2_Shoot
+[2019.01.18-02.29.56:369][322]LogLinker: Warning: Can't find file for asset '/Game/BeamBlaster/Material/beamblaster_stand1' while loading NULL.
+[2019.01.18-02.29.56:370][322]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Lv2_Shoot...
+[2019.01.18-02.29.56:372][322]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.BeamBlaster_Lv2_Shoot
+[2019.01.18-02.29.56:379][322]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.BeamBlaster_Lv2_Shoot
+[2019.01.18-02.29.56:443][322]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.18-02.29.56:451][322]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-02.29.56:469][322]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.01.18-02.29.56:518][322]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.18-02.29.56:822][322]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.01.18-02.30.00:431][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.30.33:753][467]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Lv2_Shoot...
+[2019.01.18-02.30.33:755][467]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.BeamBlaster_Lv2_Shoot
+[2019.01.18-02.30.53:980][599]LogSkeletalMesh: Building Skeletal Mesh BeamBlaster_Lv2_Shoot...
+[2019.01.18-02.30.53:982][599]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.BeamBlaster_Lv2_Shoot
+[2019.01.18-02.31.01:517][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.31.01:610][440]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim.BeamBlaster_Lv2_Shoot_Anim
+[2019.01.18-02.31.01:610][440]LogAnimationCompression: Recompressing (AnimSequence /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim.BeamBlaster_Lv2_Shoot_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.18-02.31.01:619][440]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim.BeamBlaster_Lv2_Shoot_Anim
+[2019.01.18-02.31.01:656][440]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-02.31.01:684][440]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.18-02.31.02:025][440]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.18-02.32.28:371][335]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_PhysicsAsset.BeamBlaster_Lv2_Shoot_PhysicsAsset
+[2019.01.18-02.32.28:423][335]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2019.01.18-02.32.28:438][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.01.18-02.32.29:607][438]LogSlate: Window 'BeamBlaster_Lv2_Shoot_PhysicsAsset' being destroyed
+[2019.01.18-02.32.29:611][438]LogSlate: Window 'BeamBlaster_Lv2_Shoot_PhysicsAsset' being destroyed
+[2019.01.18-02.35.14:768][569]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.18-02.35.18:183][569]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.18-02.35.19:159][569]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.01.18-02.35.37:359][747]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP.BeamBlaster_Lv2_Anim_BP
+[2019.01.18-02.35.37:403][747]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-02.35.37:669][747]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.18-02.35.37:990][747]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.18-02.35.49:771][ 40]BlueprintLog: New page: Compile BeamBlaster_Lv2_Anim_BP
+[2019.01.18-02.35.49:774][ 40]LogBlueprint: Warning: [Compiler BeamBlaster_Lv2_Anim_BP] Entry node  New State Machine  is not connected to state
+[2019.01.18-02.35.49:774][ 40]LogBlueprint: Warning: [Compiler BeamBlaster_Lv2_Anim_BP] There was no entry state connection in  New State Machine
+[2019.01.18-02.35.49:939][ 40]LogBlueprint: Warning: [Compiler BeamBlaster_Lv2_Anim_BP] [1004.13] Compile of BeamBlaster_Lv2_Anim_BP successful, but with 2 Warning(s) [in 167 ms] (/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP.BeamBlaster_Lv2_Anim_BP)
+[2019.01.18-02.36.36:152][203]BlueprintLog: New page: Compile BeamBlaster_Lv2_Anim_BP
+[2019.01.18-02.36.36:158][203]LogBlueprint: Warning: [Compiler BeamBlaster_Lv2_Anim_BP] Idle to Shoot  will never be taken, please connect something to  Can Enter Transition
+[2019.01.18-02.36.36:316][203]LogBlueprint: Warning: [Compiler BeamBlaster_Lv2_Anim_BP] [1050.50] Compile of BeamBlaster_Lv2_Anim_BP successful, but with 1 Warning(s) [in 163 ms] (/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP.BeamBlaster_Lv2_Anim_BP)
+[2019.01.18-02.36.46:238][278]BlueprintLog: New page: Compile BeamBlaster_Lv2_Anim_BP
+[2019.01.18-02.36.49:580][637]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim.BeamBlaster_Lv2_Shoot_Anim
+[2019.01.18-02.36.49:587][637]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-02.36.49:616][637]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.18-02.36.49:949][637]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.18-02.37.06:414][509]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.18-02.37.50:024][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.43.49:502][337]BlueprintLog: New page: Compile BeamBlaster_Lv2_Anim_BP
+[2019.01.18-02.46.10:572][708]BlueprintLog: New page: Compile BeamBlaster_Lv2_Anim_BP
+[2019.01.18-02.46.31:726][918]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP
+[2019.01.18-02.46.37:517][262]LogAnimation: Warning: AnimBP BeamBlaster_Anim_BP_C is incompatible with skeleton BeamBlaster_Lv2_Shoot_Skeleton, removing AnimBP from actor.
+[2019.01.18-02.46.37:518][262]LogAnimation: Warning: AnimBP BeamBlaster_Anim_BP_C is incompatible with skeleton BeamBlaster_Lv2_Shoot_Skeleton, removing AnimBP from actor.
+[2019.01.18-02.46.37:520][262]LogAnimation: Warning: AnimBP BeamBlaster_Anim_BP_C is incompatible with skeleton BeamBlaster_Lv2_Shoot_Skeleton, removing AnimBP from actor.
+[2019.01.18-02.46.37:521][262]LogAnimation: Warning: AnimBP BeamBlaster_Anim_BP_C is incompatible with skeleton BeamBlaster_Lv2_Shoot_Skeleton, removing AnimBP from actor.
+[2019.01.18-02.46.37:521][262]LogAnimation: Warning: AnimBP BeamBlaster_Anim_BP_C is incompatible with skeleton BeamBlaster_Lv2_Shoot_Skeleton, removing AnimBP from actor.
+[2019.01.18-02.46.39:159][397]BlueprintLog: New page: Compile BeamBlaster_BP
+[2019.01.18-02.46.47:601][ 64]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.18-02.46.52:364][451]BlueprintLog: New page: Compile BeamBlaster_BP
+[2019.01.18-02.47.24:754][ 85]LogEditorTransaction: Undo Edit Anim Class
+[2019.01.18-02.47.24:940][ 85]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-02.47.24:941][ 85]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-02.48.00:970][708]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.18-02.48.05:734][ 80]BlueprintLog: New page: Compile BeamBlaster_BP
+[2019.01.18-02.48.07:632][232]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.18-02.48.07:661][232]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.48.07:661][232]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.18-02.48.07:667][232]LogPlayLevel: [PlayLevel] Compiling BeamBlasterProjectile_BP before play...
+[2019.01.18-02.48.07:813][232]LogPlayLevel: [PlayLevel] Compiling BeamBlaster_Anim_BP before play...
+[2019.01.18-02.48.07:978][232]LogPlayLevel: PlayLevel: Blueprint regeneration took 316 ms (2 blueprints)
+[2019.01.18-02.48.07:978][232]PIE: New page: PIE session: TopDownExampleMap (Jan 18, 2019, 4:48:07 PM)
+[2019.01.18-02.48.07:978][232]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.18-02.48.07:993][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014580s)
+[2019.01.18-02.48.07:993][232]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.18-02.48.07:993][232]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2019.01.18-02.48.07:993][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015343s)
+[2019.01.18-02.48.08:106][232]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.18-02.48.08:130][232]LogInit: FAudioDevice initialized.
+[2019.01.18-02.48.08:162][232]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.18-02.48.08:164][232]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.18-09.48.08
+[2019.01.18-02.48.08:164][232]LogWorld: Bringing up level for play took: 0.001693
+[2019.01.18-02.48.08:178][232]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.433
+[2019.01.18-02.48.08:178][232]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.48.13:676][888]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.48.13:676][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.48.13:708][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.18-02.48.13:708][888]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.48.13:743][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.48.13:782][890]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.01.18-02.48.34:759][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.48.34:878][653]LogSlate: Window 'BeamBlaster_BP*' being destroyed
+[2019.01.18-02.48.34:883][653]LogSlate: Window 'BeamBlaster_BP*' being destroyed
+[2019.01.18-02.48.56:235][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.01.18-02.48.58:763][289]LogEditorViewport: Clicking on Actor (LMB): BeamBlaster_BP_C (BeamBlaster_BP)
+[2019.01.18-02.49.00:553][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.49.00:634][505]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP
+[2019.01.18-02.49.16:423][940]BlueprintLog: New page: Compile BeamBlaster_BP
+[2019.01.18-02.49.18:753][161]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.18-02.49.18:769][161]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.49.18:769][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.18-02.49.18:769][161]PIE: New page: PIE session: TopDownExampleMap (Jan 18, 2019, 4:49:18 PM)
+[2019.01.18-02.49.18:769][161]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.18-02.49.18:783][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014016s)
+[2019.01.18-02.49.18:784][161]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.18-02.49.18:784][161]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2019.01.18-02.49.18:784][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.014764s)
+[2019.01.18-02.49.18:886][161]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.18-02.49.18:908][161]LogInit: FAudioDevice initialized.
+[2019.01.18-02.49.18:937][161]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.18-02.49.18:939][161]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.18-09.49.18
+[2019.01.18-02.49.18:940][161]LogWorld: Bringing up level for play took: 0.001906
+[2019.01.18-02.49.18:953][161]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.209
+[2019.01.18-02.49.18:954][161]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.49.25:320][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.49.25:320][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.49.25:352][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.18-02.49.25:353][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.18-02.49.25:383][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-02.49.25:426][886]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.01.18-02.49.50:395][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-02.50.32:410][226]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/TopDownExampleMap_Auto22524EC1B40659E9E52CFF192445E3036.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2019.01.18-02.50.32:413][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.560
+[2019.01.18-02.50.32:413][226]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.560
+[2019.01.18-02.50.32:415][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level1/BeamBlaster_BP] ([1] browsable assets)...
+[2019.01.18-02.50.32:428][226]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BeamBlaster/Level1/BeamBlaster_BP.BeamBlaster_BP]
+[2019.01.18-02.50.32:428][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level1/BeamBlaster_BP]
+[2019.01.18-02.50.32:498][226]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BP_Auto239DE26464D7A0DE3A30EB093299FB708.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level1/BeamBlaster_BP_Auto2.uasset'
+[2019.01.18-02.50.32:499][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot] ([1] browsable assets)...
+[2019.01.18-02.50.32:513][226]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.BeamBlaster_Lv2_Shoot]
+[2019.01.18-02.50.32:513][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot]
+[2019.01.18-02.50.32:550][226]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Shoot_Auto20C7F375945D82F543AA6D188CBCFB7C9.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Auto2.uasset'
+[2019.01.18-02.50.32:551][226]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Skeleton] ([1] browsable assets)...
+[2019.01.18-02.50.32:551][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Skeleton]
+[2019.01.18-02.50.32:561][226]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Shoot_Skeleton_ADDCD55E6408802ED386CF994D9CA541D.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Skeleton_Auto2.uasset'
+[2019.01.18-02.50.32:562][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim] ([1] browsable assets)...
+[2019.01.18-02.50.32:576][226]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim.BeamBlaster_Lv2_Shoot_Anim]
+[2019.01.18-02.50.32:576][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim]
+[2019.01.18-02.50.32:600][226]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Shoot_Anim_Auto20A79FB7F45FF0E9A032FAAAD03B4958D.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim_Auto2.uasset'
+[2019.01.18-02.50.32:601][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP] ([1] browsable assets)...
+[2019.01.18-02.50.32:614][226]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP.BeamBlaster_Lv2_Anim_BP]
+[2019.01.18-02.50.32:614][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP]
+[2019.01.18-02.50.32:653][226]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Anim_BP_Auto232B535344B7837CF35E1B0A95BA7AB78.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP_Auto2.uasset'
+[2019.01.18-02.50.32:654][226]LogFileHelpers: Auto-saving content packages took 0.239
+[2019.01.18-02.52.01:153][168]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.18-02.52.19:750][391]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2_C' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.SKEL_BeamBlaster_BP2_C' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:486][980]LogMetaData: Removing '/Game/BeamBlaster/Level1/BeamBlaster_BP2.BeamBlaster_BP2:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BeamBlaster/Level1/BeamBlaster_BP.PackageMetaData'
+[2019.01.18-02.52.29:518][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/Level1/BeamBlaster_BP2" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP2.uasset" SILENT=true
+[2019.01.18-02.52.29:576][980]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BP2DCEFC12A479F5BF952EC62800CC5C31F.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/BeamBlaster_BP2.uasset'
+[2019.01.18-02.52.29:854][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_BP" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP.uasset" SILENT=true
+[2019.01.18-02.52.29:865][980]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BPFD82634448663642735F57AD9B25F5E4.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP.uasset'
+[2019.01.18-02.52.29:921][980]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Anim_BPA74761964A82A5EBD3AE50A49DFD8700.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level1/Animations/BeamBlaster_Anim_BP.uasset'
+[2019.01.18-02.52.44:258][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/TopDownExampleMap03DE701D46063EEEA9B03C857A0170DE.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.18-02.52.44:295][652]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.276
+[2019.01.18-02.52.44:316][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblasterAE3EA1A244DD2EA71869FFB53FD9E1AC.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_left.uasset'
+[2019.01.18-02.52.44:341][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblaster5DC267A048544BBF42BC01B05EF31068.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_canon_right.uasset'
+[2019.01.18-02.52.44:364][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblaster72B27FED4773BF41D1287FA7592A2274.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_connector.uasset'
+[2019.01.18-02.52.44:386][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Idle_beamblaster0A71D77849117D0FB4C8569B09C9CBC0.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Models/BeamBlaster_Lv2_Idle_beamblaster_stand.uasset'
+[2019.01.18-02.52.44:410][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblasterA5350C554EA7DD191C72979F996A640A.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_left.uasset'
+[2019.01.18-02.52.44:437][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblasterF2FF17B3409FD99C25BDA495D0278D4A.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_right.uasset'
+[2019.01.18-02.52.44:463][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblasterFA5BE04E48C2DB64DE69A1B4B63D03D1.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_canon_top.uasset'
+[2019.01.18-02.52.44:488][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblasterBB003B044900637CD25ED3AECE343532.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_connector.uasset'
+[2019.01.18-02.52.44:511][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv3_Idle_beamblasterDEC269064A7F036E79080592A9CBBF0F.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level3/Models/BeamBlaster_Lv3_Idle_beamblaster_stand.uasset'
+[2019.01.18-02.52.44:532][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_ShootA358A943451D11EEBE1072B5208EFB40.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot.uasset'
+[2019.01.18-02.52.44:539][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeamBlaster/BeamBlaster_BP1" FILE="H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP1.uasset" SILENT=true
+[2019.01.18-02.52.44:551][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BP1913A660340ACB88872EB26B46E3127E5.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/BeamBlaster_BP1.uasset'
+[2019.01.18-02.52.44:564][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Shoot_Skeleton80CAF34944FB3C187843BCAC1205AB81.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Skeleton.uasset'
+[2019.01.18-02.52.44:583][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Shoot_Anim01A67C1E421583DBA68C8ABD6CD61D33.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Shoot_Anim.uasset'
+[2019.01.18-02.52.44:638][652]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_Anim_BP5DA579BC4D2CEFD9DC523BBA1A809004.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Content/BeamBlaster/Level2/Animations/BeamBlaster_Lv2_Anim_BP.uasset'
+[2019.01.18-02.53.04:624][179]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.18-02.54.01:659][738]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BeamBlaster/Level2/BeamBlaster_Lv2_BP.BeamBlaster_Lv2_BP
+[2019.01.18-02.54.38:374][598]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1
+[2019.01.18-02.54.59:393][ 33]LogSlate: Took 0.021947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.18-02.56.07:345][621]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-02.57.14:835][752]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-02.57.14:847][752]LogBlueprint: Warning: [Compiler BeamBlaster_BP1] Could not find a variable named "TriggerVolume" in 'BeamBlaster_BP1_C'.
+Make sure 'BeamBlaster_BP1_C' has been compiled for  Get TriggerVolume
+[2019.01.18-02.57.14:848][752]LogBlueprint: Error: [Compiler BeamBlaster_BP1] The property associated with  Trigger Volume  could not be found in '/Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1_C'
+[2019.01.18-02.57.15:044][752]LogBlueprint: Warning: [Compiler BeamBlaster_BP1] [2289.23] Compile of BeamBlaster_BP1 failed. 1 Fatal Issue(s) 1 Warning(s) [in 208 ms] (/Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1)
+[2019.01.18-02.58.42:421][617]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.01.48:193][359]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.02.10:066][876]LogEditorTransaction: Undo Add Node
+[2019.01.18-03.02.10:066][876]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.01.18-03.02.11:721][876]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.655 s
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: === Handled ensure: ===
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: 
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 475]
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'execute' on node 'Parent: ActorBeginOverlap' not reciprocally linked with pin 'then' on node 'Event None'
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: Stack: 
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffb86908d5f UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffb8695c921 UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffb8695b17c UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9dc68908 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9dcb3137 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9dcb3b35 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba079757e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba07830b4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba0759e1e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba079f62c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba073717f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9faa0fe8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91a206f UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91e4c8e UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba0fb6bee UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba0fa4b88 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba916694c UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91e697c UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91d9a36 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad33daa4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad330de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad3401eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad32ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfd78ca66 USER32.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfd78c582 USER32.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad341746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e885546 UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e89596c UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e8959ea UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e8a48da UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.11:721][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e8a659a UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.11:722][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfbac7e94 KERNEL32.DLL!UnknownFunction []
+[2019.01.18-03.02.11:722][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfe3aa251 ntdll.dll!UnknownFunction []
+[2019.01.18-03.02.11:722][876]LogOutputDevice: Error: 
+[2019.01.18-03.02.11:732][876]LogStats:                SubmitErrorReport -  0.000 s
+[2019.01.18-03.02.12:636][876]LogStats:                    SendNewReport -  0.904 s
+[2019.01.18-03.02.12:636][876]LogStats:             FDebug::EnsureFailed -  2.570 s
+[2019.01.18-03.02.12:636][876]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.01.18-03.02.12:637][876]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: === Handled ensure: ===
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: 
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 475]
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'OtherActor' on node 'Parent: ActorBeginOverlap' not reciprocally linked with pin 'OtherActor' on node 'Event None'
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: Stack: 
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffb86908d5f UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffb8695c921 UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffb8695b17c UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9dc68908 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9dcb3137 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9dcb3b35 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffba079757e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffba07830b4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffba0759e1e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffba079f62c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.12:637][876]LogOutputDevice: Error: [Callstack] 0x00007ffba073717f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffb9faa0fe8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91a206f UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91e4c8e UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffba0fb6bee UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffba0fa4b88 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffba916694c UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91e697c UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffba91d9a36 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad33daa4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad330de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad3401eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad32ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfd78ca66 USER32.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfd78c582 USER32.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbad341746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e885546 UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e89596c UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e8959ea UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e8a48da UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ff79e8a659a UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfbac7e94 KERNEL32.DLL!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: [Callstack] 0x00007ffbfe3aa251 ntdll.dll!UnknownFunction []
+[2019.01.18-03.02.12:638][876]LogOutputDevice: Error: 
+[2019.01.18-03.02.12:644][876]LogStats:                SubmitErrorReport -  0.000 s
+[2019.01.18-03.02.13:456][876]LogStats:                    SendNewReport -  0.812 s
+[2019.01.18-03.02.13:456][876]LogStats:             FDebug::EnsureFailed -  0.819 s
+[2019.01.18-03.02.13:470][876]LogEditorTransaction: Undo Delete current selection
+[2019.01.18-03.02.21:166][761]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.03.47:370][395]BlueprintLog: New page: Compile BeamBlaster_Lv2_BP
+[2019.01.18-03.05.33:627][674]BlueprintLog: New page: Compile BeamBlaster_Lv2_BP
+[2019.01.18-03.07.26:230][495]LogSlate: Window 'Delete Variable' being destroyed
+[2019.01.18-03.08.13:768][580]BlueprintLog: New page: Compile BeamBlaster_Lv2_BP
+[2019.01.18-03.08.37:647][198]LogEditorTransaction: Undo Delete current selection
+[2019.01.18-03.09.19:588][910]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SSCSTreeType [SSCSEditor.cpp(3464)].
+[2019.01.18-03.09.19:646][910]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.032
+[2019.01.18-03.09.19:647][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BeamBlaster/Level2/BeamBlaster_Lv2_BP] ([1] browsable assets)...
+[2019.01.18-03.09.19:647][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level2/BeamBlaster_Lv2_BP]
+[2019.01.18-03.09.19:668][910]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_Lv2_BP_Auto3EE6DFA974E4F26171EF5D48AEA35837A.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level2/BeamBlaster_Lv2_BP_Auto3.uasset'
+[2019.01.18-03.09.19:669][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BeamBlaster/Level1/BeamBlaster_BP2] ([1] browsable assets)...
+[2019.01.18-03.09.19:669][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/Level1/BeamBlaster_BP2]
+[2019.01.18-03.09.19:730][910]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BP2_Auto350538C784CA5FE55A9D84AB754E0793D.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/Level1/BeamBlaster_BP2_Auto3.uasset'
+[2019.01.18-03.09.19:730][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BeamBlaster/BeamBlaster_BP1] ([1] browsable assets)...
+[2019.01.18-03.09.19:730][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/BeamBlaster/BeamBlaster_BP1]
+[2019.01.18-03.09.19:761][910]LogSavePackage: Moving 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/BeamBlaster_BP1_Auto3CF8ACBE04411A1E4C2E095A16885CB4A.tmp' to 'H:/Project Game/Tower-Defense-1/Duong/TestV1/Saved/Autosaves/Game/BeamBlaster/BeamBlaster_BP1_Auto3.uasset'
+[2019.01.18-03.09.19:762][910]LogFileHelpers: Auto-saving content packages took 0.115
+[2019.01.18-03.09.36:629][588]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.09.36:646][588]LogBlueprint: Error: [Compiler BeamBlaster_BP1] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2019.01.18-03.09.36:814][588]LogBlueprint: Warning: [Compiler BeamBlaster_BP1] [3031.00] Compile of BeamBlaster_BP1 failed. 1 Fatal Issue(s) 0 Warning(s) [in 184 ms] (/Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1)
+[2019.01.18-03.09.47:873][760]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.10.22:132][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-03.11.18:867][  1]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.12.30:958][280]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.12.44:824][663]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.18-03.12.44:832][663]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.18-03.12.47:701][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-03.12.47:773][966]BlueprintLog: New page: Compile BeamBlaster_Lv2_BP
+[2019.01.18-03.12.57:572][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-03.13.56:913][127]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.14.45:028][278]LogEditorTransaction: Undo Move Node
+[2019.01.18-03.14.45:437][305]LogEditorTransaction: Undo Move Node
+[2019.01.18-03.14.45:902][345]LogEditorTransaction: Undo Move Node
+[2019.01.18-03.14.46:343][385]LogEditorTransaction: Undo Move Nodes
+[2019.01.18-03.14.47:001][447]LogEditorTransaction: Undo Paste clipboard contents
+[2019.01.18-03.14.48:458][610]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_1 or K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_1
+[2019.01.18-03.14.48:458][610]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_3 or K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_3
+[2019.01.18-03.14.48:459][610]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.EdGraphNode_Comment_3 or EdGraphNode_Comment /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.EdGraphNode_Comment_3
+[2019.01.18-03.14.48:459][610]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_1 or K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_1
+[2019.01.18-03.14.50:363][811]LogEditorTransaction: Undo Paste clipboard contents
+[2019.01.18-03.14.51:896][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_3 or K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_3
+[2019.01.18-03.14.51:897][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_MacroInstance /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_MacroInstance_4 or K2Node_MacroInstance /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_MacroInstance_4
+[2019.01.18-03.14.51:897][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_7 or K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_7
+[2019.01.18-03.14.51:897][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_1 or K2Node_VariableSet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableSet_1
+[2019.01.18-03.14.51:897][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_IfThenElse /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_IfThenElse_4 or K2Node_IfThenElse /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_IfThenElse_4
+[2019.01.18-03.14.51:897][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_CallFunction_36 or K2Node_CallFunction /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_CallFunction_36
+[2019.01.18-03.14.51:897][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_CallFunction_4
+[2019.01.18-03.14.51:898][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_3 or K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_3
+[2019.01.18-03.14.51:898][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_IfThenElse /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_IfThenElse_8 or K2Node_IfThenElse /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_IfThenElse_8
+[2019.01.18-03.14.51:898][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_CallFunction_25
+[2019.01.18-03.14.51:898][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_21 or K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_21
+[2019.01.18-03.14.51:898][976]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.EdGraphNode_Comment_3 or EdGraphNode_Comment /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.EdGraphNode_Comment_3
+[2019.01.18-03.14.51:898][976]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_1 or K2Node_VariableGet /Game/BeamBlaster/BeamBlaster_BP1.BeamBlaster_BP1:EventGraph.K2Node_VariableGet_1
+[2019.01.18-03.15.21:702][  6]BlueprintLog: New page: Compile BeamBlaster_BP1
+[2019.01.18-03.15.51:184][178]Cmd: TRANSACTION UNDO
+[2019.01.18-03.15.51:184][178]LogEditorTransaction: Undo Create Actors
+[2019.01.18-03.15.51:186][178]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.01.18-03.15.51:498][178]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.312 s
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: === Handled ensure: ===
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: 
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2105]
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: 
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: Stack: 
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffb86958508 UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba06dfd42 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba070ac06 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba06f131c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba075b337 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba079f63f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba073717f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba06f0a5c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba06ea696 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba0ff0a03 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffb71a9773e UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffb71a97b5e UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba91a206f UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba91e4c8e UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffb71aa7562 UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffb71a975e9 UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba91e69f9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffba91d9a36 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffbad33daa4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffbad330de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.15.51:498][178]LogOutputDevice: Error: [Callstack] 0x00007ffbad3401eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ffbad32ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ffbfd78ca66 USER32.dll!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ffbfd78c582 USER32.dll!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ffbad341746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ff79e885546 UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ff79e89596c UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ff79e8959ea UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ff79e8a48da UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ff79e8a659a UE4Editor.exe!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ffbfbac7e94 KERNEL32.DLL!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: [Callstack] 0x00007ffbfe3aa251 ntdll.dll!UnknownFunction []
+[2019.01.18-03.15.51:499][178]LogOutputDevice: Error: 
+[2019.01.18-03.15.51:502][178]LogStats:                SubmitErrorReport -  0.000 s
