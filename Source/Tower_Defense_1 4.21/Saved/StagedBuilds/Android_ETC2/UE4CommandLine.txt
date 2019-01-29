@@ -1,0 +1,1 @@
+../../../Tower_Defense_1/Tower_Defense_1.uproject  /Game/Landscapes/1-1 -Messaging -SessionId=FC1CD6884854533F5106EEB5CBC813EF -SessionOwner="duong" -SessionName="Launch On Device" -iterative
