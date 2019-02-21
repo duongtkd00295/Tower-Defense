@@ -71,16 +71,19 @@ Content/*
 
 *.VC.opendb
 *.VC.db
-Source/Tower_Defense_1 4.21/Saved/AutoScreenshot.png
-Source/Tower_Defense_1 4.21/Saved/AutoScreenshot.png
-Source/Tower_Defense_1 4.21/Intermediate/CachedAssetRegistry.bin
-Source/Tower_Defense_1 4.21/Saved/Logs/Tower_Defense_1.log
-Source/Tower_Defense_1 4.21/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-/Source/Tower_Defense_1 4.21/Saved/Logs
-/Source/Tower_Defense_1 4.21/Saved/Autosaves
-/Source/Tower_Defense_1 4.21/Saved
-/Source/Tower_Defense_1 4.21/Intermediate/CachedAssetRegistry.bin
-/Source/Tower_Defense_1 4.21/Saved/AutoScreenshot.png
-/Source/Tower_Defense_1 4.21/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-/Source/Tower_Defense_1 4.21/Saved/Logs/Tower_Defense_1.log
-/Source/Tower_Defense_1 4.21/Saved/Logs/Tower_Defense_1-backup-2019.02.04-06.55.25.log
+/Source/Saved/AutoScreenshot.png
+/Source/Saved/AutoScreenshot.png
+/Source/Intermediate/CachedAssetRegistry.bin
+/Source/Saved/Logs/Tower_Defense_1.log
+/Source/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+/Source/Saved/Logs
+/Source/Saved/Autosaves
+/Source/Saved
+/Source/Binaries
+/Source/Intermediate
+/Source/Build
+/Source/Intermediate/CachedAssetRegistry.bin
+/Source/Saved/AutoScreenshot.png
+/Source/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+/Source/Saved/Logs/Tower_Defense_1.log
+/Source/Saved/Logs/Tower_Defense_1-backup-2019.02.04-06.55.25.log
