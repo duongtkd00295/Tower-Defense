@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Storm Worm.ma
-//Last modified: Wed, Mar 27, 2019 10:47:31 PM
+//Name: Storm Worm Rigging.ma
+//Last modified: Tue, Apr 02, 2019 09:40:39 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -32,7 +32,7 @@ createNode camera -s -n "perspShape" -p "persp";
 createNode transform -s -n "top";
 	rename -uid "34D7FAF3-4D54-03DC-FC0C-33B804CE6EE3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0 734.87212718041167 1.1781798626986363e-013 ;
+	setAttr ".t" -type "double3" 172.82984253653956 734.87212718041167 -1.8665980868452061 ;
 	setAttr ".r" -type "double3" -89.999999999999986 0 0 ;
 createNode camera -s -n "topShape" -p "top";
 	rename -uid "E2493B20-4A50-F9D8-3655-B4AFCF700C42";
@@ -42,7 +42,7 @@ createNode camera -s -n "topShape" -p "top";
 	setAttr ".fcp" 1000000;
 	setAttr ".fd" 0.05;
 	setAttr ".coi" 530.60503733666144;
-	setAttr ".ow" 497.94164481026786;
+	setAttr ".ow" 392.33099422558786;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
 	setAttr ".man" -type "string" "top_mask";
@@ -52,7 +52,7 @@ createNode camera -s -n "topShape" -p "top";
 createNode transform -s -n "front";
 	rename -uid "562AA1E7-42F7-E9D0-808B-7C805A37E8C7";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0 204.26708984375 453.84851154373507 ;
+	setAttr ".t" -type "double3" 115.00891984918439 284.57605677248739 453.84851154373507 ;
 createNode camera -s -n "frontShape" -p "front";
 	rename -uid "2DAEA162-486C-DAAA-1374-89A9F6E954CB";
 	setAttr -k off ".v";
@@ -61,7 +61,7 @@ createNode camera -s -n "frontShape" -p "front";
 	setAttr ".fcp" 1000000;
 	setAttr ".fd" 0.05;
 	setAttr ".coi" 453.84851154373507;
-	setAttr ".ow" 647.55716243003735;
+	setAttr ".ow" 195.95328172303155;
 	setAttr ".imn" -type "string" "front";
 	setAttr ".den" -type "string" "front_depth";
 	setAttr ".man" -type "string" "front_mask";
@@ -71,7 +71,7 @@ createNode camera -s -n "frontShape" -p "front";
 createNode transform -s -n "side";
 	rename -uid "93F8AA26-4544-8240-D43C-6990A936CFF4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 537.21034031400029 204.26708984375 1.1928466027433249e-013 ;
+	setAttr ".t" -type "double3" 537.21034031400029 283.53894119821967 24.044542590929311 ;
 	setAttr ".r" -type "double3" 0 89.999999999999986 0 ;
 createNode camera -s -n "sideShape" -p "side";
 	rename -uid "939DA587-4AB7-664C-4F34-96B51420C427";
@@ -81,7 +81,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".fcp" 1000000;
 	setAttr ".fd" 0.05;
 	setAttr ".coi" 537.21034031400018;
-	setAttr ".ow" 646.33765741604475;
+	setAttr ".ow" 401.24330448613074;
 	setAttr ".imn" -type "string" "side";
 	setAttr ".den" -type "string" "side_depth";
 	setAttr ".man" -type "string" "side_mask";
@@ -91,20 +91,20 @@ createNode camera -s -n "sideShape" -p "side";
 createNode transform -n "camera1";
 	rename -uid "89F5F4AD-41AB-B08F-FED8-9A860AD0B949";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 433.11077079788367 306.78152599992808 481.01824235732317 ;
-	setAttr ".r" -type "double3" -8.9996825061717125 -3558.0000000000391 5.3498230970968247e-016 ;
+	setAttr ".t" -type "double3" 159.24345451808151 534.07785323703149 601.09439361748196 ;
+	setAttr ".r" -type "double3" -22.199216848349234 -3588.3999999998236 4.058589019534746e-016 ;
 createNode camera -n "cameraShape1" -p "camera1";
 	rename -uid "1AC043C2-4B88-14EF-AA82-A181974D8E66";
 	setAttr -k off ".v";
 	setAttr ".rnd" no;
 	setAttr ".cap" -type "double2" 1.4173 0.9449 ;
 	setAttr ".ff" 0;
-	setAttr ".coi" 655.34166575989491;
+	setAttr ".coi" 713.22739145460753;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
 	setAttr ".man" -type "string" "camera1_mask";
-	setAttr ".tp" -type "double3" 0 20426.708984375 0 ;
+	setAttr ".tp" -type "double3" 2415.4142638301782 19379.788741410695 1.8189894035458565e-012 ;
 createNode transform -n "StormWorm_Geo";
 	rename -uid "E0611FA2-45DC-A510-036D-BB8A50F88239";
 createNode mesh -n "StormWorm_GeoShape" -p "StormWorm_Geo";
@@ -6161,63 +6161,1086 @@ createNode mesh -n "StormWorm_GeoShape" -p "StormWorm_Geo";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".bw" 3;
-createNode joint -n "joint1";
+createNode transform -n "StormWorm_Controller_Skeleton_grp";
+	rename -uid "3A240DB4-4734-D3CB-1F4D-3BB1AB5B49F7";
+	setAttr ".v" no;
+createNode joint -n "StormWorm_Head_Joint" -p "StormWorm_Controller_Skeleton_grp";
 	rename -uid "05A95133-4788-DCC0-8626-D49C66A29A2E";
-	setAttr ".t" -type "double3" 58.207385386969648 301.88572575314709 0 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
 	setAttr ".radi" 2500;
-createNode joint -n "joint2" -p "joint1";
+createNode joint -n "StormWorm_Spine1_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
 	rename -uid "78BFBF51-478E-6F87-63FC-67B484405497";
 	setAttr ".t" -type "double3" 111.99992556000153 9.0949470177292826e-015 -1.3716035034179771e-014 ;
+	setAttr ".r" -type "double3" -1.9011378570526376e-030 -7.625402589565393e-031 2.246520615026409e-014 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" 180 4.8487058054608981e-015 -46.28887642034951 ;
 	setAttr ".radi" 2500;
-createNode joint -n "joint3" -p "joint2";
+createNode joint -n "StormWorm_Spine2_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint";
 	rename -uid "CB42F63A-4755-A666-BF75-F79B181D40B7";
 	setAttr ".t" -type "double3" 103.29113395511828 9.094947017729281e-015 8.7411031862559346e-015 ;
+	setAttr ".r" -type "double3" 3.6781621638127253e-030 -8.6340395481575671e-030 4.9344343313027696e-014 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 180 -4.270867828036049e-015 -13.307417008212367 ;
+	setAttr ".jo" -type "double3" 180 -4.2708678280360483e-015 -13.307417008212367 ;
 	setAttr ".radi" 2500;
-createNode joint -n "joint4" -p "joint3";
+createNode joint -n "StormWorm_Spine3_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint";
 	rename -uid "583443F9-457B-3F57-6DDD-DB8033D08279";
 	setAttr ".t" -type "double3" 79.943234404826512 -4.5474735088646405e-015 -5.9590250938249335e-015 ;
+	setAttr ".r" -type "double3" -1.6372308491520724e-029 2.5529471780558061e-031 8.6093920864573393e-014 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" -1.6767746086953203e-014 -1.0895823631100758e-014 
+	setAttr ".jo" -type "double3" -1.6767746086953203e-014 -1.0895823631100761e-014 
 		113.96769425104192 ;
 	setAttr ".radi" 2500;
-createNode joint -n "joint5" -p "joint4";
+createNode joint -n "StormWorm_Spine4_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint";
 	rename -uid "95C3E453-4DD5-7EAB-0B02-21B3F508285E";
 	setAttr ".t" -type "double3" 82.232775691772829 -1.8189894035458565e-014 1.5638042247576787e-014 ;
+	setAttr ".r" -type "double3" -2.6365572458069441e-031 1.917771304805205e-030 -1.017823676502462e-014 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" -1.729220824921659e-015 1.4841824386368434e-015 -98.721312546342702 ;
 	setAttr ".radi" 2500;
-createNode joint -n "joint6" -p "joint5";
+createNode joint -n "StormWorm_Tail_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint";
 	rename -uid "BC2ADE18-436B-894F-BF26-DAAC41FFC853";
-	setAttr ".t" -type "double3" 63.479273466152058 2.7284841053187846e-014 -1.6443588637165951e-015 ;
+	setAttr ".t" -type "double3" 63.479273466152065 2.7284841053187846e-014 -1.6443588637165951e-015 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" 0 180 65.148414140287784 ;
 	setAttr ".radi" 2500;
+createNode ikEffector -n "effector1" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint";
+	rename -uid "2D983442-4545-2049-EE40-BC975B2BFDF7";
+	setAttr ".v" no;
+	setAttr ".hd" yes;
+createNode joint -n "StormWorm_Right_Ear_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "815C230B-44F4-CB42-51D6-B8A505960AF2";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Right_Ear_Joint_parentConstraint2" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint";
+	rename -uid "A389EB6D-4024-DEB8-8CEF-9682132B7B84";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Right_Ear_CtrlW0" -dv 1 
+		-min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -2.1105443011038006e-008 -7.8416269388981172e-009 
+		3.1411764211952688e-009 ;
+	setAttr ".rst" -type "double3" -12.751736862411853 -23.219936901817384 -80.398939288419498 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Right_Eye_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "EE0C97A1-46B4-29B1-34A9-2F8DD47604F9";
+	setAttr ".t" -type "double3" -58.089546396411016 -38.126028697863333 -49.967565071774743 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode aimConstraint -n "StormWorm_Right_Eye_Joint_aimConstraint1" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint";
+	rename -uid "E09DB3EF-49DF-E6CE-77C1-C082AADA1306";
+	addAttr -dcb 0 -ci true -sn "w0" -ln "StormWorm_Right_Eye_AimW0" -dv 1 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".rsrr" -type "double3" 0.18232180658755068 6.0073701602730258 1.7415684376971647 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Right_Wing_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "1A613D02-45D7-D5E0-1D6E-529BCA994AF4";
+	setAttr ".t" -type "double3" -33.508983883793562 24.704622082016314 -63.868316257155684 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode orientConstraint -n "StormWorm_Right_Wing_Joint_orientConstraint1" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint";
+	rename -uid "06F8C6D1-40E3-020D-98FD-8C87589A8D3B";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Right_Wing_CtrlW0" -dv 
+		1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Left_Ear_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "5D15830B-45F7-FF82-799A-E59945115483";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" -180 1.6513188412760681e-014 47.413336432849938 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Left_Ear_Joint_parentConstraint2" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint";
+	rename -uid "BC638022-4641-E6E6-5053-E7980C2C27E9";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Left_Ear_CtrlW0" -dv 1 
+		-min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -3.3569376682862638e-008 1.5258701751008629e-008 
+		-6.1035007092868908e-009 ;
+	setAttr ".tg[0].tor" -type "double3" 7.0167092985348791e-015 -7.0167092985348775e-015 
+		179.99999999999997 ;
+	setAttr ".lr" -type "double3" -7.0167092985348807e-015 7.0167092985348752e-015 -1.2722218725854064e-014 ;
+	setAttr ".rst" -type "double3" -12.751559856391687 -23.220058331733 80.3989 ;
+	setAttr ".rsrr" -type "double3" -7.0167092985348807e-015 7.0167092985348752e-015 
+		-1.2722218725854064e-014 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Left_Eye_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "47B7AE61-44A3-14D5-0DE6-C085F6F40858";
+	setAttr ".t" -type "double3" -58.08906640269597 -38.126043077928827 49.9676 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" -180 1.6513188412760681e-014 47.413336432849938 ;
+	setAttr ".radi" 1000;
+createNode aimConstraint -n "StormWorm_Left_Eye_Joint_aimConstraint1" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint";
+	rename -uid "52EEAB39-4093-9CF5-CF94-E3BF1DA7FB69";
+	addAttr -dcb 0 -ci true -sn "w0" -ln "StormWorm_Left_Eye_AimW0" -dv 1 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".rsrr" -type "double3" -0.18241802228539505 -6.007949214281048 -178.25768027821761 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Left_Wing_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "9793D278-4E17-5D41-9C6C-A0AE7A1323F1";
+	setAttr ".t" -type "double3" -33.509292532683432 24.704874863312909 63.8683 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" -180 1.6513188412760681e-014 47.413336432849938 ;
+	setAttr ".radi" 1000;
+createNode orientConstraint -n "StormWorm_Left_Wing_Joint_orientConstraint1" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint";
+	rename -uid "3B20F093-446F-1DF5-9DC8-D4BA5EF6DCF4";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Left_Wing_CtrlW0" -dv 1 
+		-min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".lr" -type "double3" 7.0167092985348775e-015 -7.0167092985348791e-015 180 ;
+	setAttr ".o" -type "double3" 0 0 -180 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Tongue_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "71266737-4275-9581-2600-AE88A80ADAAD";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Tongue_Joint_parentConstraint2" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint";
+	rename -uid "4FE0E02D-43B1-CB9F-EE26-EC88994A371A";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Tongue_CtrlW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -3.5809407563647256e-008 -2.4002511054277421e-008 
+		-8.0779356694631611e-030 ;
+	setAttr ".rst" -type "double3" -40.776680012833715 -104.48045336208548 4.1373491136674412e-014 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Lower_Jaw_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "2FC9D207-48AA-322C-6511-DFB186C75025";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Lower_Jaw_Joint_parentConstraint2" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint";
+	rename -uid "BE79876F-46AB-9AE8-9C31-6CBD70544DE1";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Lower_Jaw_CtrlW0" -dv 1 
+		-min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -6.6007232817355544e-008 3.5953744372818617e-008 
+		2.7112868989878817e-030 ;
+	setAttr ".rst" -type "double3" -20.358471545322281 -124.34814962127899 2.4931937013511498e-015 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Upper_Jaw_Joint" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "75B2E58D-4775-BF6D-F49C-58A3038C657C";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Upper_Jaw_Joint_parentConstraint2" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint";
+	rename -uid "40679A3F-4DF7-ADD8-FF0F-85B327AAA55B";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Upper_Jaw_CtrlW0" -dv 1 
+		-min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -4.4539046939462422e-009 4.5180640881881117e-008 
+		3.7210288576707756e-030 ;
+	setAttr ".rst" -type "double3" -78.33597600158329 -99.629647066669605 9.5933902268423084e-015 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "StormWorm_Head_Joint_parentConstraint2" -p "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "4FD5177A-4996-2C8A-6234-AF9A2F4A434F";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Head_CtrlW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.9524504750734197e-008 4.5139204303268345e-008 
+		0 ;
+	setAttr ".tg[0].tor" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".rst" -type "double3" 58.207385386969634 301.88572575314709 0 ;
+	setAttr -k on ".w0";
+createNode transform -n "StormWorm_Base_Skeleton_grp";
+	rename -uid "DB04462B-47E7-05D3-CFDE-3EA07E2558A8";
+createNode joint -n "StormWorm_Head_Joint" -p "StormWorm_Base_Skeleton_grp";
+	rename -uid "07C64345-4D84-6119-EBD5-E794CAA56AE8";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 2500;
+createNode joint -n "StormWorm_Spine1_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "59911F32-451F-7E16-E1C3-60B2D7E96AD8";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 180 3.5311250384401278e-031 -46.28887642034951 ;
+	setAttr ".radi" 2500;
+createNode joint -n "StormWorm_Spine2_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint";
+	rename -uid "FCE4E654-4C71-2E5E-1AB0-6F980571F92B";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 180 0 -13.307417008212367 ;
+	setAttr ".radi" 2500;
+createNode joint -n "StormWorm_Spine3_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint";
+	rename -uid "AC4250E2-48D5-BCB8-911B-82A5479B26C2";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 0 113.96769425104192 ;
+	setAttr ".radi" 2500;
+createNode joint -n "StormWorm_Spine4_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint";
+	rename -uid "091DC87B-4820-60F5-4D1F-B8B4CFFE3028";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 0 -98.721312546342702 ;
+	setAttr ".radi" 2500;
+createNode joint -n "StormWorm_Tail_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint";
+	rename -uid "A5650260-4144-E3D3-5784-16921219C2F7";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 65.148414140287784 ;
+	setAttr ".radi" 2500;
+createNode parentConstraint -n "StormWorm_Tail_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint";
+	rename -uid "DBD4B0C6-465C-6CED-92B1-2B8F6A920943";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Tail_JointW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -5.4569682106375692e-014 1.8189894035458565e-014 
+		-6.0584517520973704e-030 ;
+	setAttr ".tg[0].tor" -type "double3" 0 0 -3.1805546814635168e-015 ;
+	setAttr ".rst" -type "double3" 63.479273466152065 1.8189894035458565e-014 -1.6443588637165951e-015 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "StormWorm_Spine4_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint";
+	rename -uid "1E0C7A43-4F60-5311-60D1-1996E039490F";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Spine4_JointW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 4.5474735088646413e-015 3.637978807091713e-014 
+		4.0389678347315805e-030 ;
+	setAttr ".tg[0].tor" -type "double3" 0 0 3.180554681463516e-015 ;
+	setAttr ".rst" -type "double3" 82.232775691772844 -1.5916157281026246e-014 1.5638042247576794e-014 ;
+	setAttr ".rsrr" -type "double3" 0 0 -1.2722218725854067e-014 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "StormWorm_Spine3_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint";
+	rename -uid "6960A738-4496-3493-9CE7-FA9ADBC3CE40";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Spine3_JointW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 2.2737367544323207e-014 2.2737367544323206e-015 
+		1.0097419586828951e-030 ;
+	setAttr ".rst" -type "double3" 79.943234404826512 -4.5474735088646413e-015 -5.9590250938249343e-015 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "StormWorm_Spine2_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint";
+	rename -uid "D923EFA6-462D-FED8-1D68-91876053AD48";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Spine2_JointW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -3.637978807091713e-014 2.2737367544323207e-014 
+		4.0389678347315805e-030 ;
+	setAttr ".rst" -type "double3" 103.2911339551183 7.3896444519050422e-015 8.7411031862559378e-015 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "StormWorm_Spine1_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint";
+	rename -uid "45FE0BE8-4B7C-51AC-82EA-0E898B210528";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Spine1_JointW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -7.2759576141834261e-014 1.4779288903810084e-014 
+		-4.0389678347315805e-030 ;
+	setAttr ".tg[0].tor" -type "double3" 0 -1.7655625192200634e-030 -4.3243809757147768e-047 ;
+	setAttr ".lr" -type "double3" -1.765562519220063e-031 0 0 ;
+	setAttr ".rst" -type "double3" 111.9999255600015 5.4569682106375692e-014 -1.371603503417977e-014 ;
+	setAttr ".rsrr" -type "double3" -1.7655625192200632e-031 0 0 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Right_Ear_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "463C47B4-407F-2807-95F8-0C961A6F9D0B";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Right_Ear_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint";
+	rename -uid "967D20B6-4DA6-4390-AC70-27AC616DE6A5";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Right_Ear_JointW0" -dv 
+		1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 7.2759576141834261e-014 9.0949470177292826e-015 ;
+	setAttr ".rst" -type "double3" -12.751736862411926 -23.219936901817345 -80.398939288419513 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Right_Eye_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "1D1DB291-4251-195C-D4AA-7F95D0D3AC0C";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Right_Eye_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint";
+	rename -uid "3D1310B1-46CF-EA30-1733-46BA23088FF4";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Right_Eye_JointW0" -dv 
+		1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 3.637978807091713e-014 3.637978807091713e-014 
+		9.0949470177292826e-015 ;
+	setAttr ".lr" -type "double3" 0.18232180658755079 6.0073701602730258 1.7415684376971587 ;
+	setAttr ".rst" -type "double3" -58.089546396411059 -38.126028697863347 -49.967565071774764 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Right_Wing_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "BBD619A0-4BDE-322C-4FDA-678E2644334B";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Right_Wing_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint";
+	rename -uid "2FDBD7E0-4923-97B4-5F4F-DABA69DCCACB";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Right_Wing_JointW0" -dv 
+		1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 7.2759576141834261e-014 -9.0949470177292826e-015 ;
+	setAttr ".rst" -type "double3" -33.508983883793555 24.704622082016357 -63.868316257155676 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Left_Ear_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "376903B7-4C6F-6763-3C3E-84803321E419";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" -180 0 47.413336432849945 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Left_Ear_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint";
+	rename -uid "75B33877-465D-7B6B-7EE0-3FAF5813A618";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Left_Ear_JointW0" -dv 1 
+		-min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.8189894035458565e-014 -3.637978807091713e-014 
+		9.0949470177292826e-015 ;
+	setAttr ".tg[0].tor" -type "double3" 1.4124500153760508e-030 7.0622500768802555e-031 
+		3.1805546814635176e-015 ;
+	setAttr ".lr" -type "double3" 3.9203363205066198e-047 7.0622500768802538e-031 6.3611093629270335e-015 ;
+	setAttr ".rst" -type "double3" -12.751559856391687 -23.220058331733018 80.398899999999983 ;
+	setAttr ".rsrr" -type "double3" 3.9203363205066198e-047 7.0622500768802538e-031 
+		6.3611093629270335e-015 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Left_Eye_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "7E2E25BB-43DE-DEB4-4F89-27AD70751E9E";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" -180 0 47.413336432849945 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Left_Eye_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint";
+	rename -uid "23590083-4DBD-6051-ED2B-CC8685068163";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Left_Eye_JointW0" -dv 1 
+		-min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.8189894035458565e-014 0 0 ;
+	setAttr ".tg[0].tor" -type "double3" 1.4124500153760508e-030 7.0622500768802555e-031 
+		3.1805546814635176e-015 ;
+	setAttr ".lr" -type "double3" -0.18241802228539444 -6.0079492142810489 -178.25768027821761 ;
+	setAttr ".rst" -type "double3" -58.08906640269597 -38.126043077928827 49.967599999999983 ;
+	setAttr ".rsrr" -type "double3" 3.9203363205066198e-047 7.0622500768802538e-031 
+		6.3611093629270335e-015 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Left_Wing_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "973F9A3F-45BC-44EC-9D41-6282B9E0440D";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" -180 0 47.413336432849945 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Left_Wing_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint";
+	rename -uid "68B1B173-4B8D-C415-9BE7-0A84F390437C";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Left_Wing_JointW0" -dv 
+		1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -9.0949470177292826e-015 0 -9.0949470177292826e-015 ;
+	setAttr ".tg[0].tor" -type "double3" 1.4124500153760508e-030 7.0622500768802555e-031 
+		3.1805546814635176e-015 ;
+	setAttr ".lr" -type "double3" 3.9203363205066198e-047 7.0622500768802538e-031 6.3611093629270335e-015 ;
+	setAttr ".rst" -type "double3" -33.509292532683432 24.704874863312909 63.868300000000012 ;
+	setAttr ".rsrr" -type "double3" 3.9203363205066198e-047 7.0622500768802538e-031 
+		6.3611093629270335e-015 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Tongue_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "3833BB5B-4819-1B1D-8885-FF8941C59B9E";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Tongue_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint";
+	rename -uid "042F9A2D-4AF7-6786-5415-95BAB27CF0AF";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Tongue_JointW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 1.8189894035458565e-014 3.637978807091713e-014 
+		0 ;
+	setAttr ".rst" -type "double3" -40.776680012833822 -104.48045336208544 4.1373491136674419e-014 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Lower_Jaw_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "7FB64A68-4330-C546-96D6-358E7B868AA6";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Lower_Jaw_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint";
+	rename -uid "424DA5B7-4F31-F83E-66DA-DA95F51C6C6F";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Lower_Jaw_JointW0" -dv 
+		1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 1.8189894035458565e-014 3.637978807091713e-014 
+		8.0779356694631611e-030 ;
+	setAttr ".rst" -type "double3" -20.358471545322246 -124.34814962127899 2.4931937013511337e-015 ;
+	setAttr -k on ".w0";
+createNode joint -n "StormWorm_Upper_Jaw_Joint" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "AFE812C4-417B-B8C9-90B9-1F8A68F28C84";
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".jo" -type "double3" 0 180 47.413336432849917 ;
+	setAttr ".radi" 1000;
+createNode parentConstraint -n "StormWorm_Upper_Jaw_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint";
+	rename -uid "DB6B9B51-48A4-56EC-69D8-589E9D21BCB2";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Upper_Jaw_JointW0" -dv 
+		1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 3.637978807091713e-014 0 ;
+	setAttr ".rst" -type "double3" -78.335976001583404 -99.629647066669591 9.5933902268423115e-015 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "StormWorm_Head_Joint_parentConstraint1" -p "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint";
+	rename -uid "8154C63F-4613-383A-B49A-B1B2B5DB5555";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Head_JointW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 1.8189894035458565e-014 0 ;
+	setAttr ".rst" -type "double3" 58.207385386969634 301.88572575314709 0 ;
+	setAttr -k on ".w0";
+createNode transform -n "StormWorm_Rigging_grp";
+	rename -uid "EED6E7AD-4AF6-88F4-D080-2081558EA04A";
+createNode transform -n "StormWorm_ikHandle_PoleVector_grp" -p "StormWorm_Rigging_grp";
+	rename -uid "2D10BA4A-4310-26D2-8171-71BA8E75A57B";
+createNode ikHandle -n "StormWorm_ikHandle" -p "StormWorm_ikHandle_PoleVector_grp";
+	rename -uid "F9AD4964-4F75-FA9B-98B4-42B0C2EFCA3A";
+	setAttr ".roc" yes;
+createNode poleVectorConstraint -n "ikHandle1_poleVectorConstraint1" -p "StormWorm_ikHandle";
+	rename -uid "D93D9B0D-4963-EE0D-50F1-208B61540F49";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "locator1W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".rst" -type "double3" -58.207385386969648 -301.88572575314709 0 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "StormWorm_ikHandle_parentConstraint1" -p "StormWorm_ikHandle";
+	rename -uid "D9C378F2-48AA-5E4E-33FC-5E8127F16433";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "StormWorm_Tail_CtrlW0" -dv 1 -min 
+		0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -1.8744049157248809e-008 -1.4707329683005811e-008 
+		0 ;
+	setAttr ".rst" -type "double3" -119.44640542951065 25.400645165041205 5.5535807727559231e-030 ;
+	setAttr -k on ".w0";
+createNode transform -n "StormWorm_PoleVector" -p "StormWorm_ikHandle_PoleVector_grp";
+	rename -uid "241D1BEC-4960-A65C-A420-808CFFB1B125";
+createNode locator -n "StormWorm_PoleVectorShape" -p "StormWorm_PoleVector";
+	rename -uid "CE79DC81-4E78-C0AC-9545-B88868C25FD3";
+	setAttr -k off ".v";
+	setAttr ".lp" -type "double3" -103.944 151.903 0 ;
+	setAttr ".los" -type "double3" 0.5 0.5 0.5 ;
+createNode transform -n "StormWorm_Head_Ctrl_grp" -p "StormWorm_Rigging_grp";
+	rename -uid "224DFE19-420F-F517-6A08-819E7870F0A5";
+createNode transform -n "StormWorm_Head_Ctrl" -p "StormWorm_Head_Ctrl_grp";
+	rename -uid "FEC510CB-407A-0CF6-42E8-73BCC4EC2BC1";
+	setAttr ".rp" -type "double3" 58.20738540649414 301.88572570800784 0 ;
+	setAttr ".sp" -type "double3" 58.20738540649414 301.88572570800784 0 ;
+createNode nurbsCurve -n "StormWorm_Head_CtrlShape" -p "StormWorm_Head_Ctrl";
+	rename -uid "C3254012-4C23-D6AF-9380-E78B22328AF8";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		58.207385406494176 169.44469471605467 -132.44103099195297
+		58.207385406494161 301.8857257080079 -187.29990224349547
+		58.207385406494126 434.32675669996092 -132.44103099195306
+		58.207385406494097 489.18562795150336 -5.4274825796587389e-014
+		58.207385406494105 434.32675669996098 132.44103099195303
+		58.207385406494133 301.88572570800795 187.2999022434955
+		58.207385406494161 169.44469471605487 132.44103099195306
+		58.20738540649419 114.58582346451236 1.0059914286735622e-013
+		58.207385406494176 169.44469471605467 -132.44103099195297
+		58.207385406494161 301.8857257080079 -187.29990224349547
+		58.207385406494126 434.32675669996092 -132.44103099195306
+		;
+createNode transform -n "StormWorm_Right_Wing_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "4322B74D-43B3-37C8-CAC0-ADB740237125";
+createNode transform -n "StormWorm_Right_Wing_Ctrl" -p "StormWorm_Right_Wing_Ctrl_grp";
+	rename -uid "36EAB987-49F0-3486-BA3A-92BAAC2739B4";
+	setAttr ".rp" -type "double3" 62.694177246093751 343.27460174560548 63.8683162689209 ;
+	setAttr ".sp" -type "double3" 62.694177246093751 343.27460174560548 63.8683162689209 ;
+createNode nurbsCurve -n "StormWorm_Right_Wing_CtrlShape" -p "StormWorm_Right_Wing_Ctrl";
+	rename -uid "0146C1F9-4320-8ABB-735F-1DA07A13DDC0";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		62.694177246093773 294.68030122043183 15.274015743747359
+		62.694177246093751 343.27460174560548 -4.8544025878135928
+		62.694177246093744 391.86890227077907 15.274015743747333
+		62.69417724609373 411.99732060233998 63.868316268920879
+		62.69417724609373 391.86890227077907 112.46261679409447
+		62.694177246093751 343.27460174560548 132.5910351256554
+		62.694177246093759 294.68030122043194 112.46261679409447
+		62.694177246093773 274.55188288887098 63.868316268920935
+		62.694177246093773 294.68030122043183 15.274015743747359
+		62.694177246093751 343.27460174560548 -4.8544025878135928
+		62.694177246093744 391.86890227077907 15.274015743747333
+		;
+createNode transform -n "StormWorm_Left_Wing_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "5D81C0CE-4186-FE82-1A0A-ECAF60ECC1A6";
+createNode transform -n "StormWorm_Left_Wing_Ctrl" -p "StormWorm_Left_Wing_Ctrl_grp";
+	rename -uid "AE59DAE7-4835-E9F7-A511-E6AF31D73397";
+	setAttr ".rp" -type "double3" 62.694199981689465 343.27500000000003 -63.868300018310549 ;
+	setAttr ".sp" -type "double3" 62.694199981689465 343.27500000000003 -63.868300018310549 ;
+createNode nurbsCurve -n "StormWorm_Left_Wing_CtrlShape" -p "StormWorm_Left_Wing_Ctrl";
+	rename -uid "72DF3D1B-47D0-74F3-9024-C5ADAAD9A4F4";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		62.694199981689479 294.68069947482638 -112.46260054348409
+		62.694199981689465 343.27500000000003 -132.59101887504505
+		62.694199981689465 391.86930052517363 -112.46260054348411
+		62.694199981689444 411.99771885673459 -63.868300018310563
+		62.694199981689444 391.86930052517363 -15.273999493136989
+		62.694199981689465 343.27500000000003 4.8544188384239622
+		62.694199981689472 294.6806994748265 -15.273999493136971
+		62.694199981689479 274.55228114326553 -63.868300018310514
+		62.694199981689479 294.68069947482638 -112.46260054348409
+		62.694199981689465 343.27500000000003 -132.59101887504505
+		62.694199981689465 391.86930052517363 -112.46260054348411
+		;
+createNode transform -n "StormWorm_Right_Ear_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "FA7A99C1-4975-5FEB-175C-8C84010BDE51";
+createNode transform -n "StormWorm_Right_Ear_Ctrl" -p "StormWorm_Right_Ear_Ctrl_grp";
+	rename -uid "E5C916EE-4F83-EB04-E066-50B4DB8EA2E9";
+	setAttr ".rp" -type "double3" 83.932330398559571 295.56121250152586 80.398939285278317 ;
+	setAttr ".sp" -type "double3" 83.932330398559571 295.56121250152586 80.398939285278317 ;
+createNode nurbsCurve -n "StormWorm_Right_Ear_CtrlShape" -p "StormWorm_Right_Ear_Ctrl";
+	rename -uid "9A9A0A75-410F-0194-D6F9-BD9B2965CEEB";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		56.727365002262111 295.56121250152586 53.193973888980906
+		83.932330398559571 295.56121250152586 41.925308257943747
+		111.137295794857 295.56121250152586 53.193973888980892
+		122.40596142589415 295.56121250152586 80.398939285278317
+		111.13729579485702 295.56121250152586 107.60390468157573
+		83.932330398559586 295.56121250152586 118.87257031261289
+		56.727365002262161 295.56121250152586 107.60390468157576
+		45.458699371224995 295.56121250152586 80.398939285278345
+		56.727365002262111 295.56121250152586 53.193973888980906
+		83.932330398559571 295.56121250152586 41.925308257943747
+		111.137295794857 295.56121250152586 53.193973888980892
+		;
+createNode transform -n "StormWorm_Left_Ear_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "818397F1-47B3-8B15-8F06-0AA56FC1D126";
+createNode transform -n "StormWorm_Left_Ear_Ctrl" -p "StormWorm_Left_Ear_Ctrl_grp";
+	rename -uid "FAC53F0B-4CA7-99E9-1CAF-45818C55775D";
+	setAttr ".rp" -type "double3" 83.932300033569334 295.56099998474122 -80.398899993896492 ;
+	setAttr ".sp" -type "double3" 83.932300033569334 295.56099998474122 -80.398899993896492 ;
+createNode nurbsCurve -n "StormWorm_Left_Ear_CtrlShape" -p "StormWorm_Left_Ear_Ctrl";
+	rename -uid "487AA10A-4AA8-E90B-33F4-D5954C24C47A";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		56.727334637271881 295.56099998474122 -107.6038653901939
+		83.932300033569334 295.56099998474122 -118.87253102123107
+		111.13726542986677 295.56099998474122 -107.60386539019392
+		122.40593106090391 295.56099998474122 -80.398899993896507
+		111.13726542986679 295.56099998474122 -53.193934597599075
+		83.932300033569362 295.56099998474122 -41.925268966561909
+		56.727334637271923 295.56099998474122 -53.193934597599068
+		45.458669006234757 295.56099998474122 -80.398899993896478
+		56.727334637271881 295.56099998474122 -107.6038653901939
+		83.932300033569334 295.56099998474122 -118.87253102123107
+		111.13726542986677 295.56099998474122 -107.60386539019392
+		;
+createNode transform -n "StormWorm_Upper_Jaw_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "E42D0045-4CD2-9C09-5FC8-FA9C144FF6AB";
+createNode transform -n "StormWorm_Upper_Jaw_Ctrl" -p "StormWorm_Upper_Jaw_Ctrl_grp";
+	rename -uid "32199F2A-4B00-DFF1-12ED-E4B9F10B6002";
+	setAttr ".rp" -type "double3" 184.57048973083496 292.14110809326172 -1.2116903504194741e-029 ;
+	setAttr ".sp" -type "double3" 184.57048973083496 292.14110809326172 -1.2116903504194741e-029 ;
+createNode nurbsCurve -n "StormWorm_Upper_Jaw_CtrlShape" -p "StormWorm_Upper_Jaw_Ctrl";
+	rename -uid "25BDD984-410C-F5E7-1D5E-57A771A47C28";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		184.57048973083496 242.81086147142059 -49.33024662184107
+		184.57048973083496 292.14110809326172 -69.763503807817244
+		184.57048973083496 341.47135471510279 -49.330246621841091
+		184.57048973083496 361.90461190107897 -2.0215718058445164e-014
+		184.57048973083496 341.47135471510285 49.330246621841091
+		184.57048973083496 292.14110809326178 69.763503807817258
+		184.57048973083496 242.81086147142065 49.330246621841098
+		184.57048973083496 295.36790355514569 3.7470113985249982e-014
+		184.57048973083496 242.81086147142059 -49.33024662184107
+		184.57048973083496 292.14110809326172 -69.763503807817244
+		184.57048973083496 341.47135471510279 -49.330246621841091
+		;
+createNode transform -n "StormWorm_Lower_Jaw_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "503038EC-4430-AD31-9759-13A418E176F9";
+createNode transform -n "StormWorm_Lower_Jaw_Ctrl" -p "StormWorm_Lower_Jaw_Ctrl_grp";
+	rename -uid "934F1C55-4433-98A7-5D92-8BB2282FD2DE";
+	setAttr ".rp" -type "double3" 163.53595672607423 232.72777786254883 -6.0584517520973704e-030 ;
+	setAttr ".sp" -type "double3" 163.53595672607423 232.72777786254883 -6.0584517520973704e-030 ;
+createNode nurbsCurve -n "StormWorm_Lower_Jaw_CtrlShape" -p "StormWorm_Lower_Jaw_Ctrl";
+	rename -uid "B6C9A76C-4ABD-88B7-E448-4FB8CB143849";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		163.53595672607403 282.05802448438999 -49.33024662184107
+		163.53595672607423 232.72777786254883 -69.763503807817244
+		163.53595672607446 183.39753124070776 -49.330246621841091
+		163.53595672607455 162.96427405473159 -2.0215718058445157e-014
+		163.53595672607446 183.39753124070774 49.330246621841091
+		163.53595672607423 232.72777786254881 69.763503807817258
+		163.53595672607403 282.05802448438993 49.330246621841098
+		163.53595672607423 229.50098240066487 3.7470113985249982e-014
+		163.53595672607403 282.05802448438999 -49.33024662184107
+		163.53595672607423 232.72777786254883 -69.763503807817244
+		163.53595672607446 183.39753124070776 -49.330246621841091
+		;
+createNode transform -n "StormWorm_Tongue_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "F024CF12-44D5-AC88-2E97-C69406193AA8";
+createNode transform -n "StormWorm_Tongue_Ctrl" -p "StormWorm_Tongue_Ctrl_grp";
+	rename -uid "78193B23-4896-EB1B-149C-7B9310CEF1E2";
+	setAttr ".rp" -type "double3" 162.72536941528321 261.20533996582031 -3.637978807091713e-014 ;
+	setAttr ".sp" -type "double3" 162.72536941528321 261.20533996582031 -3.637978807091713e-014 ;
+createNode nurbsCurve -n "StormWorm_Tongue_CtrlShape" -p "StormWorm_Tongue_Ctrl";
+	rename -uid "CFA1B5AF-4CC7-7797-3F69-C1A0453BE0C8";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		253.19928118100165 180.72656658485386 -24.459706330468546
+		162.72536941528321 261.20533996582031 -34.591248424211678
+		277.65898751147017 223.09202068743943 -24.459706330468556
+		180.02099362738903 291.16223984980604 -4.6403466459546746e-014
+		277.65898751147017 223.09202068743943 24.459706330468482
+		162.72536941528321 261.20533996582031 34.591248424211614
+		253.19928118100165 180.72656658485386 24.459706330468489
+		145.42974520317736 231.24844008183459 -1.7800761063932534e-014
+		253.19928118100165 180.72656658485386 -24.459706330468546
+		162.72536941528321 261.20533996582031 -34.591248424211678
+		277.65898751147017 223.09202068743943 -24.459706330468556
+		;
+createNode transform -n "StormWorm_Eyes_Ctrl_grp" -p "StormWorm_Head_Ctrl";
+	rename -uid "09FE401C-4F15-BAA4-4B05-1BAD7119772F";
+createNode transform -n "StormWorm_Eyes_Ctrl" -p "StormWorm_Eyes_Ctrl_grp";
+	rename -uid "A3F05492-4612-86FF-FE44-9986D4BF7F79";
+	setAttr ".rp" -type "double3" 154.50261430808385 323.93319233187526 0 ;
+	setAttr ".sp" -type "double3" 154.50261430808385 323.93319233187526 0 ;
+createNode nurbsCurve -n "StormWorm_Eyes_CtrlShape" -p "StormWorm_Eyes_Ctrl";
+	rename -uid "D6D6A879-4B47-212A-6B40-A0A7E9D5B9D5";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		154.50261430808388 254.8418132558366 -69.091379076038521
+		154.50261430808385 323.93319233187526 -97.709965332394418
+		154.50261430808382 393.02457140791381 -69.091379076038564
+		154.50261430808385 323.93416943150385 -2.8313903443003369e-014
+		154.50261430808382 393.02457140791381 69.09137907603855
+		154.50261430808385 323.93319233187532 97.709965332394461
+		154.50261430808388 254.84181325583671 69.091379076038564
+		154.50261430808385 323.93221523224656 5.2480212986226098e-014
+		154.50261430808388 254.8418132558366 -69.091379076038521
+		154.50261430808385 323.93319233187526 -97.709965332394418
+		154.50261430808382 393.02457140791381 -69.091379076038564
+		;
+createNode transform -n "StormWorm_Right_Eye_Aim_grp" -p "StormWorm_Eyes_Ctrl";
+	rename -uid "B92D2A7A-459C-632E-0918-2D82DB0A578A";
+createNode transform -n "StormWorm_Right_Eye_Aim" -p "StormWorm_Right_Eye_Aim_grp";
+	rename -uid "04039E0D-4C7A-555B-1B74-46B12C1B639F";
+	setAttr ".rp" -type "double3" 152.52701399455214 319.67347730971028 47.131274694820569 ;
+	setAttr ".sp" -type "double3" 152.52701399455214 319.67347730971028 47.131274694820569 ;
+createNode nurbsCurve -n "StormWorm_Right_Eye_AimShape" -p "StormWorm_Right_Eye_Aim";
+	rename -uid "18857766-4BBF-26E2-D0E7-26AC581C3670";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		152.52701399455202 346.87844270600777 19.926309298523158
+		152.52701399455214 319.67347730971028 8.6576436674859956
+		152.52701399455228 292.4685119134129 19.926309298523144
+		152.52701399455231 281.19984628237574 47.131274694820561
+		152.52701399455228 292.46851191341284 74.336240091117986
+		152.52701399455214 319.67347730971028 85.604905722155152
+		152.52701399455202 346.87844270600772 74.336240091118
+		152.52701399455199 358.14710833704487 47.13127469482059
+		152.52701399455202 346.87844270600777 19.926309298523158
+		152.52701399455214 319.67347730971028 8.6576436674859956
+		152.52701399455228 292.4685119134129 19.926309298523144
+		;
+createNode transform -n "StormWorm_Left_Eye_Aim_grp" -p "StormWorm_Eyes_Ctrl";
+	rename -uid "D8B62C66-4F2E-DCF0-1573-85952B1D2917";
+createNode transform -n "StormWorm_Left_Eye_Aim" -p "StormWorm_Left_Eye_Aim_grp";
+	rename -uid "D4B62D6B-4006-67FA-903C-488E61BF91E8";
+	setAttr ".rp" -type "double3" 152.52701399455214 319.67347730971028 -47.131000000000007 ;
+	setAttr ".sp" -type "double3" 152.52701399455214 319.67347730971028 -47.131000000000007 ;
+createNode nurbsCurve -n "StormWorm_Left_Eye_AimShape" -p "StormWorm_Left_Eye_Aim";
+	rename -uid "C1270687-4BC3-DE05-1F12-93AB65D1EF73";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		152.52701399455202 346.87844270600777 -74.335965396297411
+		152.52701399455214 319.67347730971028 -85.604631027334577
+		152.52701399455228 292.4685119134129 -74.335965396297439
+		152.52701399455231 281.19984628237574 -47.131000000000014
+		152.52701399455228 292.46851191341284 -19.926034603702583
+		152.52701399455214 319.67347730971028 -8.6573689726654219
+		152.52701399455202 346.87844270600772 -19.926034603702576
+		152.52701399455199 358.14710833704487 -47.130999999999986
+		152.52701399455202 346.87844270600777 -74.335965396297411
+		152.52701399455214 319.67347730971028 -85.604631027334577
+		152.52701399455228 292.4685119134129 -74.335965396297439
+		;
+createNode transform -n "StormWorm_Tail_Ctrl_grp" -p "StormWorm_Rigging_grp";
+	rename -uid "EE52992C-45B2-C4C4-23F5-A0832F890831";
+createNode transform -n "StormWorm_Tail_Ctrl" -p "StormWorm_Tail_Ctrl_grp";
+	rename -uid "D1986F06-4292-5931-1E63-CE989A7EBF5B";
+	setAttr ".rp" -type "double3" -119.4464054107666 25.400645179748537 5.5535807727559231e-030 ;
+	setAttr ".sp" -type "double3" -119.4464054107666 25.400645179748537 5.5535807727559231e-030 ;
+createNode nurbsCurve -n "StormWorm_Tail_CtrlShape" -p "StormWorm_Tail_Ctrl";
+	rename -uid "8CE21FC4-4F37-BEF7-C194-4B9D4D4516BA";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		-119.44640541076659 -20.443710197457047 -45.844355377205503
+		-119.4464054107666 25.400645179748544 -64.833709132696001
+		-119.4464054107666 71.245000556954082 -45.844355377205531
+		-119.44640541076662 90.234354312444552 -1.8787186895319874e-014
+		-119.44640541076662 71.245000556954096 45.844355377205524
+		-119.4464054107666 25.400645179748555 64.833709132696015
+		-119.4464054107666 -20.443710197456976 45.844355377205538
+		-119.44640541076659 -39.433063952947478 3.4822311648521992e-014
+		-119.44640541076659 -20.443710197457047 -45.844355377205503
+		-119.4464054107666 25.400645179748544 -64.833709132696001
+		-119.4464054107666 71.245000556954082 -45.844355377205531
+		;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "66454A9C-46F3-A95F-7B00-05911147F4BB";
+	rename -uid "E39DB4A2-4E7D-6B72-B600-A6976BCFFA58";
 	setAttr -s 3 ".lnk";
 	setAttr -s 3 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "7CDBB387-420C-B561-1DBC-2F9BD2C1C964";
+	rename -uid "94900A0C-4798-E995-16A4-34BD48BE01EC";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "3AF5DA88-4DA8-4C7B-5EF9-F0B8081EAFF9";
+	rename -uid "CA2BE31A-4969-E3F2-AFE4-DBA26CE397B1";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "C20B5522-4F34-0B96-5115-B188B4DDF33D";
+	rename -uid "904A9871-40A0-F712-F0E0-EF9BB4642E8A";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "947D6AA4-4392-56C5-1B15-8A965418992B";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "C339A193-4075-91C6-8E24-8997A2A7B2B3";
+	rename -uid "993A7B3F-478A-09DE-FFB0-EE8F5A29ED91";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "E2199737-445B-9467-0EEC-1E8B252DBA52";
 	setAttr ".g" yes;
@@ -6229,33 +7252,33 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -alwaysToggleSelect 0\n                -directSelect 0\n                -isSet 0\n                -isSetMember 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                -renderFilterIndex 0\n                -selectionOrder \"chronological\" \n                -expandAttribute 0\n                $editorName;\n\t\t}\n\t} else {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n"
 		+ "            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n"
-		+ "            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"top\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 0\n                -jointXray 0\n                -activeComponentsXray 0\n"
+		+ "            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"top\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 1\n                -jointXray 0\n                -activeComponentsXray 0\n"
 		+ "                -displayTextures 0\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 32768\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n"
 		+ "                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n"
-		+ "                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 528\n                -height 336\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n"
-		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
+		+ "                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 1\n                -height 1\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n"
+		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 1\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
 		+ "            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n"
-		+ "            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 528\n            -height 336\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels `;\n"
-		+ "\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"side\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 0\n                -jointXray 0\n                -activeComponentsXray 0\n                -displayTextures 0\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 32768\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n"
+		+ "            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels `;\n"
+		+ "\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"side\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 1\n                -jointXray 0\n                -activeComponentsXray 0\n                -displayTextures 0\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 32768\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n"
 		+ "                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n"
 		+ "                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n"
-		+ "                -width 527\n                -height 335\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n"
+		+ "                -width 1\n                -height 1\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 1\n            -jointXray 0\n            -activeComponentsXray 0\n"
 		+ "            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n"
 		+ "            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n"
-		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 527\n            -height 335\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"front\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 1\n                -headsUpDisplay 1\n"
+		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"front\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 1\n                -headsUpDisplay 1\n"
 		+ "                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 1\n                -jointXray 0\n                -activeComponentsXray 0\n                -displayTextures 0\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 32768\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n"
 		+ "                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n"
-		+ "                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 528\n                -height 335\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n"
+		+ "                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 1\n                -height 1\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 1\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 1\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 528\n            -height 335\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n"
 		+ "            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"camera1\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 1\n                -jointXray 0\n                -activeComponentsXray 0\n                -displayTextures 1\n"
 		+ "                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 32768\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n                -occlusionCulling 0\n"
 		+ "                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n"
-		+ "                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 1062\n                -height 716\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"camera1\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n"
+		+ "                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 1075\n                -height 716\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"camera1\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n"
 		+ "            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 1\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n"
 		+ "            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n"
-		+ "            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1062\n            -height 716\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n"
+		+ "            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1075\n            -height 716\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n"
 		+ "            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n"
 		+ "                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n"
 		+ "\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n"
@@ -6309,21 +7332,47 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n"
 		+ "                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n"
 		+ "            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n"
-		+ "            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `scriptedPanel -unParent  -type \"hyperShadePanel\" -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels `;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n"
-		+ "\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `scriptedPanel -unParent  -type \"nodeEditorPanel\" -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels `;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n"
-		+ "                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n"
-		+ "                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n"
-		+ "                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n"
-		+ "                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n"
-		+ "            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n"
-		+ "            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n"
-		+ "                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"0\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n"
-		+ "                -alwaysToggleSelect 0\n                -directSelect 0\n                -isSet 0\n                -isSetMember 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                -renderFilterIndex 0\n                -selectionOrder \"chronological\" \n                -expandAttribute 0\n                $editorName;\n\t\t}\n\t} else {\n"
-		+ "\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n"
-		+ "            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"0\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n"
-		+ "            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 1\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1062\\n    -height 716\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 1\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1062\\n    -height 716\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n"
+		+ "                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n"
+		+ "                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n"
+		+ "            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n"
+		+ "            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n"
+		+ "\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n"
+		+ "                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n"
+		+ "                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n"
+		+ "            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n"
+		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n"
+		+ "                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n"
+		+ "                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n"
+		+ "            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n"
+		+ "            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n"
+		+ "                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n"
+		+ "                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n"
+		+ "            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n"
+		+ "            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n"
+		+ "                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n"
+		+ "                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n"
+		+ "            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n"
+		+ "\t\t\t$panelName = `scriptedPanel -unParent  -type \"hyperShadePanel\" -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels `;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `scriptedPanel -unParent  -type \"nodeEditorPanel\" -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels `;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n"
+		+ "                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n"
+		+ "                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n"
+		+ "            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n"
+		+ "                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n"
+		+ "\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n"
+		+ "            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
+		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n"
+		+ "                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n"
+		+ "                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n"
+		+ "            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n"
+		+ "            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n"
+		+ "                -showDagOnly 1\n                -showAssets 1\n                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"0\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -isSet 0\n                -isSetMember 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n"
+		+ "                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                -renderFilterIndex 0\n                -selectionOrder \"chronological\" \n                -expandAttribute 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n"
+		+ "            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"0\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n"
+		+ "            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n"
+		+ "\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 1\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1075\\n    -height 716\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 1\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1075\\n    -height 716\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        setFocus `paneLayout -q -p1 $gMainPane`;\n        sceneUIReplacement -deleteRemaining;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -6376,6 +7425,17 @@ createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
 	setAttr ".tgi[0].ni[3].x" 54.285713195800781;
 	setAttr ".tgi[0].ni[3].y" 121.42857360839844;
 	setAttr ".tgi[0].ni[3].nvs" 1923;
+createNode ikRPsolver -n "ikRPsolver";
+	rename -uid "D0984E0E-457E-EFE4-7546-9BBEC7CE906C";
+createNode unitConversion -n "unitConversion1";
+	rename -uid "0B0BC51B-485F-341A-E7F4-14814AACD3FF";
+	setAttr ".cf" 0.01;
+createNode unitConversion -n "unitConversion2";
+	rename -uid "BE169CC4-4B6A-0E25-DF43-7FA6659917AD";
+	setAttr ".cf" 0.01;
+createNode unitConversion -n "unitConversion3";
+	rename -uid "8DF79427-4859-B989-556A-4BAF042F04CF";
+	setAttr ".cf" 0.01;
 select -ne :time1;
 	setAttr ".o" 0;
 select -ne :hardwareRenderingGlobals;
@@ -6406,11 +7466,1108 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
-connectAttr "joint1.s" "joint2.is";
-connectAttr "joint2.s" "joint3.is";
-connectAttr "joint3.s" "joint4.is";
-connectAttr "joint4.s" "joint5.is";
-connectAttr "joint5.s" "joint6.is";
+connectAttr "StormWorm_Head_Joint_parentConstraint2.ctx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.tx"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint2.cty" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.ty"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint2.ctz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.tz"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint2.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.rx"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint2.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.ry"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint2.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.is"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.is"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.is"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.is"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.is"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.tx" "effector1.tx"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.ty" "effector1.ty"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.tz" "effector1.tz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.is"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint2.ctx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.tx"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint2.cty" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ty"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint2.ctz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.tz"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint2.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rx"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint2.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ry"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint2.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ro" "StormWorm_Right_Ear_Joint_parentConstraint2.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.pim" "StormWorm_Right_Ear_Joint_parentConstraint2.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rp" "StormWorm_Right_Ear_Joint_parentConstraint2.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rpt" "StormWorm_Right_Ear_Joint_parentConstraint2.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.jo" "StormWorm_Right_Ear_Joint_parentConstraint2.cjo"
+		;
+connectAttr "StormWorm_Right_Ear_Ctrl.t" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].tt"
+		;
+connectAttr "StormWorm_Right_Ear_Ctrl.rp" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].trp"
+		;
+connectAttr "StormWorm_Right_Ear_Ctrl.rpt" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].trt"
+		;
+connectAttr "StormWorm_Right_Ear_Ctrl.r" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].tr"
+		;
+connectAttr "StormWorm_Right_Ear_Ctrl.ro" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].tro"
+		;
+connectAttr "StormWorm_Right_Ear_Ctrl.s" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].ts"
+		;
+connectAttr "StormWorm_Right_Ear_Ctrl.pm" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].tpm"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint2.w0" "StormWorm_Right_Ear_Joint_parentConstraint2.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.is"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_aimConstraint1.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rx"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_aimConstraint1.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.ry"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_aimConstraint1.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.pim" "StormWorm_Right_Eye_Joint_aimConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.t" "StormWorm_Right_Eye_Joint_aimConstraint1.ct"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rp" "StormWorm_Right_Eye_Joint_aimConstraint1.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rpt" "StormWorm_Right_Eye_Joint_aimConstraint1.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.ro" "StormWorm_Right_Eye_Joint_aimConstraint1.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.jo" "StormWorm_Right_Eye_Joint_aimConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.is" "StormWorm_Right_Eye_Joint_aimConstraint1.is"
+		;
+connectAttr "StormWorm_Right_Eye_Aim.t" "StormWorm_Right_Eye_Joint_aimConstraint1.tg[0].tt"
+		;
+connectAttr "StormWorm_Right_Eye_Aim.rp" "StormWorm_Right_Eye_Joint_aimConstraint1.tg[0].trp"
+		;
+connectAttr "StormWorm_Right_Eye_Aim.rpt" "StormWorm_Right_Eye_Joint_aimConstraint1.tg[0].trt"
+		;
+connectAttr "StormWorm_Right_Eye_Aim.pm" "StormWorm_Right_Eye_Joint_aimConstraint1.tg[0].tpm"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_aimConstraint1.w0" "StormWorm_Right_Eye_Joint_aimConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.is"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_orientConstraint1.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rx"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_orientConstraint1.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.ry"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_orientConstraint1.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.ro" "StormWorm_Right_Wing_Joint_orientConstraint1.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.pim" "StormWorm_Right_Wing_Joint_orientConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.jo" "StormWorm_Right_Wing_Joint_orientConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.is" "StormWorm_Right_Wing_Joint_orientConstraint1.is"
+		;
+connectAttr "StormWorm_Right_Wing_Ctrl.r" "StormWorm_Right_Wing_Joint_orientConstraint1.tg[0].tr"
+		;
+connectAttr "StormWorm_Right_Wing_Ctrl.ro" "StormWorm_Right_Wing_Joint_orientConstraint1.tg[0].tro"
+		;
+connectAttr "StormWorm_Right_Wing_Ctrl.pm" "StormWorm_Right_Wing_Joint_orientConstraint1.tg[0].tpm"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_orientConstraint1.w0" "StormWorm_Right_Wing_Joint_orientConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.is"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint2.ctx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.tx"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint2.cty" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ty"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint2.ctz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.tz"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint2.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rx"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint2.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ry"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint2.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ro" "StormWorm_Left_Ear_Joint_parentConstraint2.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.pim" "StormWorm_Left_Ear_Joint_parentConstraint2.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rp" "StormWorm_Left_Ear_Joint_parentConstraint2.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rpt" "StormWorm_Left_Ear_Joint_parentConstraint2.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.jo" "StormWorm_Left_Ear_Joint_parentConstraint2.cjo"
+		;
+connectAttr "StormWorm_Left_Ear_Ctrl.t" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].tt"
+		;
+connectAttr "StormWorm_Left_Ear_Ctrl.rp" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].trp"
+		;
+connectAttr "StormWorm_Left_Ear_Ctrl.rpt" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].trt"
+		;
+connectAttr "StormWorm_Left_Ear_Ctrl.r" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].tr"
+		;
+connectAttr "StormWorm_Left_Ear_Ctrl.ro" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].tro"
+		;
+connectAttr "StormWorm_Left_Ear_Ctrl.s" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].ts"
+		;
+connectAttr "StormWorm_Left_Ear_Ctrl.pm" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].tpm"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint2.w0" "StormWorm_Left_Ear_Joint_parentConstraint2.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.is"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_aimConstraint1.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rx"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_aimConstraint1.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.ry"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_aimConstraint1.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.pim" "StormWorm_Left_Eye_Joint_aimConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.t" "StormWorm_Left_Eye_Joint_aimConstraint1.ct"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rp" "StormWorm_Left_Eye_Joint_aimConstraint1.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rpt" "StormWorm_Left_Eye_Joint_aimConstraint1.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.ro" "StormWorm_Left_Eye_Joint_aimConstraint1.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.jo" "StormWorm_Left_Eye_Joint_aimConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.is" "StormWorm_Left_Eye_Joint_aimConstraint1.is"
+		;
+connectAttr "StormWorm_Left_Eye_Aim.t" "StormWorm_Left_Eye_Joint_aimConstraint1.tg[0].tt"
+		;
+connectAttr "StormWorm_Left_Eye_Aim.rp" "StormWorm_Left_Eye_Joint_aimConstraint1.tg[0].trp"
+		;
+connectAttr "StormWorm_Left_Eye_Aim.rpt" "StormWorm_Left_Eye_Joint_aimConstraint1.tg[0].trt"
+		;
+connectAttr "StormWorm_Left_Eye_Aim.pm" "StormWorm_Left_Eye_Joint_aimConstraint1.tg[0].tpm"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_aimConstraint1.w0" "StormWorm_Left_Eye_Joint_aimConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.is"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_orientConstraint1.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rx"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_orientConstraint1.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.ry"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_orientConstraint1.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.ro" "StormWorm_Left_Wing_Joint_orientConstraint1.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.pim" "StormWorm_Left_Wing_Joint_orientConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.jo" "StormWorm_Left_Wing_Joint_orientConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.is" "StormWorm_Left_Wing_Joint_orientConstraint1.is"
+		;
+connectAttr "StormWorm_Left_Wing_Ctrl.r" "StormWorm_Left_Wing_Joint_orientConstraint1.tg[0].tr"
+		;
+connectAttr "StormWorm_Left_Wing_Ctrl.ro" "StormWorm_Left_Wing_Joint_orientConstraint1.tg[0].tro"
+		;
+connectAttr "StormWorm_Left_Wing_Ctrl.pm" "StormWorm_Left_Wing_Joint_orientConstraint1.tg[0].tpm"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_orientConstraint1.w0" "StormWorm_Left_Wing_Joint_orientConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.is"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint2.ctx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.tx"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint2.cty" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ty"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint2.ctz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.tz"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint2.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rx"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint2.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ry"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint2.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ro" "StormWorm_Tongue_Joint_parentConstraint2.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.pim" "StormWorm_Tongue_Joint_parentConstraint2.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rp" "StormWorm_Tongue_Joint_parentConstraint2.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rpt" "StormWorm_Tongue_Joint_parentConstraint2.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.jo" "StormWorm_Tongue_Joint_parentConstraint2.cjo"
+		;
+connectAttr "StormWorm_Tongue_Ctrl.t" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].tt"
+		;
+connectAttr "StormWorm_Tongue_Ctrl.rp" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].trp"
+		;
+connectAttr "StormWorm_Tongue_Ctrl.rpt" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].trt"
+		;
+connectAttr "StormWorm_Tongue_Ctrl.r" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].tr"
+		;
+connectAttr "StormWorm_Tongue_Ctrl.ro" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].tro"
+		;
+connectAttr "StormWorm_Tongue_Ctrl.s" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].ts"
+		;
+connectAttr "StormWorm_Tongue_Ctrl.pm" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].tpm"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint2.w0" "StormWorm_Tongue_Joint_parentConstraint2.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.is"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint2.ctx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.tx"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint2.cty" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ty"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint2.ctz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.tz"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint2.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rx"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint2.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ry"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint2.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ro" "StormWorm_Lower_Jaw_Joint_parentConstraint2.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.pim" "StormWorm_Lower_Jaw_Joint_parentConstraint2.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rp" "StormWorm_Lower_Jaw_Joint_parentConstraint2.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rpt" "StormWorm_Lower_Jaw_Joint_parentConstraint2.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.jo" "StormWorm_Lower_Jaw_Joint_parentConstraint2.cjo"
+		;
+connectAttr "StormWorm_Lower_Jaw_Ctrl.t" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].tt"
+		;
+connectAttr "StormWorm_Lower_Jaw_Ctrl.rp" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].trp"
+		;
+connectAttr "StormWorm_Lower_Jaw_Ctrl.rpt" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].trt"
+		;
+connectAttr "StormWorm_Lower_Jaw_Ctrl.r" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].tr"
+		;
+connectAttr "StormWorm_Lower_Jaw_Ctrl.ro" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].tro"
+		;
+connectAttr "StormWorm_Lower_Jaw_Ctrl.s" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].ts"
+		;
+connectAttr "StormWorm_Lower_Jaw_Ctrl.pm" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].tpm"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint2.w0" "StormWorm_Lower_Jaw_Joint_parentConstraint2.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.is"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint2.ctx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.tx"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint2.cty" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ty"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint2.ctz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.tz"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint2.crx" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rx"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint2.cry" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ry"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint2.crz" "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rz"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ro" "StormWorm_Upper_Jaw_Joint_parentConstraint2.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.pim" "StormWorm_Upper_Jaw_Joint_parentConstraint2.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rp" "StormWorm_Upper_Jaw_Joint_parentConstraint2.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rpt" "StormWorm_Upper_Jaw_Joint_parentConstraint2.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.jo" "StormWorm_Upper_Jaw_Joint_parentConstraint2.cjo"
+		;
+connectAttr "StormWorm_Upper_Jaw_Ctrl.t" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].tt"
+		;
+connectAttr "StormWorm_Upper_Jaw_Ctrl.rp" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].trp"
+		;
+connectAttr "StormWorm_Upper_Jaw_Ctrl.rpt" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].trt"
+		;
+connectAttr "StormWorm_Upper_Jaw_Ctrl.r" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].tr"
+		;
+connectAttr "StormWorm_Upper_Jaw_Ctrl.ro" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].tro"
+		;
+connectAttr "StormWorm_Upper_Jaw_Ctrl.s" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].ts"
+		;
+connectAttr "StormWorm_Upper_Jaw_Ctrl.pm" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].tpm"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint2.w0" "StormWorm_Upper_Jaw_Joint_parentConstraint2.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.ro" "StormWorm_Head_Joint_parentConstraint2.cro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.pim" "StormWorm_Head_Joint_parentConstraint2.cpim"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.rp" "StormWorm_Head_Joint_parentConstraint2.crp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.rpt" "StormWorm_Head_Joint_parentConstraint2.crt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.jo" "StormWorm_Head_Joint_parentConstraint2.cjo"
+		;
+connectAttr "StormWorm_Head_Ctrl.t" "StormWorm_Head_Joint_parentConstraint2.tg[0].tt"
+		;
+connectAttr "StormWorm_Head_Ctrl.rp" "StormWorm_Head_Joint_parentConstraint2.tg[0].trp"
+		;
+connectAttr "StormWorm_Head_Ctrl.rpt" "StormWorm_Head_Joint_parentConstraint2.tg[0].trt"
+		;
+connectAttr "StormWorm_Head_Ctrl.r" "StormWorm_Head_Joint_parentConstraint2.tg[0].tr"
+		;
+connectAttr "StormWorm_Head_Ctrl.ro" "StormWorm_Head_Joint_parentConstraint2.tg[0].tro"
+		;
+connectAttr "StormWorm_Head_Ctrl.s" "StormWorm_Head_Joint_parentConstraint2.tg[0].ts"
+		;
+connectAttr "StormWorm_Head_Ctrl.pm" "StormWorm_Head_Joint_parentConstraint2.tg[0].tpm"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint2.w0" "StormWorm_Head_Joint_parentConstraint2.tg[0].tw"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.tx"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.ty"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.tz"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.rx"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.ry"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.is"
+		;
+connectAttr "StormWorm_Spine1_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.tx"
+		;
+connectAttr "StormWorm_Spine1_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.ty"
+		;
+connectAttr "StormWorm_Spine1_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.tz"
+		;
+connectAttr "StormWorm_Spine1_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.rx"
+		;
+connectAttr "StormWorm_Spine1_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.ry"
+		;
+connectAttr "StormWorm_Spine1_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.is"
+		;
+connectAttr "StormWorm_Spine2_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.tx"
+		;
+connectAttr "StormWorm_Spine2_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.ty"
+		;
+connectAttr "StormWorm_Spine2_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.tz"
+		;
+connectAttr "StormWorm_Spine2_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.rx"
+		;
+connectAttr "StormWorm_Spine2_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.ry"
+		;
+connectAttr "StormWorm_Spine2_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.is"
+		;
+connectAttr "StormWorm_Spine3_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.tx"
+		;
+connectAttr "StormWorm_Spine3_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.ty"
+		;
+connectAttr "StormWorm_Spine3_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.tz"
+		;
+connectAttr "StormWorm_Spine3_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.rx"
+		;
+connectAttr "StormWorm_Spine3_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.ry"
+		;
+connectAttr "StormWorm_Spine3_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.is"
+		;
+connectAttr "StormWorm_Spine4_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.tx"
+		;
+connectAttr "StormWorm_Spine4_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.ty"
+		;
+connectAttr "StormWorm_Spine4_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.tz"
+		;
+connectAttr "StormWorm_Spine4_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.rx"
+		;
+connectAttr "StormWorm_Spine4_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.ry"
+		;
+connectAttr "StormWorm_Spine4_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.is"
+		;
+connectAttr "StormWorm_Tail_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.tx"
+		;
+connectAttr "StormWorm_Tail_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.ty"
+		;
+connectAttr "StormWorm_Tail_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.tz"
+		;
+connectAttr "StormWorm_Tail_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.rx"
+		;
+connectAttr "StormWorm_Tail_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.ry"
+		;
+connectAttr "StormWorm_Tail_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.ro" "StormWorm_Tail_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.pim" "StormWorm_Tail_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.rp" "StormWorm_Tail_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.rpt" "StormWorm_Tail_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.jo" "StormWorm_Tail_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.t" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.rp" "StormWorm_Tail_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.rpt" "StormWorm_Tail_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.r" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.ro" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.s" "StormWorm_Tail_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.pm" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.jo" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.ssc" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint|StormWorm_Tail_Joint.is" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Tail_Joint_parentConstraint1.w0" "StormWorm_Tail_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.ro" "StormWorm_Spine4_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.pim" "StormWorm_Spine4_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.rp" "StormWorm_Spine4_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.rpt" "StormWorm_Spine4_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.jo" "StormWorm_Spine4_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.t" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.rp" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.rpt" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.r" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.ro" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.s" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.pm" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.jo" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.ssc" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint|StormWorm_Spine4_Joint.is" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Spine4_Joint_parentConstraint1.w0" "StormWorm_Spine4_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.ro" "StormWorm_Spine3_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.pim" "StormWorm_Spine3_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.rp" "StormWorm_Spine3_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.rpt" "StormWorm_Spine3_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.jo" "StormWorm_Spine3_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.t" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.rp" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.rpt" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.r" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.ro" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.s" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.pm" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.jo" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.ssc" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint|StormWorm_Spine3_Joint.is" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Spine3_Joint_parentConstraint1.w0" "StormWorm_Spine3_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.ro" "StormWorm_Spine2_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.pim" "StormWorm_Spine2_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.rp" "StormWorm_Spine2_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.rpt" "StormWorm_Spine2_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.jo" "StormWorm_Spine2_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.t" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.rp" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.rpt" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.r" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.ro" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.s" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.pm" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.jo" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.ssc" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint|StormWorm_Spine2_Joint.is" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Spine2_Joint_parentConstraint1.w0" "StormWorm_Spine2_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.ro" "StormWorm_Spine1_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.pim" "StormWorm_Spine1_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.rp" "StormWorm_Spine1_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.rpt" "StormWorm_Spine1_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.jo" "StormWorm_Spine1_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.t" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.rp" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.rpt" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.r" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.ro" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.s" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.pm" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.jo" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.ssc" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Spine1_Joint.is" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Spine1_Joint_parentConstraint1.w0" "StormWorm_Spine1_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.is"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.tx"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ty"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.tz"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rx"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ry"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ro" "StormWorm_Right_Ear_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.pim" "StormWorm_Right_Ear_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rp" "StormWorm_Right_Ear_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rpt" "StormWorm_Right_Ear_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.jo" "StormWorm_Right_Ear_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.t" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rp" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.rpt" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.r" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ro" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.s" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.pm" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.jo" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.ssc" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Ear_Joint.is" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Right_Ear_Joint_parentConstraint1.w0" "StormWorm_Right_Ear_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.is"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.tx"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.ty"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.tz"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rx"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.ry"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.ro" "StormWorm_Right_Eye_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.pim" "StormWorm_Right_Eye_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rp" "StormWorm_Right_Eye_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rpt" "StormWorm_Right_Eye_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.jo" "StormWorm_Right_Eye_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.t" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rp" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.rpt" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.r" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.ro" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.s" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.pm" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.jo" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.ssc" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Eye_Joint.is" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Right_Eye_Joint_parentConstraint1.w0" "StormWorm_Right_Eye_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.is"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.tx"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.ty"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.tz"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rx"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.ry"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.ro" "StormWorm_Right_Wing_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.pim" "StormWorm_Right_Wing_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rp" "StormWorm_Right_Wing_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rpt" "StormWorm_Right_Wing_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.jo" "StormWorm_Right_Wing_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.t" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rp" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.rpt" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.r" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.ro" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.s" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.pm" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.jo" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.ssc" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Right_Wing_Joint.is" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Right_Wing_Joint_parentConstraint1.w0" "StormWorm_Right_Wing_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.is"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.tx"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ty"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.tz"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rx"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ry"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ro" "StormWorm_Left_Ear_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.pim" "StormWorm_Left_Ear_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rp" "StormWorm_Left_Ear_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rpt" "StormWorm_Left_Ear_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.jo" "StormWorm_Left_Ear_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.t" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rp" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.rpt" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.r" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ro" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.s" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.pm" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.jo" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.ssc" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Ear_Joint.is" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Left_Ear_Joint_parentConstraint1.w0" "StormWorm_Left_Ear_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.is"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.tx"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.ty"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.tz"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rx"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.ry"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.ro" "StormWorm_Left_Eye_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.pim" "StormWorm_Left_Eye_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rp" "StormWorm_Left_Eye_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rpt" "StormWorm_Left_Eye_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.jo" "StormWorm_Left_Eye_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.t" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rp" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.rpt" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.r" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.ro" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.s" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.pm" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.jo" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.ssc" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Eye_Joint.is" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Left_Eye_Joint_parentConstraint1.w0" "StormWorm_Left_Eye_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.is"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.tx"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.ty"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.tz"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rx"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.ry"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.ro" "StormWorm_Left_Wing_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.pim" "StormWorm_Left_Wing_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rp" "StormWorm_Left_Wing_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rpt" "StormWorm_Left_Wing_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.jo" "StormWorm_Left_Wing_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.t" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rp" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.rpt" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.r" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.ro" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.s" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.pm" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.jo" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.ssc" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Left_Wing_Joint.is" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Left_Wing_Joint_parentConstraint1.w0" "StormWorm_Left_Wing_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.is"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.tx"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ty"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.tz"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rx"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ry"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ro" "StormWorm_Tongue_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.pim" "StormWorm_Tongue_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rp" "StormWorm_Tongue_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rpt" "StormWorm_Tongue_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.jo" "StormWorm_Tongue_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.t" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rp" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.rpt" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.r" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ro" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.s" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.pm" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.jo" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.ssc" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Tongue_Joint.is" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Tongue_Joint_parentConstraint1.w0" "StormWorm_Tongue_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.is"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.tx"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ty"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.tz"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rx"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ry"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ro" "StormWorm_Lower_Jaw_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.pim" "StormWorm_Lower_Jaw_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rp" "StormWorm_Lower_Jaw_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rpt" "StormWorm_Lower_Jaw_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.jo" "StormWorm_Lower_Jaw_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.t" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rp" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.rpt" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.r" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ro" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.s" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.pm" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.jo" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.ssc" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Lower_Jaw_Joint.is" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Lower_Jaw_Joint_parentConstraint1.w0" "StormWorm_Lower_Jaw_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.s" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.is"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint1.ctx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.tx"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint1.cty" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ty"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint1.ctz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.tz"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint1.crx" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rx"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint1.cry" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ry"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint1.crz" "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rz"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ro" "StormWorm_Upper_Jaw_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.pim" "StormWorm_Upper_Jaw_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rp" "StormWorm_Upper_Jaw_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rpt" "StormWorm_Upper_Jaw_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.jo" "StormWorm_Upper_Jaw_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.t" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rp" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.rpt" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.r" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ro" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.s" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.pm" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.jo" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.ssc" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint|StormWorm_Upper_Jaw_Joint.is" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Upper_Jaw_Joint_parentConstraint1.w0" "StormWorm_Upper_Jaw_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.ro" "StormWorm_Head_Joint_parentConstraint1.cro"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.pim" "StormWorm_Head_Joint_parentConstraint1.cpim"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.rp" "StormWorm_Head_Joint_parentConstraint1.crp"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.rpt" "StormWorm_Head_Joint_parentConstraint1.crt"
+		;
+connectAttr "|StormWorm_Base_Skeleton_grp|StormWorm_Head_Joint.jo" "StormWorm_Head_Joint_parentConstraint1.cjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.t" "StormWorm_Head_Joint_parentConstraint1.tg[0].tt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.rp" "StormWorm_Head_Joint_parentConstraint1.tg[0].trp"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.rpt" "StormWorm_Head_Joint_parentConstraint1.tg[0].trt"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.r" "StormWorm_Head_Joint_parentConstraint1.tg[0].tr"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.ro" "StormWorm_Head_Joint_parentConstraint1.tg[0].tro"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.s" "StormWorm_Head_Joint_parentConstraint1.tg[0].ts"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.pm" "StormWorm_Head_Joint_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.jo" "StormWorm_Head_Joint_parentConstraint1.tg[0].tjo"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.ssc" "StormWorm_Head_Joint_parentConstraint1.tg[0].tsc"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.is" "StormWorm_Head_Joint_parentConstraint1.tg[0].tis"
+		;
+connectAttr "StormWorm_Head_Joint_parentConstraint1.w0" "StormWorm_Head_Joint_parentConstraint1.tg[0].tw"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.msg" "StormWorm_ikHandle.hsj"
+		;
+connectAttr "effector1.hp" "StormWorm_ikHandle.hee";
+connectAttr "ikRPsolver.msg" "StormWorm_ikHandle.hsv";
+connectAttr "unitConversion1.o" "StormWorm_ikHandle.pvx";
+connectAttr "unitConversion2.o" "StormWorm_ikHandle.pvy";
+connectAttr "unitConversion3.o" "StormWorm_ikHandle.pvz";
+connectAttr "StormWorm_ikHandle_parentConstraint1.ctx" "StormWorm_ikHandle.tx";
+connectAttr "StormWorm_ikHandle_parentConstraint1.cty" "StormWorm_ikHandle.ty";
+connectAttr "StormWorm_ikHandle_parentConstraint1.ctz" "StormWorm_ikHandle.tz";
+connectAttr "StormWorm_ikHandle_parentConstraint1.crx" "StormWorm_ikHandle.rx";
+connectAttr "StormWorm_ikHandle_parentConstraint1.cry" "StormWorm_ikHandle.ry";
+connectAttr "StormWorm_ikHandle_parentConstraint1.crz" "StormWorm_ikHandle.rz";
+connectAttr "StormWorm_ikHandle.pim" "ikHandle1_poleVectorConstraint1.cpim";
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.pm" "ikHandle1_poleVectorConstraint1.ps"
+		;
+connectAttr "|StormWorm_Controller_Skeleton_grp|StormWorm_Head_Joint.t" "ikHandle1_poleVectorConstraint1.crp"
+		;
+connectAttr "StormWorm_PoleVector.t" "ikHandle1_poleVectorConstraint1.tg[0].tt";
+connectAttr "StormWorm_PoleVector.rp" "ikHandle1_poleVectorConstraint1.tg[0].trp"
+		;
+connectAttr "StormWorm_PoleVector.rpt" "ikHandle1_poleVectorConstraint1.tg[0].trt"
+		;
+connectAttr "StormWorm_PoleVector.pm" "ikHandle1_poleVectorConstraint1.tg[0].tpm"
+		;
+connectAttr "ikHandle1_poleVectorConstraint1.w0" "ikHandle1_poleVectorConstraint1.tg[0].tw"
+		;
+connectAttr "StormWorm_ikHandle.ro" "StormWorm_ikHandle_parentConstraint1.cro";
+connectAttr "StormWorm_ikHandle.pim" "StormWorm_ikHandle_parentConstraint1.cpim"
+		;
+connectAttr "StormWorm_ikHandle.rp" "StormWorm_ikHandle_parentConstraint1.crp";
+connectAttr "StormWorm_ikHandle.rpt" "StormWorm_ikHandle_parentConstraint1.crt";
+connectAttr "StormWorm_Tail_Ctrl.t" "StormWorm_ikHandle_parentConstraint1.tg[0].tt"
+		;
+connectAttr "StormWorm_Tail_Ctrl.rp" "StormWorm_ikHandle_parentConstraint1.tg[0].trp"
+		;
+connectAttr "StormWorm_Tail_Ctrl.rpt" "StormWorm_ikHandle_parentConstraint1.tg[0].trt"
+		;
+connectAttr "StormWorm_Tail_Ctrl.r" "StormWorm_ikHandle_parentConstraint1.tg[0].tr"
+		;
+connectAttr "StormWorm_Tail_Ctrl.ro" "StormWorm_ikHandle_parentConstraint1.tg[0].tro"
+		;
+connectAttr "StormWorm_Tail_Ctrl.s" "StormWorm_ikHandle_parentConstraint1.tg[0].ts"
+		;
+connectAttr "StormWorm_Tail_Ctrl.pm" "StormWorm_ikHandle_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "StormWorm_ikHandle_parentConstraint1.w0" "StormWorm_ikHandle_parentConstraint1.tg[0].tw"
+		;
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "lambert2SG.message" ":defaultLightSet.message";
@@ -6459,6 +8616,9 @@ connectAttr "file1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].d
 		;
 connectAttr "StormWorm.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
 		;
+connectAttr "ikHandle1_poleVectorConstraint1.ctx" "unitConversion1.i";
+connectAttr "ikHandle1_poleVectorConstraint1.cty" "unitConversion2.i";
+connectAttr "ikHandle1_poleVectorConstraint1.ctz" "unitConversion3.i";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "StormWorm.msg" ":defaultShaderList1.s" -na;
 connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
@@ -6467,4 +8627,5 @@ connectAttr "Worm_Fix:defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "Worm_Fix:Worm:defaultRenderLayer.msg" ":defaultRenderingList1.r" -na
 		;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
-// End of Storm Worm.ma
+connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
+// End of Storm Worm Rigging.ma
