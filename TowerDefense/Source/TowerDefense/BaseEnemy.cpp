@@ -2,8 +2,6 @@
 
 
 #include "BaseEnemy.h"
-#include "GameFramework/CharacterMovementComponent.h"
-
 // Sets default values
 ABaseEnemy::ABaseEnemy()
 {
@@ -29,6 +27,15 @@ void ABaseEnemy::Tick(float DeltaTime)
 void ABaseEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+}
 
+void ABaseEnemy::ResetRunSpeed() {
+	FEnemyMoveSpeedStruct move = MoveSpeed;
+	UCharacterMovementComponent *MoveComp = GetCharacterMovement();
+	if (MoveComp)
+	{
+		MoveComp ->MaxWalkSpeed = move.Speed;
+		AnimRate = move.Rate;
+	}
 }
 

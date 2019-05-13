@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "HealthStruct.h"
 #include "EnemyMoveSpeedStruct.h"
 #include "BaseEnemy.generated.h"
@@ -29,6 +30,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintCallable)
+	void ResetRunSpeed();
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float MaxHealth;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -37,4 +41,7 @@ public:
 		FHealthStruct Health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FEnemyMoveSpeedStruct MoveSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float AnimRate;
+
 };
