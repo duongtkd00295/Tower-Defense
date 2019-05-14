@@ -39,3 +39,34 @@ void ABaseEnemy::ResetRunSpeed() {
 	}
 }
 
+void ABaseEnemy::ChangeRunSpeed(float percent, bool increase) {
+	FEnemyMoveSpeedStruct move = MoveSpeed;
+	UCharacterMovementComponent* MoveComp = GetCharacterMovement();
+	float speedPercent = percent / 100 * move.Speed;
+	float ratePercent = percent / 100 * move.Rate;
+	if (increase)
+	{
+		float speedMax = move.Speed + speedPercent;
+		if (MoveComp)
+		{
+			MoveComp->MaxWalkSpeed = speedMax;
+		}
+		
+	}
+	else {
+		float speedMax = move.Speed - speedPercent;
+		float speedRate = move.Rate - ratePercent;
+		AnimRate = speedRate;
+		if (MoveComp)
+		{
+			MoveComp->MaxWalkSpeed = speedMax;
+		}
+	}
+}
+void ABaseEnemy::ModifyHealth(float damage, float& health, bool& isDeath) {
+	float healthAfter = Health.Current - damage;
+	health = healthAfter;
+	Health.Current = healthAfter;
+	isDeath = Health.Current > 0 ? false : true;
+}
+

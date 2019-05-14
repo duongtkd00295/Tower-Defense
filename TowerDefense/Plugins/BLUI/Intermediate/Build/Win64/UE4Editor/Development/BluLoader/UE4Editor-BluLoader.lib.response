@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BluLoader.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\My Project\Tower Defense (DOM)\TowerDefense\Plugins\BLUI\Intermediate\Build\Win64\UE4Editor\Development\BluLoader\PCH.BluLoader.h.obj"
+"E:\My Project\Tower Defense (DOM)\TowerDefense\Plugins\BLUI\Intermediate\Build\Win64\UE4Editor\Development\BluLoader\BluLoader.cpp.obj"
+"E:\My Project\Tower Defense (DOM)\TowerDefense\Plugins\BLUI\Intermediate\Build\Win64\UE4Editor\Development\BluLoader\Default.rc2.res"
+/OUT:"E:\My Project\Tower Defense (DOM)\TowerDefense\Plugins\BLUI\Intermediate\Build\Win64\UE4Editor\Development\BluLoader\UE4Editor-BluLoader.lib"
+/INCLUDE:IMPLEMENT_MODULE_BluLoader

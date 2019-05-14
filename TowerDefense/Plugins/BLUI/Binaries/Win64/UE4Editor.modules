@@ -1,0 +1,8 @@
+{
+	"BuildId": "5660361",
+	"Modules": 
+	{
+		"Blu": "UE4Editor-Blu.dll",
+		"BluLoader": "UE4Editor-BluLoader.dll"
+	}
+}
