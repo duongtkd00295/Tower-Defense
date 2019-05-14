@@ -33,6 +33,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void ResetRunSpeed();
 
+	UFUNCTION(BlueprintCallable)
+		void ChangeRunSpeed(float percent, bool increase);
+
+	UFUNCTION(BlueprintCallable)
+		void ModifyHealth(float damage, float& health, bool& isDeath);
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float MaxHealth;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
